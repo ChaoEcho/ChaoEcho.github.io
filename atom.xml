@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2020-11-28T15:54:36.998Z</updated>
+  <updated>2020-11-29T01:26:53.972Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://example.com/2020/11/28/git-shi-yong-shou-ze/"/>
     <id>http://example.com/2020/11/28/git-shi-yong-shou-ze/</id>
     <published>2020-11-28T15:48:50.000Z</published>
-    <updated>2020-11-28T15:54:36.998Z</updated>
+    <updated>2020-11-29T01:26:53.972Z</updated>
     
     
       
@@ -35,7 +35,9 @@
     
     
     
-    <category term="Git" scheme="http://example.com/categories/Git/"/>
+    <category term="工具" scheme="http://example.com/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="Git" scheme="http://example.com/categories/%E5%B7%A5%E5%85%B7/Git/"/>
     
     
     <category term="Git" scheme="http://example.com/tags/Git/"/>
@@ -47,7 +49,7 @@
     <link href="http://example.com/2020/11/27/wo-de-di-yi-pian-bo-ke/"/>
     <id>http://example.com/2020/11/27/wo-de-di-yi-pian-bo-ke/</id>
     <published>2020-11-27T15:48:50.000Z</published>
-    <updated>2020-11-28T14:08:48.334Z</updated>
+    <updated>2020-11-29T01:26:46.314Z</updated>
     
     
       
@@ -61,7 +63,7 @@
     
     
     
-    <category term="Hexo" scheme="http://example.com/categories/Hexo/"/>
+    <category term="成长" scheme="http://example.com/categories/%E6%88%90%E9%95%BF/"/>
     
     
     <category term="hexo" scheme="http://example.com/tags/hexo/"/>
