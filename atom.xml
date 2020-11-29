@@ -6,7 +6,7 @@
   <link href="http://echochao.xyz/atom.xml" rel="self"/>
   
   <link href="http://echochao.xyz/"/>
-  <updated>2020-11-29T13:59:35.778Z</updated>
+  <updated>2020-11-29T14:18:37.524Z</updated>
   <id>http://echochao.xyz/</id>
   
   <author>
@@ -17,31 +17,19 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>abcd</title>
-    <link href="http://echochao.xyz/posts/3997.html"/>
-    <id>http://echochao.xyz/posts/3997.html</id>
-    <published>2020-11-29T13:56:27.000Z</published>
-    <updated>2020-11-29T13:59:35.778Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>Git 使用手则</title>
     <link href="http://echochao.xyz/posts/8161.html"/>
     <id>http://echochao.xyz/posts/8161.html</id>
     <published>2020-11-28T15:48:50.000Z</published>
-    <updated>2020-11-29T13:34:16.332Z</updated>
+    <updated>2020-11-29T14:18:37.524Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;一-知识点总结&quot;&gt;&lt;a href=&quot;#一-知识点总结&quot; class=&quot;headerlink&quot; title=&quot;一.知识点总结&quot;&gt;&lt;/a&gt;一.知识点总结&lt;/h2&gt;&lt;p&gt;&lt;span class=&quot;github-emoji&quot;&gt;&lt;span&gt;😄&lt;/span&gt;&lt;img</summary>
+    <summary type="html">&lt;h2 id=&quot;一-知识点总结&quot;&gt;&lt;a href=&quot;#一-知识点总结&quot; class=&quot;headerlink&quot; title=&quot;一.知识点总结&quot;&gt;&lt;/a&gt;一.知识点总结&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;&lt;h3 id=&quot;提交文件&quot;&gt;&lt;a href=&quot;#提交文件&quot;</summary>
         
       
     
