@@ -6,7 +6,7 @@
   <link href="http://echochao.xyz/atom.xml" rel="self"/>
   
   <link href="http://echochao.xyz/"/>
-  <updated>2020-11-29T13:34:16.332Z</updated>
+  <updated>2020-11-29T13:59:35.778Z</updated>
   <id>http://echochao.xyz/</id>
   
   <author>
@@ -15,6 +15,19 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>abcd</title>
+    <link href="http://echochao.xyz/posts/3997.html"/>
+    <id>http://echochao.xyz/posts/3997.html</id>
+    <published>2020-11-29T13:56:27.000Z</published>
+    <updated>2020-11-29T13:59:35.778Z</updated>
+    
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Git 使用手则</title>
