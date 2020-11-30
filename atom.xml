@@ -6,7 +6,7 @@
   <link href="http://echochao.xyz/atom.xml" rel="self"/>
   
   <link href="http://echochao.xyz/"/>
-  <updated>2020-11-29T14:18:37.524Z</updated>
+  <updated>2020-11-30T09:16:51.951Z</updated>
   <id>http://echochao.xyz/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Git 使用手则</title>
+    <title>Git使用笔记</title>
     <link href="http://echochao.xyz/posts/8161.html"/>
     <id>http://echochao.xyz/posts/8161.html</id>
     <published>2020-11-28T15:48:50.000Z</published>
-    <updated>2020-11-29T14:18:37.524Z</updated>
+    <updated>2020-11-30T09:16:51.951Z</updated>
     
     
       
@@ -29,7 +29,8 @@
         
         
     <summary type="html">&lt;h2 id=&quot;一-知识点总结&quot;&gt;&lt;a href=&quot;#一-知识点总结&quot; class=&quot;headerlink&quot; title=&quot;一.知识点总结&quot;&gt;&lt;/a&gt;一.知识点总结&lt;/h2&gt;&lt;ol&gt;
-&lt;li&gt;&lt;h3 id=&quot;提交文件&quot;&gt;&lt;a href=&quot;#提交文件&quot;</summary>
+&lt;li&gt;&lt;p&gt;提交文件&lt;/p&gt;
+&lt;p&gt; &lt;code&gt;$ git add</summary>
         
       
     
@@ -47,24 +48,25 @@
     <link href="http://echochao.xyz/posts/f929.html"/>
     <id>http://echochao.xyz/posts/f929.html</id>
     <published>2020-11-27T15:48:50.000Z</published>
-    <updated>2020-11-29T13:34:21.545Z</updated>
+    <updated>2020-11-30T09:17:35.655Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;这难道不是很有意义的一天嘛&quot;&gt;&lt;a href=&quot;#这难道不是很有意义的一天嘛&quot; class=&quot;headerlink&quot; title=&quot;这难道不是很有意义的一天嘛&quot;&gt;&lt;/a&gt;这难道不是很有意义的一天嘛&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;&lt;h3</summary>
+    <summary type="html">&lt;h1 id=&quot;这难道不是很有意义的一天嘛&quot;&gt;&lt;a href=&quot;#这难道不是很有意义的一天嘛&quot; class=&quot;headerlink&quot; title=&quot;这难道不是很有意义的一天嘛&quot;&gt;&lt;/a&gt;这难道不是很有意义的一天嘛&lt;/h1&gt;&lt;p&gt;​       </summary>
         
       
     
     
     
-    <category term="成长" scheme="http://echochao.xyz/categories/%E6%88%90%E9%95%BF/"/>
+    <category term="随笔" scheme="http://echochao.xyz/categories/%E9%9A%8F%E7%AC%94/"/>
     
     
     <category term="hexo" scheme="http://echochao.xyz/tags/hexo/"/>
+    
+    <category term="git" scheme="http://echochao.xyz/tags/git/"/>
     
   </entry>
   
