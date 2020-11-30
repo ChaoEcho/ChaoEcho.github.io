@@ -6,7 +6,7 @@
   <link href="http://echochao.xyz/atom.xml" rel="self"/>
   
   <link href="http://echochao.xyz/"/>
-  <updated>2020-11-30T14:23:27.167Z</updated>
+  <updated>2020-11-30T14:54:08.119Z</updated>
   <id>http://echochao.xyz/</id>
   
   <author>
@@ -17,19 +17,68 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>PS笔记</title>
+    <link href="http://echochao.xyz/posts/2630.html"/>
+    <id>http://echochao.xyz/posts/2630.html</id>
+    <published>2020-11-30T14:47:28.925Z</published>
+    <updated>2020-11-30T14:54:08.119Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;PS笔记&quot;&gt;&lt;a href=&quot;#PS笔记&quot; class=&quot;headerlink&quot; title=&quot;PS笔记&quot;&gt;&lt;/a&gt;PS笔记&lt;/h2&gt;&lt;h3 id=&quot;一-辅助工具&quot;&gt;&lt;a href=&quot;#一-辅助工具&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Photo Shop" scheme="http://echochao.xyz/categories/Photo-Shop/"/>
+    
+    
+    <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Git大佬总结笔记</title>
+    <link href="http://echochao.xyz/posts/398.html"/>
+    <id>http://echochao.xyz/posts/398.html</id>
+    <published>2020-11-30T14:39:17.765Z</published>
+    <updated>2020-11-30T14:41:36.151Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h5 id=&quot;一、Git-和-SVN-的区别&quot;&gt;&lt;a href=&quot;#一、Git-和-SVN-的区别&quot; class=&quot;headerlink&quot; title=&quot;一、Git 和 SVN 的区别&quot;&gt;&lt;/a&gt;一、Git 和 SVN</summary>
+        
+      
+    
+    
+    
+    <category term="工具" scheme="http://echochao.xyz/categories/%E5%B7%A5%E5%85%B7/"/>
+    
+    
+    <category term="Git" scheme="http://echochao.xyz/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
     <title>C语言中二维数组与指针的关系</title>
     <link href="http://echochao.xyz/posts/c940.html"/>
     <id>http://echochao.xyz/posts/c940.html</id>
     <published>2020-11-30T14:12:36.550Z</published>
-    <updated>2020-11-30T14:23:27.167Z</updated>
+    <updated>2020-11-30T14:27:05.635Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;C语言中二维数组与指针的关系&quot;&gt;&lt;a href=&quot;#C语言中二维数组与指针的关系&quot; class=&quot;headerlink&quot; title=&quot;C语言中二维数组与指针的关系&quot;&gt;&lt;/a&gt;C语言中二维数组与指针的关系&lt;/h2&gt;&lt;p&gt; 1.行的关系&lt;/p&gt;
-&lt;p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;C语言中二维数组与指针的关系&quot;&gt;&lt;a href=&quot;#C语言中二维数组与指针的关系&quot; class=&quot;headerlink&quot; title=&quot;C语言中二维数组与指针的关系&quot;&gt;&lt;/a&gt;C语言中二维数组与指针的关系&lt;/h2&gt;&lt;h3 id=&quot;1-行的关系&quot;&gt;&lt;a</summary>
         
       
     
@@ -47,7 +96,7 @@
     <link href="http://echochao.xyz/posts/8161.html"/>
     <id>http://echochao.xyz/posts/8161.html</id>
     <published>2020-11-28T15:48:27.759Z</published>
-    <updated>2020-11-30T14:24:47.122Z</updated>
+    <updated>2020-11-30T14:27:46.628Z</updated>
     
     
       
@@ -66,6 +115,31 @@
     
     
     <category term="Git" scheme="http://echochao.xyz/tags/Git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://echochao.xyz/posts/3eeb.html"/>
+    <id>http://echochao.xyz/posts/3eeb.html</id>
+    <published>2020-11-27T15:48:50.000Z</published>
+    <updated>2020-11-30T14:47:17.054Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="随笔" scheme="http://echochao.xyz/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="Hello World" scheme="http://echochao.xyz/tags/Hello-World/"/>
     
   </entry>
   

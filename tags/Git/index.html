@@ -347,10 +347,28 @@
                 </a>
                 
                 
-                <a href="/tags/Git/" title="Git: 1">
+                <a href="/tags/Git/" title="Git: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
                             data-tagname="Git" style="background-color: #F5EEF8;">Git
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E7%AC%94%E8%AE%B0/" title="笔记: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="笔记" style="background-color: #D5F5E3;">笔记
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/Hello-World/" title="Hello World: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="Hello World" style="background-color: #E8F8F5;">Hello World
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -359,7 +377,7 @@
                 <a href="/tags/hexo/" title="hexo: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            data-tagname="hexo" style="background-color: #D5F5E3;">hexo
+                            data-tagname="hexo" style="background-color: #FEF9E7;">hexo
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -368,7 +386,7 @@
                 <a href="/tags/git/" title="git: 1">
                     <span class="chip center-align waves-effect waves-light
                              chip-active "
-                            data-tagname="git" style="background-color: #E8F8F5;">git
+                            data-tagname="git" style="background-color: #F8F9F9;">git
                         <span class="tag-length">1</span>
                     </span>
                 </a>
@@ -491,7 +509,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">1.5k</span>&nbsp;字
+                class="white-color">6.3k</span>&nbsp;字
             
             
             
@@ -715,20 +733,6 @@ $(function () {
 
     <!-- Baidu Push -->
 
-<script>
-    (function () {
-        var bp = document.createElement('script');
-        var curProtocol = window.location.protocol.split(':')[0];
-        if (curProtocol === 'https') {
-            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
-        } else {
-            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-        }
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(bp, s);
-    })();
-</script>
-
     
     <script src="/libs/others/clicklove.js" async="async"></script>
     
@@ -807,6 +811,51 @@ WIDGET = {
 }
 </script>
 <script src="https://apip.weatherdt.com/simple/static/js/weather-simple-common.js?v=2.0"></script>
+
+<!--动态线条背景-->
+<script type="text/javascript"
+color="122 103 238" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+</script>
+
+<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+<script type="text/javascript" src="/js/fireworks.js"></script>
+
+<script type="text/javascript">
+//只在桌面版网页启用特效
+var windowWidth = $(window).width();
+if (windowWidth > 768) {
+    document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
+}
+</script>
+
+https://cdn.jsdelivr.net/gh/Yafine/cdn@3.2.5/source/js/click_show_text.js
+
+<div id="weather-v2-plugin-simple"></div>
+<script>
+WIDGET = {
+  CONFIG: {
+    "modules": "01234",
+    "background": 1,
+    "tmpColor": "FFFFFF",
+    "tmpSize": 16,
+    "cityColor": "FFFFFF",
+    "citySize": 16,
+    "aqiSize": 16,
+    "weatherIconSize": 24,
+    "alertIconSize": 18,
+    "padding": "10px 10px 10px 10px",
+    "shadow": "1",
+    "language": "zh",
+    "borderRadius": 5,
+    "fixed": "false",
+    "vertical": "middle",
+    "horizontal": "center",
+    "key": "SEk9VXoFpk"
+  }
+}
+</script>
+<script src="https://apip.weatherdt.com/simple/static/js/weather-simple-common.js?v=2.0"></script>script src="https://apip.weatherdt.com/simple/static/js/weather-simple-common.js?v=2.0"></script>
 
 <!--动态线条背景-->
 <script type="text/javascript"
