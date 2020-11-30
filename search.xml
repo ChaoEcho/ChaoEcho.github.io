@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>C语言中二维数组与指针的关系</title>
+      <link href="posts/c940.html"/>
+      <url>posts/c940.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="C语言中二维数组与指针的关系"><a href="#C语言中二维数组与指针的关系" class="headerlink" title="C语言中二维数组与指针的关系"></a>C语言中二维数组与指针的关系</h2><p> 1.行的关系</p><p> 因为数组是连续排列的，所以行的关系是很好确定的</p><p> 有一维数组推论知，若数组i [n] [m] ， 则 i[j] 就是一个指向 第j行的第一个元素的指针；</p><p> 可以简单的直接写成int *p = i[j] ，若想表示该行其他数，则可以直接对p进行加法操作</p><p> 2.列的关系</p><p> 由于是连续排列，所以列的关系并不是那么简单表示的，现在我们重新定义一个新的指针</p><p> int (*p)[m] ，该指针则表示p的长度是 int * m ；对p进行自增操作，则其一次跳过一行，</p><p> 对该指针的赋值则也有所不同 ， p=&amp;i[j] ；表示将第j行的所有元素的指针赋给p，满足它的</p><p> 定义长度，与i[j]有所不同，指针的长度不同，同时其运算要写为(*p)[k]，表示其所在行第k</p><p> 的元素</p><p> 暂且总结这么多，等以后熟练之后我再来</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> C语言 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数组 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Git使用笔记</title>
       <link href="posts/8161.html"/>
       <url>posts/8161.html</url>

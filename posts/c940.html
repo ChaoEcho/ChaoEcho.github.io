@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="我的第一篇博客, EchoChao的个人博客">
+    <meta name="keywords" content="C语言中二维数组与指针的关系, EchoChao的个人博客">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>我的第一篇博客 | EchoChao的个人博客</title>
+    <title>C语言中二维数组与指针的关系 | EchoChao的个人博客</title>
     <link rel="icon" type="image/gif" href="https://raw.githubusercontent.com/ChaoEcho/Pictures/main/img/20201128165814.gif">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -295,12 +295,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/16.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">我的第一篇博客</h1>
+                    <h1 class="description center-align post-title">C语言中二维数组与指针的关系</h1>
                 </div>
             </div>
         </div>
@@ -416,12 +416,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/hexo/">
-                                <span class="chip bg-color">hexo</span>
-                            </a>
-                        
-                            <a href="/tags/git/">
-                                <span class="chip bg-color">git</span>
+                            <a href="/tags/%E6%95%B0%E7%BB%84/">
+                                <span class="chip bg-color">数组</span>
                             </a>
                         
                     </div>
@@ -432,8 +428,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E9%9A%8F%E7%AC%94/" class="post-category">
-                                随笔
+                            <a href="/categories/C%E8%AF%AD%E8%A8%80/" class="post-category">
+                                C语言
                             </a>
                         
                     </div>
@@ -445,7 +441,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-11-27
+                    2020-11-30
                 </div>
                 
 
@@ -459,7 +455,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    125
+                    278
                 </div>
                 
 
@@ -489,16 +485,17 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="这难道不是很有意义的一天嘛"><a href="#这难道不是很有意义的一天嘛" class="headerlink" title="这难道不是很有意义的一天嘛"></a>这难道不是很有意义的一天嘛</h1><p>​        总算搭建成功了，早就想搞一个了，一直眼馋别人的</p>
-<hr>
-<p>​        嘿嘿，让我也来分享一下自己搭建的过程以及踩过的坑。在网上也找了很多文字教程，也重做了很多次，但最终成功了，哈哈哈</p>
-<hr>
-<h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><ol>
-<li><p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1Yb411a7ty?t=1007">视频操作，永远比文本更要清楚</a> （但是UP主省略了GitHub的部分）</p>
-</li>
-<li><p><a target="_blank" rel="noopener" href="https://www.liaoxuefeng.com/wiki/896043488029600">廖老师，yyds</a> （补充了Git部分的操作）</p>
-</li>
-</ol>
+                <h2 id="C语言中二维数组与指针的关系"><a href="#C语言中二维数组与指针的关系" class="headerlink" title="C语言中二维数组与指针的关系"></a>C语言中二维数组与指针的关系</h2><p> 1.行的关系</p>
+<p> 因为数组是连续排列的，所以行的关系是很好确定的</p>
+<p> 有一维数组推论知，若数组i [n] [m] ， 则 i[j] 就是一个指向 第j行的第一个元素的指针；</p>
+<p> 可以简单的直接写成int *p = i[j] ，若想表示该行其他数，则可以直接对p进行加法操作</p>
+<p> 2.列的关系</p>
+<p> 由于是连续排列，所以列的关系并不是那么简单表示的，现在我们重新定义一个新的指针</p>
+<p> int (*p)[m] ，该指针则表示p的长度是 int * m ；对p进行自增操作，则其一次跳过一行，</p>
+<p> 对该指针的赋值则也有所不同 ， p=&amp;i[j] ；表示将第j行的所有元素的指针赋给p，满足它的</p>
+<p> 定义长度，与i[j]有所不同，指针的长度不同，同时其运算要写为(*p)[k]，表示其所在行第k</p>
+<p> 的元素</p>
+<p> 暂且总结这么多，等以后熟练之后我再来</p>
 
                 
             </div>
@@ -525,7 +522,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://echochao.xyz/posts/f929.html">http://echochao.xyz/posts/f929.html</a>
+                    <a href="http://echochao.xyz/posts/c940.html">http://echochao.xyz/posts/c940.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -563,12 +560,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/hexo/">
-                                    <span class="chip bg-color">hexo</span>
-                                </a>
-                            
-                                <a href="/tags/git/">
-                                    <span class="chip bg-color">git</span>
+                                <a href="/tags/%E6%95%B0%E7%BB%84/">
+                                    <span class="chip bg-color">数组</span>
                                 </a>
                             
                         </div>
@@ -1001,9 +994,60 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
+            <div class="card">
+                <a href="/posts/c940.html">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="C语言中二维数组与指针的关系">
+                        
+                        <span class="card-title">C语言中二维数组与指针的关系</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            关于数组与指针的一点疑惑
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-11-30
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-bookmark fa-fw icon-category"></i>
+                            
+                            <a href="/categories/C%E8%AF%AD%E8%A8%80/" class="post-category">
+                                    C语言
+                                </a>
+                            
+                            
+                        </span>
+                    </div>
+                </div>
+
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/tags/%E6%95%B0%E7%BB%84/">
+                        <span class="chip bg-color">数组</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
             <div class="card">
                 <a href="/posts/8161.html">
                     <div class="card-image">
@@ -1021,9 +1065,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-11-28
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-11-28
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1041,60 +1085,6 @@
                     
                     <a href="/tags/Git/">
                         <span class="chip bg-color">Git</span>
-                    </a>
-                    
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/posts/f929.html">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/medias/featureimages/16.jpg" class="responsive-img" alt="我的第一篇博客">
-                        
-                        <span class="card-title">我的第一篇博客</span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            博客建成的第一次发表
-                        
-                    </div>
-                    <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-11-27
-                            </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/%E9%9A%8F%E7%AC%94/" class="post-category">
-                                    随笔
-                                </a>
-                            
-                            
-                        </span>
-                    </div>
-                </div>
-
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/hexo/">
-                        <span class="chip bg-color">hexo</span>
-                    </a>
-                    
-                    <a href="/tags/git/">
-                        <span class="chip bg-color">git</span>
                     </a>
                     
                 </div>
