@@ -154,17 +154,6 @@
   
   <li class="hide-on-med-and-down nav-item">
     
-    <a href="/friends" class="waves-effect waves-light">
-      
-      <i class="fas fa-address-book" style="zoom: 0.6;"></i>
-      
-      <span>友情链接</span>
-    </a>
-    
-  </li>
-  
-  <li class="hide-on-med-and-down nav-item">
-    
     <a href="/book" class="waves-effect waves-light">
       
       <i class="fas fa-address-book" style="zoom: 0.6;"></i>
@@ -262,17 +251,6 @@
 			    <i class="fa-fw fas fa-comments"></i>
 			
 			留言板
-		</a>
-          
-        </li>
-        
-        <li class="m-nav-item">
-	  
-		<a href="/friends" class="waves-effect waves-light">
-			
-			    <i class="fa-fw fas fa-address-book"></i>
-			
-			友情链接
 		</a>
           
         </li>
@@ -829,6 +807,51 @@ WIDGET = {
 }
 </script>
 <script src="https://apip.weatherdt.com/simple/static/js/weather-simple-common.js?v=2.0"></script>
+
+<!--动态线条背景-->
+<script type="text/javascript"
+color="122 103 238" opacity='0.7' zIndex="-2" count="200" src="//cdn.bootcss.com/canvas-nest.js/1.0.0/canvas-nest.min.js">
+</script>
+
+<canvas class="fireworks" style="position: fixed;left: 0;top: 0;z-index: 1; pointer-events: none;" ></canvas> 
+<script type="text/javascript" src="//cdn.bootcss.com/animejs/2.2.0/anime.min.js"></script> 
+<script type="text/javascript" src="/js/fireworks.js"></script>
+
+<script type="text/javascript">
+//只在桌面版网页启用特效
+var windowWidth = $(window).width();
+if (windowWidth > 768) {
+    document.write('<script type="text/javascript" src="/js/sakura.js"><\/script>');
+}
+</script>
+
+https://cdn.jsdelivr.net/gh/Yafine/cdn@3.2.5/source/js/click_show_text.js
+
+<div id="weather-v2-plugin-simple"></div>
+<script>
+WIDGET = {
+  CONFIG: {
+    "modules": "01234",
+    "background": 1,
+    "tmpColor": "FFFFFF",
+    "tmpSize": 16,
+    "cityColor": "FFFFFF",
+    "citySize": 16,
+    "aqiSize": 16,
+    "weatherIconSize": 24,
+    "alertIconSize": 18,
+    "padding": "10px 10px 10px 10px",
+    "shadow": "1",
+    "language": "zh",
+    "borderRadius": 5,
+    "fixed": "false",
+    "vertical": "middle",
+    "horizontal": "center",
+    "key": "SEk9VXoFpk"
+  }
+}
+</script>
+<script src="https://apip.weatherdt.com/simple/static/js/weather-simple-common.js?v=2.0"></script>script src="https://apip.weatherdt.com/simple/static/js/weather-simple-common.js?v=2.0"></script>
 
 <!--动态线条背景-->
 <script type="text/javascript"
