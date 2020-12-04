@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>静态网页课程笔记</title>
+      <link href="posts/8d5f.html"/>
+      <url>posts/8d5f.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="静态网页课程"><a href="#静态网页课程" class="headerlink" title="静态网页课程"></a>静态网页课程</h1><h2 id="一-标记"><a href="#一-标记" class="headerlink" title="一.标记"></a>一.标记</h2><ol><li><p>换行（单标记）&lt;</p><pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span> <span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>段落（可以用作换行）</p><pre class="line-numbers language-none"><code class="language-none">&lt;p&gt;&lt;/p&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>标题</p><pre class="line-numbers language-none"><code class="language-none">&lt;h&gt;&lt;/h&gt; --&gt;&lt;h1&gt;&lt;/h1&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>图片置入（单标记）</p><pre class="line-numbers language-none"><code class="language-none">&lt;img src="图片路径" width=" " height=" " border(边框)=" "/&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>超链接</p><pre class="line-numbers language-none"><code class="language-none">&lt;a href="本地网页路径" target=" "&gt;&lt;/a&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">taeget="_self" 不新建窗口taeget="_blank" 新建窗口<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>表格</p><pre class="line-numbers language-none"><code class="language-none">&lt;table width=" " height=" " border(边框)=" " &gt;&lt;tr rowspan(行合并)&gt;(行)&lt;td colspan(列合并)&gt; &lt;/td&gt;(列)&lt;tr&gt;&lt;/table&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><ol><li><p>靠右（左），居中</p><pre class="line-numbers language-none"><code class="language-none">align=" " right || left || center<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>靠上（下），中间</p><pre class="line-numbers language-none"><code class="language-none">valigen=" " top || bottom || middle<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ol></li><li><p>后续补充</p><pre class="line-numbers language-none"><code class="language-none">&lt;div&gt;&lt;/div&gt;  类似于段落&lt;span&gt;&lt;/span&gt; <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li></ol><h2 id="二-表单标签"><a href="#二-表单标签" class="headerlink" title="二.表单标签"></a>二.表单标签</h2><ol><li><p>输入类表单标签</p><pre class="line-numbers language-none"><code class="language-none">&lt;input type=" " value(显示内容)=" " /&gt;  单标记 单行文本<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">type="text" 明文显示 type="password" 暗文显示<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">&lt;textarea cols(每行字数)=" " rows(行数)=" " &gt;(类似于word文档排版文字)&lt;/ textarea&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>选择类表单标记</p><ol><li><p>选择标记</p><pre class="line-numbers language-none"><code class="language-none">&lt;input type=" " name(相同name算一组)=" " value(返回值)=" " checked="checked"(默认选中)/&gt; 文本<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">type="radio" 单选type="checkbox" 多选<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>下拉列表</p><pre class="line-numbers language-none"><code class="language-none">&lt;selsect&gt;&lt;option value=" " selected="selected"(默认选中)&gt; 文本 &lt;/option&gt;&lt;/select&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre></li></ol></li><li></li></ol><h2 id="三-属性"><a href="#三-属性" class="headerlink" title="三.属性"></a>三.属性</h2><ol><li><p>颜色</p><pre class="line-numbers language-none"><code class="language-none">font color (文字)  bgcolor (表格)<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>字体大小</p><pre class="line-numbers language-none"><code class="language-none">size<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>字体类型</p><pre class="line-numbers language-none"><code class="language-none">face<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 静态网页 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>随笔</title>
       <link href="posts/a9a8.html"/>
       <url>posts/a9a8.html</url>

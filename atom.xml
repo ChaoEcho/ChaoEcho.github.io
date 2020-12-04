@@ -6,7 +6,7 @@
   <link href="http://echochao.xyz/atom.xml" rel="self"/>
   
   <link href="http://echochao.xyz/"/>
-  <updated>2020-12-02T15:19:25.061Z</updated>
+  <updated>2020-12-04T13:41:22.380Z</updated>
   <id>http://echochao.xyz/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>静态网页课程笔记</title>
+    <link href="http://echochao.xyz/posts/8d5f.html"/>
+    <id>http://echochao.xyz/posts/8d5f.html</id>
+    <published>2020-12-04T13:41:22.331Z</published>
+    <updated>2020-12-04T13:41:22.380Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;静态网页课程&quot;&gt;&lt;a href=&quot;#静态网页课程&quot; class=&quot;headerlink&quot; title=&quot;静态网页课程&quot;&gt;&lt;/a&gt;静态网页课程&lt;/h1&gt;&lt;h2 id=&quot;一-标记&quot;&gt;&lt;a href=&quot;#一-标记&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="静态网页" scheme="http://echochao.xyz/categories/%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5/"/>
+    
+    
+    <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>随笔</title>
