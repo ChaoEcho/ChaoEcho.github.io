@@ -6,7 +6,7 @@
   <link href="http://echochao.xyz/atom.xml" rel="self"/>
   
   <link href="http://echochao.xyz/"/>
-  <updated>2020-12-11T11:20:28.973Z</updated>
+  <updated>2020-12-18T15:22:43.266Z</updated>
   <id>http://echochao.xyz/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>贪吃蛇小历程_1</title>
+    <link href="http://echochao.xyz/posts/522c.html"/>
+    <id>http://echochao.xyz/posts/522c.html</id>
+    <published>2020-12-13T04:00:00.000Z</published>
+    <updated>2020-12-18T15:22:43.266Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;　　好烦啊，用个main做了个贪吃蛇，搞了好几天。虽然成功了，但是我想建个项目把每个函数单独出来，方便编辑以及改动，但是搞了半天还是不行，也问了别人，也上网查了资料，烦死了！！！&lt;br&gt;　　哎，没办法，任重而道远啊…以后debug估计更难受，慢慢调呗。爱一行干一行，干一行爱</summary>
+        
+      
+    
+    
+    
+    <category term="随笔" scheme="http://echochao.xyz/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="心情" scheme="http://echochao.xyz/tags/%E5%BF%83%E6%83%85/"/>
+    
+  </entry>
   
   <entry>
     <title>C语言知识点&amp;&amp;易错点总结</title>
