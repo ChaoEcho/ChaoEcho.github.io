@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="C语言中二维数组与指针的关系, EchoChao">
+    <meta name="keywords" content="C语言知识点&amp;&amp;易错点总结, EchoChao">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>C语言中二维数组与指针的关系 | EchoChao</title>
+    <title>C语言知识点&amp;&amp;易错点总结 | EchoChao</title>
     <link rel="icon" type="image/jpeg" href="https://raw.githubusercontent.com/ChaoEcho/Pictures/main/img/20201205170939.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -317,12 +317,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">C语言中二维数组与指针的关系</h1>
+                    <h1 class="description center-align post-title">C语言知识点&amp;&amp;易错点总结</h1>
                 </div>
             </div>
         </div>
@@ -332,104 +332,10 @@
 
 
 
-<main class="post-container content">
+<main class="container content">
 
     
-    <link rel="stylesheet" href="/libs/tocbot/tocbot.css">
-<style>
-    #articleContent h1::before,
-    #articleContent h2::before,
-    #articleContent h3::before,
-    #articleContent h4::before,
-    #articleContent h5::before,
-    #articleContent h6::before {
-        display: block;
-        content: " ";
-        height: 100px;
-        margin-top: -100px;
-        visibility: hidden;
-    }
-
-    #articleContent :focus {
-        outline: none;
-    }
-
-    .toc-fixed {
-        position: fixed;
-        top: 64px;
-    }
-
-    .toc-widget {
-        width: 345px;
-        padding-left: 20px;
-    }
-
-    .toc-widget .toc-title {
-        padding: 35px 0 15px 17px;
-        font-size: 1.5rem;
-        font-weight: bold;
-        line-height: 1.5rem;
-    }
-
-    .toc-widget ol {
-        padding: 0;
-        list-style: none;
-    }
-
-    #toc-content {
-        padding-bottom: 30px;
-        overflow: auto;
-    }
-
-    #toc-content ol {
-        padding-left: 10px;
-    }
-
-    #toc-content ol li {
-        padding-left: 10px;
-    }
-
-    #toc-content .toc-link:hover {
-        color: #42b983;
-        font-weight: 700;
-        text-decoration: underline;
-    }
-
-    #toc-content .toc-link::before {
-        background-color: transparent;
-        max-height: 25px;
-
-        position: absolute;
-        right: 23.5vw;
-        display: block;
-    }
-
-    #toc-content .is-active-link {
-        color: #42b983;
-    }
-
-    #floating-toc-btn {
-        position: fixed;
-        right: 15px;
-        bottom: 76px;
-        padding-top: 15px;
-        margin-bottom: 0;
-        z-index: 998;
-    }
-
-    #floating-toc-btn .btn-floating {
-        width: 48px;
-        height: 48px;
-    }
-
-    #floating-toc-btn .btn-floating i {
-        line-height: 48px;
-        font-size: 1.4rem;
-    }
-</style>
-<div class="row">
-    <div id="main-content" class="col s12 m12 l9">
-        <!-- 文章内容详情 -->
+    <!-- 文章内容详情 -->
 <div id="artDetail">
     <div class="card">
         <div class="card-content article-info">
@@ -438,8 +344,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E6%95%B0%E7%BB%84/">
-                                <span class="chip bg-color">数组</span>
+                            <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                                <span class="chip bg-color">笔记</span>
                             </a>
                         
                     </div>
@@ -463,7 +369,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-11-30
+                    2020-12-11
                 </div>
                 
 
@@ -477,7 +383,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    277
+                    472
                 </div>
                 
 
@@ -507,15 +413,92 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="C语言中二维数组与指针的关系"><a href="#C语言中二维数组与指针的关系" class="headerlink" title="C语言中二维数组与指针的关系"></a>C语言中二维数组与指针的关系</h2><h3 id="1-行的关系"><a href="#1-行的关系" class="headerlink" title="1.行的关系"></a>1.行的关系</h3><p> 因为数组是连续排列的，所以行的关系是很好确定的</p>
-<p> 有一维数组推论知，若数组i [n] [m] ， 则 i[j] 就是一个指向 第j行的第一个元素的指针；</p>
-<p> 可以简单的直接写成int *p = i[j] ，若想表示该行其他数，则可以直接对p进行加法操作</p>
-<h3 id="2-列的关系"><a href="#2-列的关系" class="headerlink" title="2.列的关系"></a>2.列的关系</h3><p> 由于是连续排列，所以列的关系并不是那么简单表示的，现在我们重新定义一个新的指针</p>
-<p> int (*p)[m] ，该指针则表示p的长度是 int * m ；对p进行自增操作，则其一次跳过一行，</p>
-<p> 对该指针的赋值则也有所不同 ， p=&amp;i[j] ；表示将第j行的所有元素的指针赋给p，满足它的</p>
-<p> 定义长度，与i[j]有所不同，指针的长度不同，同时其运算要写为(*p)[k]，表示其所在行第k</p>
-<p> 的元素</p>
-<p> 暂且总结这么多，等以后熟练之后我再来</p>
+                <h1 id="C语言知识点-amp-amp-易错点总结"><a href="#C语言知识点-amp-amp-易错点总结" class="headerlink" title="C语言知识点&amp;&amp;易错点总结"></a>C语言知识点&amp;&amp;易错点总结</h1><ol>
+<li><p>=   是赋值</p>
+<p>== 是判断相等</p>
+</li>
+<li><p>double &amp;&amp; float 辨析</p>
+<pre class="line-numbers language-C" data-language="C"><code class="language-C">double i ;
+float  j ;
+scanf  ("%lf %f",&amp;i,&amp;j);
+printf ("double=%f float=%f",i,j);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+</li>
+<li><p>定义辨析</p>
+<blockquote>
+<ul>
+<li><p>常量定义</p>
+<pre class="line-numbers language-none"><code class="language-none">constant int i = 100;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+</li>
+<li><p>宏定义</p>
+<pre class="line-numbers language-C" data-language="C"><code class="language-C">简单的宏 #define 标识符 替换列表
+	    #define COOL 1
+带参数宏 #define 标识符(x1,x2···) 替换列表
+		#define MAX(x,y) ((x)&gt;(y)?(x):(y))<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
+</li>
+<li><p>类型定义</p>
+<pre class="line-numbers language-C" data-language="C"><code class="language-C">typedef 已有名 新名字
+typedef int BOOL<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><p>scanf 小注释</p>
+<blockquote>
+<ul>
+<li><p>scanf 在遇到一个不可能属于当前项的字符时，会把此字符放回缓冲区（书上原话，当时没太注意）</p>
+<pre class="line-numbers language-C" data-language="C"><code class="language-C">scanf("%d",i) ;  此时如果输入非数字，如+,a等,scanf不会读取,i是原值<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+</li>
+<li><p>scanf 读取字符时</p>
+<pre class="line-numbers language-C" data-language="C"><code class="language-C">scanf(" %c",&amp;ch); 可以跳过开始的空格<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+</li>
+<li><p>scanf 读取数字时</p>
+<pre class="line-numbers language-C" data-language="C"><code class="language-C">scanf("%2d",&amp;i); 只读取两位数字 不仅适用于整型，浮点数相同，但小数点算一位<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+</li>
+<li><p>scanf 并不会读取换行符，而是继续留在缓冲区，所以可以用getchar()来消灭它</p>
+</li>
+<li><p>清空缓冲区</p>
+<pre class="line-numbers language-C" data-language="C"><code class="language-C">fflush(stdin); 避免缓冲区影响<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+</li>
+<li><p>VS 使用注释</p>
+<pre class="line-numbers language-C" data-language="C"><code class="language-C">scanf_s("%c",ch,1);  要加_s ， 同时读入字符或者字符串时要说明读取的数量，不然会报错<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+
+
+</li>
+</ul>
+</blockquote>
+</li>
+<li><p>printf 小注释</p>
+<blockquote>
+<ul>
+<li><p>保留空间</p>
+<pre class="line-numbers language-c" data-language="c"><code class="language-c">整数：
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%10d"</span><span class="token punctuation">,</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>  保留<span class="token number">10</span>字节位数，默认右对齐，位数不足空格补位
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%-10d"</span><span class="token punctuation">,</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span> 保留<span class="token number">10</span>字节位数，负号右对齐，位数不足空格补位
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%010d"</span><span class="token punctuation">,</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token operator">||</span><span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%.10d"</span><span class="token punctuation">,</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span> 用<span class="token number">0</span>补位
+小数：
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%10.5f"</span><span class="token punctuation">,</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>  保留<span class="token number">10</span>字节位数，小数点后保留<span class="token number">5</span>位<span class="token punctuation">,</span>小数位数不足时补<span class="token number">0</span>，总位数不足空格补位
+<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%010.5f"</span><span class="token punctuation">,</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span> 总位数不足<span class="token number">10</span>时，用<span class="token number">0</span>补位<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><p>特殊字符输出的时候要加\</p>
+<pre class="line-numbers language-C" data-language="C"><code class="language-C">printf ("这有一个\\");<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+</li>
+<li><p>Windows.h</p>
+<blockquote>
+<ul>
+<li><p>倒计时</p>
+<pre class="line-numbers language-C" data-language="C"><code class="language-C">Sleep (1000) 倒计时1s 1000ms = 1s ，单位是毫秒<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+</li>
+<li><p>清空屏幕</p>
+<pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token function">system</span><span class="token punctuation">(</span><span class="token string">"cls"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+</li>
+</ul>
+</blockquote>
+</li>
+<li></li>
+</ol>
 
                 
             </div>
@@ -542,7 +525,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://echochao.xyz/posts/c940.html">http://echochao.xyz/posts/c940.html</a>
+                    <a href="http://echochao.xyz/posts/522c.html">http://echochao.xyz/posts/522c.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -580,8 +563,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E6%95%B0%E7%BB%84/">
-                                    <span class="chip bg-color">数组</span>
+                                <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                                    <span class="chip bg-color">笔记</span>
                                 </a>
                             
                         </div>
@@ -1018,31 +1001,31 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/posts/398.html">
+                <a href="/posts/8f92.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/3.jpg" class="responsive-img" alt="Git大佬总结笔记">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="贪吃蛇小历程_1">
                         
-                        <span class="card-title">Git大佬总结笔记</span>
+                        <span class="card-title">贪吃蛇小历程_1</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            大佬的笔记，侵权请联系我删除
+                            哎，贪吃蛇受挫
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-11-30
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-12-13
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%B7%A5%E5%85%B7/" class="post-category">
-                                    工具
+                            <a href="/categories/%E9%9A%8F%E7%AC%94/" class="post-category">
+                                    随笔
                                 </a>
                             
                             
@@ -1052,8 +1035,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Git/">
-                        <span class="chip bg-color">Git</span>
+                    <a href="/tags/%E5%BF%83%E6%83%85/">
+                        <span class="chip bg-color">心情</span>
                     </a>
                     
                 </div>
@@ -1067,31 +1050,31 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/posts/8161.html">
+                <a href="/posts/8d5f.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="Git使用笔记">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="静态网页课程笔记">
                         
-                        <span class="card-title">Git使用笔记</span>
+                        <span class="card-title">静态网页课程笔记</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            常见命令的记忆以及异常的解决办法
+                            静态网页课程，从北航嫖来的
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-11-28
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-12-04
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%B7%A5%E5%85%B7/" class="post-category">
-                                    工具
+                            <a href="/categories/%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5/" class="post-category">
+                                    静态网页
                                 </a>
                             
                             
@@ -1101,8 +1084,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Git/">
-                        <span class="chip bg-color">Git</span>
+                    <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                        <span class="chip bg-color">笔记</span>
                     </a>
                     
                 </div>
@@ -1171,100 +1154,6 @@
 
 <script type="text/javascript" src="/libs/codeBlock/codeShrink.js"></script>
 
-
-    </div>
-    <div id="toc-aside" class="expanded col l3 hide-on-med-and-down">
-        <div class="toc-widget card" style="background-color: white;">
-            <div class="toc-title"><i class="far fa-list-alt"></i>&nbsp;&nbsp;目录</div>
-            <div id="toc-content"></div>
-        </div>
-    </div>
-</div>
-
-<!-- TOC 悬浮按钮. -->
-
-<div id="floating-toc-btn" class="hide-on-med-and-down">
-    <a class="btn-floating btn-large bg-color">
-        <i class="fas fa-list-ul"></i>
-    </a>
-</div>
-
-
-<script src="/libs/tocbot/tocbot.min.js"></script>
-<script>
-    $(function () {
-        tocbot.init({
-            tocSelector: '#toc-content',
-            contentSelector: '#articleContent',
-            headingsOffset: -($(window).height() * 0.4 - 45),
-            collapseDepth: Number('0'),
-            headingSelector: 'h2, h3, h4'
-        });
-
-        // modify the toc link href to support Chinese.
-        let i = 0;
-        let tocHeading = 'toc-heading-';
-        $('#toc-content a').each(function () {
-            $(this).attr('href', '#' + tocHeading + (++i));
-        });
-
-        // modify the heading title id to support Chinese.
-        i = 0;
-        $('#articleContent').children('h2, h3, h4').each(function () {
-            $(this).attr('id', tocHeading + (++i));
-        });
-
-        // Set scroll toc fixed.
-        let tocHeight = parseInt($(window).height() * 0.4 - 64);
-        let $tocWidget = $('.toc-widget');
-        $(window).scroll(function () {
-            let scroll = $(window).scrollTop();
-            /* add post toc fixed. */
-            if (scroll > tocHeight) {
-                $tocWidget.addClass('toc-fixed');
-            } else {
-                $tocWidget.removeClass('toc-fixed');
-            }
-        });
-
-        
-        /* 修复文章卡片 div 的宽度. */
-        let fixPostCardWidth = function (srcId, targetId) {
-            let srcDiv = $('#' + srcId);
-            if (srcDiv.length === 0) {
-                return;
-            }
-
-            let w = srcDiv.width();
-            if (w >= 450) {
-                w = w + 21;
-            } else if (w >= 350 && w < 450) {
-                w = w + 18;
-            } else if (w >= 300 && w < 350) {
-                w = w + 16;
-            } else {
-                w = w + 14;
-            }
-            $('#' + targetId).width(w);
-        };
-
-        // 切换TOC目录展开收缩的相关操作.
-        const expandedClass = 'expanded';
-        let $tocAside = $('#toc-aside');
-        let $mainContent = $('#main-content');
-        $('#floating-toc-btn .btn-floating').click(function () {
-            if ($tocAside.hasClass(expandedClass)) {
-                $tocAside.removeClass(expandedClass).hide();
-                $mainContent.removeClass('l9');
-            } else {
-                $tocAside.addClass(expandedClass).show();
-                $mainContent.addClass('l9');
-            }
-            fixPostCardWidth('artDetail', 'prenext-posts');
-        });
-        
-    });
-</script>
 
     
 
