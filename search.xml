@@ -4,11 +4,69 @@
   
     
     <entry>
+      <title>关于链表与数组的一点想法</title>
+      <link href="posts/41f5.html"/>
+      <url>posts/41f5.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="突发感想，链表与数组的区别"><a href="#突发感想，链表与数组的区别" class="headerlink" title="突发感想，链表与数组的区别"></a>突发感想，链表与数组的区别</h2><p>链表的创建就仿佛只要给他一个临时的名字即可，我只要知道开头就可以</p><p>而数组呢？每一个元素的名字仿佛都已经确定，我就是a[10]；我不能由a[9]推出</p><p>突然想到一句话，附庸的附庸不是我附庸。前几天纠结于创建链表时如何确定个数，从而设置变量个数</p><p>后来看了别人的源代码，才想明白。链表就像那句名言说的一样，我不可以直接管控附庸的附庸，他是</p><p>可以层层递推，从而实现目标。所以创建的过程中，我也就只需要一个中间变量来不断传递就可以啦，OK</p><h2 id="突然豁然开朗"><a href="#突然豁然开朗" class="headerlink" title="突然豁然开朗"></a>突然豁然开朗</h2><h3 id="我悟了"><a href="#我悟了" class="headerlink" title="我悟了"></a>我悟了</h3><p>理论上的悟到了，今天实际操作了一下，还是会有空指针的问题，以及指针不知道如何处置的问题，任重道远啊</p><h3 id="纸上得来终觉浅，绝知此事要躬行！"><a href="#纸上得来终觉浅，绝知此事要躬行！" class="headerlink" title="纸上得来终觉浅，绝知此事要躬行！"></a>纸上得来终觉浅，绝知此事要躬行！</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> C语言 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数组 </tag>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> 链表 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>贪吃蛇小历程_2</title>
+      <link href="posts/8ed2.html"/>
+      <url>posts/8ed2.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="我成功了！！！"><a href="#我成功了！！！" class="headerlink" title="我成功了！！！"></a>我成功了！！！</h2><p>​    总算弄好了头文件的声明</p><p>​    多亏了Easyx图形库，总算摆脱了了黑框框的命令行</p><p>​    源代码本来是想分享的，但是不知道为啥Github上传不上去，这也很难办啊</p><p>​    最终还是上传成功了</p><p>​    请戳这里     <a href="https://github.com/ChaoEcho/-Greedy-snake">传送门</a>  </p><p>​    算了，反正是个人博客，自己偷着乐吧！</p><p>​    下个版本增加数据管理功能，期待我的更新吧</p><p>​    如果12月底之前没更新，那估计就要2月份放假了，毕竟还要复习期末考！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> C语言 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> VS2015 </tag>
+            
+            <tag> Easyx图形库 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>贪吃蛇小历程_1</title>
       <link href="posts/8f92.html"/>
       <url>posts/8f92.html</url>
       
-        <content type="html"><![CDATA[<p>　　好烦啊，用个main做了个贪吃蛇，搞了好几天。虽然成功了，但是我想建个项目把每个函数单独出来，方便编辑以及改动，但是搞了半天还是不行，也问了别人，也上网查了资料，烦死了！！！<br>　　哎，没办法，任重而道远啊…以后debug估计更难受，慢慢调呗。爱一行干一行，干一行爱一行！！！<br>　　啦啦啦，期末考试来啦，又想学新的编程知识，可是数学也学不好，好纠结啊！！！<br>　　Deadline是第一生产力，这句话准没错！！！<br>　　溜去学习！</p>]]></content>
+        <content type="html"><![CDATA[<p>　　好烦啊，用个main做了个贪吃蛇，搞了好几天。虽然成功了，但是我想建个项目把每个函数单独出来，方便​编辑以</p><p>及改动，但是搞了半天还是不行，也问了别人，也上网查了资料，烦死了！！！</p><p>　　哎，没办法，任重而道远啊…以后debug估计更难受，慢慢调呗。爱一行干一行，干一行爱一行！！！</p><p>​        啦啦啦，期末考试来啦，又想学新的编程知识，可是数学也学不好，好纠结啊！！！</p><p>​        Deadline是第一生产力，这句话准没错！！！</p><p>​        溜去学习！</p><p>​        最终还是上传成功了</p><p>​        请戳这里     <a href="https://github.com/ChaoEcho/-Greedy-snake">传送门</a>  </p>]]></content>
       
       
       <categories>
@@ -29,36 +87,11 @@
     
     
     <entry>
-      <title>C语言知识点&amp;&amp;易错点总结</title>
-      <link href="posts/522c.html"/>
-      <url>posts/522c.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="C语言知识点-amp-amp-易错点总结"><a href="#C语言知识点-amp-amp-易错点总结" class="headerlink" title="C语言知识点&amp;&amp;易错点总结"></a>C语言知识点&amp;&amp;易错点总结</h1><ol><li><p>=   是赋值</p><p>== 是判断相等</p></li><li><p>double &amp;&amp; float 辨析</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">double i ;float  j ;scanf  ("%lf %f",&amp;i,&amp;j);printf ("double=%f float=%f",i,j);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>定义辨析</p><blockquote><ul><li><p>常量定义</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">constant int i = 100;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>宏定义</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">简单的宏 #define 标识符 替换列表    #define COOL 1带参数宏 #define 标识符(x1,x2···) 替换列表#define MAX(x,y) ((x)&gt;(y)?(x):(y))<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>类型定义</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">typedef 已有名 新名字typedef int BOOL<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li></ul></blockquote></li><li><p>scanf 小注释</p><blockquote><ul><li><p>scanf 在遇到一个不可能属于当前项的字符时，会把此字符放回缓冲区（书上原话，当时没太注意）</p><pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token function">scanf</span><span class="token punctuation">(</span><span class="token string">"%d"</span><span class="token punctuation">,</span>i<span class="token punctuation">)</span> <span class="token punctuation">;</span>  此时如果输入非数字，如<span class="token operator">+</span><span class="token punctuation">,</span>a等<span class="token punctuation">,</span>scanf不会读取<span class="token punctuation">,</span>i是原值<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>scanf 读取字符时</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">scanf(" %c",&amp;ch); 可以跳过开始的空格<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>scanf 读取数字时</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">scanf("%2d",&amp;i); 只读取两位数字 不仅适用于整型，浮点数相同，但小数点算一位<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>scanf 并不会读取换行符，而是继续留在缓冲区，所以可以用getchar()来消灭它</p></li></ul></blockquote></li><li><p>printf 小注释</p><blockquote><ul><li><p>保留空间</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">整数：printf("%10d",i);  保留10字节位数，默认右对齐，位数不足空格补位printf("%-10d",i); 保留10字节位数，负号右对齐，位数不足空格补位printf("%010d",i);||printf("%.10d",i); 用0补位小数：printf("%10.5f",i);  保留10字节位数，小数点后保留5位,小数位数不足时补0，总位数不足空格补位printf("%010.5f",i); 总位数不足10时，用0补位<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li></ul></blockquote></li><li><p>特殊字符输出的时候要加\</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">printf ("这有一个\\");<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> C语言 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 笔记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>静态网页课程笔记</title>
       <link href="posts/8d5f.html"/>
       <url>posts/8d5f.html</url>
       
-        <content type="html"><![CDATA[<h1 id="静态网页课程"><a href="#静态网页课程" class="headerlink" title="静态网页课程"></a>静态网页课程</h1><h2 id="一-标记"><a href="#一-标记" class="headerlink" title="一.标记"></a>一.标记</h2><ol><li><p>换行（单标记）&lt;</p><pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span> <span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>段落（可以用作换行）</p><pre class="line-numbers language-none"><code class="language-none">&lt;p&gt;&lt;/p&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>标题</p><pre class="line-numbers language-none"><code class="language-none">&lt;h&gt;&lt;/h&gt; --&gt;&lt;h1&gt;&lt;/h1&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>图片置入（单标记）</p><pre class="line-numbers language-none"><code class="language-none">&lt;img src="图片路径" width=" " height=" " border(边框)=" "/&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>超链接</p><pre class="line-numbers language-none"><code class="language-none">&lt;a href="本地网页路径" target=" "&gt;&lt;/a&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">taeget="_self" 不新建窗口taeget="_blank" 新建窗口<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>表格</p><pre class="line-numbers language-none"><code class="language-none">&lt;table width=" " height=" " border(边框)=" " &gt;&lt;tr rowspan(行合并)&gt;(行)&lt;td colspan(列合并)&gt; &lt;/td&gt;(列)&lt;tr&gt;&lt;/table&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><ol><li><p>靠右（左），居中</p><pre class="line-numbers language-none"><code class="language-none">align=" " right || left || center<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>靠上（下），中间</p><pre class="line-numbers language-none"><code class="language-none">valigen=" " top || bottom || middle<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ol></li><li><p>后续补充</p><pre class="line-numbers language-none"><code class="language-none">&lt;div&gt;&lt;/div&gt;  类似于段落&lt;span&gt;&lt;/span&gt; <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li></ol><h2 id="二-表单标签"><a href="#二-表单标签" class="headerlink" title="二.表单标签"></a>二.表单标签</h2><ol><li><p>输入类表单标签</p><pre class="line-numbers language-none"><code class="language-none">&lt;input type=" " value(显示内容)=" " /&gt;  单标记 单行文本<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">type="text" 明文显示 type="password" 暗文显示<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">&lt;textarea cols(每行字数)=" " rows(行数)=" " &gt;(类似于word文档排版文字)&lt;/ textarea&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>选择类表单标记</p><ol><li><p>选择标记</p><pre class="line-numbers language-none"><code class="language-none">&lt;input type=" " name(相同name算一组)=" " value(返回值)=" " checked="checked"(默认选中)/&gt; 文本<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">type="radio" 单选type="checkbox" 多选<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>下拉列表</p><pre class="line-numbers language-none"><code class="language-none">&lt;selsect&gt;&lt;option value=" " selected="selected"(默认选中)&gt; 文本 &lt;/option&gt;&lt;/select&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre></li></ol></li><li></li></ol><h2 id="三-属性"><a href="#三-属性" class="headerlink" title="三.属性"></a>三.属性</h2><ol><li><p>颜色</p><pre class="line-numbers language-none"><code class="language-none">font color (文字)  bgcolor (表格)<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>字体大小</p><pre class="line-numbers language-none"><code class="language-none">size<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>字体类型</p><pre class="line-numbers language-none"><code class="language-none">face<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ol>]]></content>
+        <content type="html"><![CDATA[<h1 id="静态网页课程"><a href="#静态网页课程" class="headerlink" title="静态网页课程"></a>静态网页课程</h1><h2 id="一-标记"><a href="#一-标记" class="headerlink" title="一.标记"></a>一.标记</h2><ol><li><p>换行（单标记）&lt;</p><pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span> <span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>段落（可以用作换行）</p><pre class="line-numbers language-none"><code class="language-none">&lt;p&gt;&lt;/p&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>标题</p><pre class="line-numbers language-none"><code class="language-none">&lt;h&gt;&lt;/h&gt; --&gt;&lt;h1&gt;&lt;/h1&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>图片置入（单标记）</p><pre class="line-numbers language-none"><code class="language-none">&lt;img src="图片路径" width=" " height=" " border(边框)=" "/&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>超链接</p><pre class="line-numbers language-none"><code class="language-none">&lt;a href="本地网页路径" target=" "&gt;&lt;/a&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">taeget="_self" 不新建窗口taeget="_blank" 新建窗口<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>表格</p><pre class="line-numbers language-none"><code class="language-none">&lt;table width=" " height=" " border(边框)=" " &gt;&lt;tr rowspan(行合并)&gt;(行)&lt;td colspan(列合并)&gt; &lt;/td&gt;(列)&lt;tr&gt;&lt;/table&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><ol><li><p>靠右（左），居中</p><pre class="line-numbers language-none"><code class="language-none">align=" " right || left || center<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>靠上（下），中间</p><pre class="line-numbers language-none"><code class="language-none">valigen=" " top || bottom || middle<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ol></li><li><p>后续补充</p><pre class="line-numbers language-none"><code class="language-none">&lt;div&gt;&lt;/div&gt;  类似于段落&lt;span&gt;&lt;/span&gt; <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li></ol><h2 id="二-表单标签"><a href="#二-表单标签" class="headerlink" title="二.表单标签"></a>二.表单标签</h2><ol><li><p>输入类表单标签</p><pre class="line-numbers language-none"><code class="language-none">&lt;input type=" " value(显示内容)=" " /&gt;  单标记 单行文本<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">type="text" 明文显示 type="password" 暗文显示<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">&lt;textarea cols(每行字数)=" " rows(行数)=" " &gt;(类似于word文档排版文字)&lt;/ textarea&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>选择类表单标记</p><ol><li><p>选择标记</p><pre class="line-numbers language-none"><code class="language-none">&lt;input type=" " name(相同name算一组)=" " value(返回值)=" " checked="checked"(默认选中)/&gt; 文本<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">type="radio" 单选type="checkbox" 多选<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>下拉列表</p><pre class="line-numbers language-none"><code class="language-none">&lt;selsect&gt;&lt;option value=" " selected="selected"(默认选中)&gt; 文本 &lt;/option&gt;&lt;/select&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre></li></ol></li><li><p>表单的提交与重置</p><pre class="line-numbers language-none"><code class="language-none">&lt;form action(提交路径)=" " method(提交方式)=" "&gt;表单内容&lt;input type="submit" value="提交" /&gt;&lt;input type="reset" value="重置" /&gt;&lt;/form&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></li></ol><h2 id="三-属性"><a href="#三-属性" class="headerlink" title="三.属性"></a>三.属性</h2><ol><li><p>颜色</p><pre class="line-numbers language-none"><code class="language-none">font color (文字)  bgcolor (表格)<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>字体大小</p><pre class="line-numbers language-none"><code class="language-none">size<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>字体类型</p><pre class="line-numbers language-none"><code class="language-none">face<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>加粗</p><pre class="line-numbers language-none"><code class="language-none">&lt;b&gt;&lt;/b&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ol>]]></content>
       
       
       <categories>
