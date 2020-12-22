@@ -6,7 +6,7 @@
   <link href="http://echochao.xyz/atom.xml" rel="self"/>
   
   <link href="http://echochao.xyz/"/>
-  <updated>2020-12-20T13:28:26.390Z</updated>
+  <updated>2020-12-22T11:46:49.335Z</updated>
   <id>http://echochao.xyz/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>贪吃蛇小历程_3</title>
+    <link href="http://echochao.xyz/posts/4e13.html"/>
+    <id>http://echochao.xyz/posts/4e13.html</id>
+    <published>2020-12-22T11:35:53.685Z</published>
+    <updated>2020-12-22T11:46:49.335Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/ChaoEcho/Pictures/main/img/20201222193152.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;​      </summary>
+        
+      
+    
+    
+    
+    <category term="C语言" scheme="http://echochao.xyz/categories/C%E8%AF%AD%E8%A8%80/"/>
+    
+    
+    <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="贪食蛇" scheme="http://echochao.xyz/tags/%E8%B4%AA%E9%A3%9F%E8%9B%87/"/>
+    
+    <category term="VS2015" scheme="http://echochao.xyz/tags/VS2015/"/>
+    
+    <category term="Easyx图形库" scheme="http://echochao.xyz/tags/Easyx%E5%9B%BE%E5%BD%A2%E5%BA%93/"/>
+    
+  </entry>
   
   <entry>
     <title>关于链表与数组的一点想法</title>
@@ -50,7 +82,7 @@
     <link href="http://echochao.xyz/posts/8ed2.html"/>
     <id>http://echochao.xyz/posts/8ed2.html</id>
     <published>2020-12-18T15:36:09.801Z</published>
-    <updated>2020-12-20T13:19:59.138Z</updated>
+    <updated>2020-12-22T11:47:07.247Z</updated>
     
     
       
@@ -69,6 +101,8 @@
     
     <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
     
+    <category term="贪食蛇" scheme="http://echochao.xyz/tags/%E8%B4%AA%E9%A3%9F%E8%9B%87/"/>
+    
     <category term="VS2015" scheme="http://echochao.xyz/tags/VS2015/"/>
     
     <category term="Easyx图形库" scheme="http://echochao.xyz/tags/Easyx%E5%9B%BE%E5%BD%A2%E5%BA%93/"/>
@@ -80,7 +114,7 @@
     <link href="http://echochao.xyz/posts/8f92.html"/>
     <id>http://echochao.xyz/posts/8f92.html</id>
     <published>2020-12-13T04:00:00.000Z</published>
-    <updated>2020-12-20T13:18:48.407Z</updated>
+    <updated>2020-12-22T11:46:59.534Z</updated>
     
     
       
@@ -99,6 +133,8 @@
     
     
     <category term="心情" scheme="http://echochao.xyz/tags/%E5%BF%83%E6%83%85/"/>
+    
+    <category term="贪食蛇" scheme="http://echochao.xyz/tags/%E8%B4%AA%E9%A3%9F%E8%9B%87/"/>
     
   </entry>
   
