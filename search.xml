@@ -4,11 +4,61 @@
   
     
     <entry>
+      <title>Java-day01笔记</title>
+      <link href="posts/944d.html"/>
+      <url>posts/944d.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="Java学习记录"><a href="#Java学习记录" class="headerlink" title="Java学习记录"></a>Java学习记录</h2><h3 id="02day笔记"><a href="#02day笔记" class="headerlink" title="02day笔记"></a>02day笔记</h3><p>1. </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java-day01笔记</title>
+      <link href="posts/944d.html"/>
+      <url>posts/944d.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="Java学习记录"><a href="#Java学习记录" class="headerlink" title="Java学习记录"></a>Java学习记录</h2><h3 id="01day笔记"><a href="#01day笔记" class="headerlink" title="01day笔记"></a>01day笔记</h3><ol><li><h4 id="常用DOS命令"><a href="#常用DOS命令" class="headerlink" title="常用DOS命令"></a>常用DOS命令</h4><ol><li><p>打开DOS命令窗口</p><blockquote><ul><li>win键 + R键 ：打开运行窗口</li><li>输入cmd</li></ul></blockquote></li><li><p>创建目录（文件夹）</p><blockquote><pre class="line-numbers language-none"><code class="language-none">mkdir 文件名     make directory<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></blockquote></li><li><p>默认打开DOS窗口后的路径</p><blockquote><p>C:\Users\Administrator 这是默认的当前路径</p></blockquote></li><li><p>在DOS命令窗口怎么复制内容</p><blockquote><ul><li>WIn7   :任意位置点击右键–&gt;标记–&gt;选中要复制的内容–&gt;点击右键–&gt;此时就到剪贴板里面了</li><li>Win10 :左键直接选中，然后右键单击一下就到剪贴板里面了</li></ul></blockquote></li><li><p>切换盘符</p><blockquote><p>直接输入盘符加上 “ : ”</p><pre class="line-numbers language-none"><code class="language-none">c: 不区分大小写<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></blockquote></li><li><p>切换目录</p><blockquote><ul><li><p>使用cd命令来完成    change directory</p><pre class="line-numbers language-none"><code class="language-none">cd 路径<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>回到上级目录</p><pre class="line-numbers language-none"><code class="language-none">cd ..cd \ (回到根目录)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li></ul></blockquote></li><li><p>其他操作</p><blockquote><ul><li><p>清屏</p><pre class="line-numbers language-none"><code class="language-none">cls<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>查看当前目录下文件名字</p><pre class="line-numbers language-none"><code class="language-none">dir<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>退出DOS窗口</p><pre class="line-numbers language-none"><code class="language-none">exit<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>快速切换当前路径下文件名字（不是只限于切换目录）</p><pre class="line-numbers language-none"><code class="language-none">Tab 切换  （模糊识别，可以输入开头字母）<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>强行停止命令</p><pre class="line-numbers language-none"><code class="language-none">ctrl + c<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ul></blockquote></li><li><p>删除命令</p><blockquote><ul><li><p>精确删除</p><pre class="line-numbers language-none"><code class="language-none">del 文件名<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>模糊删除</p><pre class="line-numbers language-none"><code class="language-none">del *.class  (删除一切名字中带有.class的文件)<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ul></blockquote></li><li><p>查看本机IP地址</p><blockquote><ul><li><p>IP地址也可以看做计算机在同一个网络当中的身份证号（唯一标识）</p></li><li><p>查看命令</p><pre class="line-numbers language-none"><code class="language-none">ipconfig<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>查看详细命令</p><pre class="line-numbers language-none"><code class="language-none">ipconfig /all<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>可以查看到物理地址（具有全球唯一性），物理地址通常叫做MAC地址</p></li></ul></blockquote></li><li><p>查看两台计算机是否正常通信</p><blockquote><ul><li><p>ping命令</p><pre class="line-numbers language-none"><code class="language-none">ping IP地址/域名ping www.baidu.com<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li><li><p>一直ping来查看网络是否稳定</p><pre class="line-numbers language-none"><code class="language-none">ping www.baidu.com -t<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ul></blockquote></li></ol></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>贪吃蛇小历程_3</title>
       <link href="posts/4e13.html"/>
       <url>posts/4e13.html</url>
       
-        <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ChaoEcho/Pictures/main/img/20201222193152.jpg"></p><p>​        第3版贪吃蛇已经做出来了，添加了数据管理系统，当然啦，只是最简单的数据管理，因为时间不是很多，所以有时间的话可能会添加管理员模式和访客模式，以此来解决数据的管理</p><p>​        当然源代码还是会分享的，但这次其实没有改动多少，也没有添加最大分数系统（其实写个排序就行了，但是时间不够了，安心复习，现在先放下这些了）</p><p>​        好吧，我这个急性子，最大分数已经被我添加上了（还是非常简单的嘛）</p><p>​        请戳这里    <a href="https://github.com/ChaoEcho/-Greedy-snake">传送门</a></p>]]></content>
+        <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ChaoEcho/Pictures/main/img/20201222193152.jpg"></p><p>​            第3版贪吃蛇已经做出来了，添加了数据管理系统，当然啦，只是最简单的数据管理，因为时间不是很多，所以有时间的话可能会添加管理员模式和访客模式，以此来解决数据的管理</p><p>​            当然源代码还是会分享的，但这次其实没有改动多少，也没有添加最大分数系统（其实写个排序就行了，但是时间不够了，安心复习，现在先放下这些了）</p><p>​            好吧，我这个急性子，最大分数已经被我添加上了（还是非常简单的嘛）</p><p>​            请戳这里    <a href="https://github.com/ChaoEcho/-Greedy-snake">传送门</a></p>]]></content>
       
       
       <categories>
@@ -22,11 +72,11 @@
             
             <tag> 笔记 </tag>
             
-            <tag> 贪食蛇 </tag>
-            
             <tag> VS2015 </tag>
             
             <tag> Easyx图形库 </tag>
+            
+            <tag> 贪食蛇 </tag>
             
         </tags>
       
@@ -82,11 +132,11 @@
             
             <tag> 笔记 </tag>
             
-            <tag> 贪食蛇 </tag>
-            
             <tag> VS2015 </tag>
             
             <tag> Easyx图形库 </tag>
+            
+            <tag> 贪食蛇 </tag>
             
         </tags>
       
@@ -111,9 +161,9 @@
       
         <tags>
             
-            <tag> 心情 </tag>
-            
             <tag> 贪食蛇 </tag>
+            
+            <tag> 心情 </tag>
             
         </tags>
       
