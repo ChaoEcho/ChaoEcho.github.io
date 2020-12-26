@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Java-day03笔记</title>
+      <link href="posts/546e.html"/>
+      <url>posts/546e.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="Java学习记录"><a href="#Java学习记录" class="headerlink" title="Java学习记录"></a>Java学习记录</h2><h3 id="03day笔记"><a href="#03day笔记" class="headerlink" title="03day笔记"></a>03day笔记</h3><ol><li><h4 id="代码详解"><a href="#代码详解" class="headerlink" title="代码详解"></a>代码详解</h4><blockquote><pre class="line-numbers language-Java" data-language="Java"><code class="language-Java">public class Test{//声明定义一个公开的类，名字叫Test//这里面的叫做类体// 整个这一块的代码被称为：main方法// main方法也可以叫做主方法// 注意：方法必须放到“类体”中，不能放到“类体”外面// 任何一个程序都要有一个入口，没有入口进不来，无法执行    // 注意：args可以改名字，随意，对于主方法来说只有这个位置可以改，其它位置不能动    public static void main (String[] args){//这是一个入口方法//方法体// 注意：方法体由一行一行的“java语句”构成// 并且非常重要的是：任何一条java语句必须以“;”结尾，并且这个分号还得是英文的，不能用中文分号。// ";" 代表一条语句的结束。// 非常非常重要的是：方法体中的代码遵循自上而下的顺序依次逐行执行System.out.println("Test1");                // System.out.println();这行代码的作用是向控制台输出一句话。就是这个作用。// 注意：如果println后面小括号里的内容是一个“字符串”的话，必须使用英文双引号括起来System.out.println("Test2");}        // 能再来一个一模一样的入口吗？// 不行，有语法错误    //一个类体里不能有重复的入口    //但是不同类体中可以有相同的入口/*public static void main(String[] args){}*/// 方法2// 现在不执行不代表以后不执行，以后我们可以学习其它语法让他执行。public static void main2(String[] args){System.out.println("hehe");}}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></blockquote></li><li><h4 id="代码尝试"><a href="#代码尝试" class="headerlink" title="代码尝试"></a>代码尝试</h4><ol><li><p>class和public class辨析</p><blockquote><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">/*1、第一个结论？一个java源文件中可以定义多个class。2、第二个结论？public的类不是必须的。可以没有。3、第三个结论？在源文件中只要有一个class的定义，那么必然会对应生成一个class文件。4、第四个结论？public的类可以没有，但如果有的话，public修饰的类名必须和源文件名保持一致。5、第五个结论？public的类有也只能有1个。*/</span><span class="token keyword">class</span> <span class="token class-name">A</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token comment">//这是错误的，public的类名必须和文件名相同</span><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">B</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token comment">// 如果定义public的类你只能这样写</span><span class="token keyword">public</span> <span class="token keyword">class</span> 文件名<span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token keyword">class</span> <span class="token class-name">C</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span class="token keyword">class</span> <span class="token class-name">D</span><span class="token punctuation">{</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></blockquote></li><li><p>类与入口</p><blockquote><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token comment">// 编译通过了</span><span class="token comment">// 能执行吗？</span><span class="token comment">// 想从哪个入口进去执行，你就加载哪个类就行了！！！</span><span class="token comment">// 例如：java T1</span><span class="token comment">// 例如：java T2</span><span class="token comment">// 例如：java T3</span><span class="token comment">// 测试不代表以后就这样写，一般一个软件的执行入口是一个。不会出现多个的。</span><span class="token comment">// 以下只是一个测试罢了。</span><span class="token keyword">class</span> T1<span class="token punctuation">{</span><span class="token comment">// 想从这个入口进去执行怎么办？</span><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"T1....."</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token keyword">class</span> T2<span class="token punctuation">{</span><span class="token comment">// 想从这个入口进去执行怎么办？</span><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"T2....."</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span class="token keyword">class</span> T3<span class="token punctuation">{</span><span class="token comment">// 想从这个入口进去执行怎么办？</span><span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span class="token punctuation">{</span><span class="token class-name">System</span><span class="token punctuation">.</span>out<span class="token punctuation">.</span><span class="token function">println</span><span class="token punctuation">(</span><span class="token string">"T3....."</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token punctuation">}</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><ul><li><p><code>javac 文件名.java</code> 每一个类都会产生一个.class文件，可以通过<code>java 类名</code> 来分别运行每一个类（但要有入口参数）</p><pre class="line-numbers language-java" data-language="java"><code class="language-java">在类 <span class="token class-name">A</span> 中找不到 main 方法<span class="token punctuation">,</span> 请将 main 方法定义为<span class="token operator">:</span>   <span class="token keyword">public</span> <span class="token keyword">static</span> <span class="token keyword">void</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token class-name">String</span><span class="token punctuation">[</span><span class="token punctuation">]</span> args<span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li></ul></blockquote></li></ol></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Java-day02笔记</title>
       <link href="posts/947e.html"/>
       <url>posts/947e.html</url>
@@ -347,6 +372,31 @@
     
     
     <entry>
+      <title>Hello World</title>
+      <link href="posts/3eeb.html"/>
+      <url>posts/3eeb.html</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hello World </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>我的第一篇博客</title>
       <link href="posts/f929.html"/>
       <url>posts/f929.html</url>
@@ -366,31 +416,6 @@
             <tag> Git </tag>
             
             <tag> hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="posts/3eeb.html"/>
-      <url>posts/3eeb.html</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 随笔 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Hello World </tag>
             
         </tags>
       
