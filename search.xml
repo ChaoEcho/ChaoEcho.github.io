@@ -4,7 +4,7 @@
   
     
     <entry>
-      <title>心情</title>
+      <title>心情02</title>
       <link href="posts/e6b.html"/>
       <url>posts/e6b.html</url>
       
@@ -33,7 +33,7 @@
       <link href="posts/9418.html"/>
       <url>posts/9418.html</url>
       
-        <content type="html"><![CDATA[<h2 id="Java学习记录"><a href="#Java学习记录" class="headerlink" title="Java学习记录"></a>Java学习记录</h2><h3 id="04day笔记"><a href="#04day笔记" class="headerlink" title="04day笔记"></a>04day笔记</h3><ol><li><h4 id="标识符"><a href="#标识符" class="headerlink" title="标识符"></a>标识符</h4><ol><li><p>标识符的概念</p><blockquote><ul><li>凡是程序员自己有命名权的单词都是标识符</li></ul></blockquote></li><li><p>标识符的分类</p><blockquote><ul><li>类名</li><li>方法名（main是方法名称，但是不可以更改）</li><li>变量名</li><li>接口名</li><li>常量名</li></ul></blockquote></li><li><p>标识符命名规则</p><blockquote><ul><li>规则1：标识符只能由数字、字母（包括中文）、下划线_、美元符号$组成，不能含有其它符号（不能含有空格）</li><li>规则2：标识符不能以数字开头</li><li>规则3：关键字不能做标识符。例如：public class static void 这些蓝色的字体都是关键字，关键字是不能做标识符的</li><li>规则4：标识符是严格区分大小写的，大写A和小写a不一样</li><li>规则5：标识符理论上是没有长度限制的</li></ul></blockquote></li><li><p>特例</p><blockquote><ul><li><p>标识符严格区分大小写，但是类名例外，例如A和a，谁在前面便生成谁</p><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">A</span><span class="token punctuation">{</span>    <span class="token punctuation">}</span><span class="token keyword">class</span> a<span class="token punctuation">{</span>    <span class="token punctuation">}</span><span class="token comment">//这样生成A.class</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">class</span> a<span class="token punctuation">{</span>    <span class="token punctuation">}</span><span class="token keyword">class</span> <span class="token class-name">A</span><span class="token punctuation">{</span>    <span class="token punctuation">}</span><span class="token comment">//这样生成a.class</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li></ul></blockquote></li><li><p>例子详解</p><blockquote><ul><li>Q：创建一个java文件，起名 123.java可以吗？</li><li>A：可以，完全可以，在windows操作系统中文件名叫做：123.java没毛病。123其实并不是标识符。只是一个文件名。只不过在123.java文件中无法定义public的类。</li></ul></blockquote></li></ol></li></ol>]]></content>
+        <content type="html"><![CDATA[<h2 id="Java学习记录"><a href="#Java学习记录" class="headerlink" title="Java学习记录"></a>Java学习记录</h2><h3 id="04day笔记"><a href="#04day笔记" class="headerlink" title="04day笔记"></a>04day笔记</h3><h4 id="1-标识符"><a href="#1-标识符" class="headerlink" title="1.标识符"></a>1.标识符</h4><ol><li><p>标识符的概念</p><blockquote><ul><li>凡是程序员自己有命名权的单词都是标识符</li></ul></blockquote></li><li><p>标识符的分类</p><blockquote><ul><li>类名</li><li>方法名（main是方法名称，但是不可以更改）</li><li>变量名</li><li>接口名</li><li>常量名</li></ul></blockquote></li><li><p>标识符命名规则</p><blockquote><ul><li>规则1：标识符只能由数字、字母（包括中文）、下划线_、美元符号$组成，不能含有其它符号（不能含有空格）</li><li>规则2：标识符不能以数字开头</li><li>规则3：关键字不能做标识符。例如：public class static void 这些蓝色的字体都是关键字，关键字是不能做标识符的</li><li>规则4：标识符是严格区分大小写的，大写A和小写a不一样</li><li>规则5：标识符理论上是没有长度限制的</li></ul></blockquote></li><li><p>特例</p><blockquote><ul><li><p>标识符严格区分大小写，但是类名例外，例如A和a，谁在前面便生成谁</p><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">A</span><span class="token punctuation">{</span>    <span class="token punctuation">}</span><span class="token keyword">class</span> a<span class="token punctuation">{</span>    <span class="token punctuation">}</span><span class="token comment">//这样生成A.class</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">class</span> a<span class="token punctuation">{</span>    <span class="token punctuation">}</span><span class="token keyword">class</span> <span class="token class-name">A</span><span class="token punctuation">{</span>    <span class="token punctuation">}</span><span class="token comment">//这样生成a.class</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li></ul></blockquote></li><li><p>例子详解</p><blockquote><ul><li><p>Q：创建一个java文件，起名 123.java可以吗？</p></li><li><p>A：可以，完全可以，在windows操作系统中文件名叫做：123.java没毛病。123其实并不是标识符。</p><p>​      只是一个文件名。只不过在123.java文件中无法定义public的类。</p></li></ul></blockquote></li><li><p>命令规范</p><blockquote><ul><li><p>规范1：</p><p>见名知意（这个标识符在起名的时候，最好一看这个单词就知道啥意思）</p></li><li><p>规范2：</p><p>遵循驼峰命名方式，什么是驼峰（一高一低，一高一低…）<br>驼峰有利于单词与单词之间很好的进行分隔</p></li><li><p>规范3：</p><p>类名、接口名有特殊要求<br>类名和接口名首字母大写，后面每个单词首字母大写。<br>StudentTest、UserTest ，这是类名、接口名</p></li><li><p>规范4：</p><p>变量名、方法名有特殊要求<br>变量名和方法名首字母小写，后面每个单词首字母大写。<br> nianLing（NianLing这样就不符合了。）<br>mingZi（MingZi这样也不符合了）</p></li><li><p>规范5：</p><p>所有“常量”名：全部大写，并且单词和单词之间采用下划线衔接。</p><p>USER_AGE ：用户年龄</p><p>MATH_PI：固定不变的常量3.1415926…..</p></li></ul></blockquote></li><li><p>关键字</p><blockquote><ul><li><p>在SUN公司开发Java语言的时候，提前定义好了一些具有特殊含义的单词，</p><p>这些单词全部小写，具有特殊含义，不能用作标识符</p></li><li><p>java语言中的所有关键字都是全部小写。<br>注意：java语言中是严格区分大小写的。public和Public不一样，<br>Class和class不一样，static和Static也不一样</p></li></ul></blockquote></li></ol><h4 id="2-变量"><a href="#2-变量" class="headerlink" title="2.变量"></a>2.变量</h4><ol><li><p>定义</p><blockquote><ul><li><p>变量就是一个存数据盒子。（盒子大小谁来决定啊？数据类型）</p><p>在内存中的最基本的存储单元。<br>存数据用的，而且这个数据是可变的，所以叫做变量。</p></li></ul></blockquote></li><li><p>变量的三要素</p><blockquote><ul><li>数据类型</li><li>变量名</li><li>值  （值就是数据，就是字面量）</li></ul></blockquote></li><li><p>要点</p><blockquote><ul><li>Java中的变量必须先声明，再赋值才能访问（必须手动赋值）</li></ul></blockquote></li></ol>]]></content>
       
       
       <categories>
@@ -147,11 +147,11 @@
             
             <tag> 笔记 </tag>
             
-            <tag> 贪食蛇 </tag>
-            
             <tag> VS2015 </tag>
             
             <tag> Easyx图形库 </tag>
+            
+            <tag> 贪食蛇 </tag>
             
         </tags>
       
@@ -176,9 +176,9 @@
       
         <tags>
             
-            <tag> 数组 </tag>
-            
             <tag> 笔记 </tag>
+            
+            <tag> 数组 </tag>
             
             <tag> 链表 </tag>
             
@@ -207,11 +207,11 @@
             
             <tag> 笔记 </tag>
             
-            <tag> 贪食蛇 </tag>
-            
             <tag> VS2015 </tag>
             
             <tag> Easyx图形库 </tag>
+            
+            <tag> 贪食蛇 </tag>
             
         </tags>
       
