@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>心情</title>
+      <link href="posts/e6b.html"/>
+      <url>posts/e6b.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="论Icoding的SB程度"><a href="#论Icoding的SB程度" class="headerlink" title="论Icoding的SB程度"></a>论Icoding的SB程度</h2><p>真的感觉最后一个测试没什么意义，还不如让人亲手写一个呢？</p><p>我是真的困惑，抱怨归抱怨，还是要写的，奥里给</p><p><img src="https://raw.githubusercontent.com/ChaoEcho/Pictures/main/img/20201227150120.jfif" alt="干就完了"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 心情 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Java-day04笔记</title>
+      <link href="posts/9418.html"/>
+      <url>posts/9418.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="Java学习记录"><a href="#Java学习记录" class="headerlink" title="Java学习记录"></a>Java学习记录</h2><h3 id="04day笔记"><a href="#04day笔记" class="headerlink" title="04day笔记"></a>04day笔记</h3><ol><li><h4 id="标识符"><a href="#标识符" class="headerlink" title="标识符"></a>标识符</h4><ol><li><p>标识符的概念</p><blockquote><ul><li>凡是程序员自己有命名权的单词都是标识符</li></ul></blockquote></li><li><p>标识符的分类</p><blockquote><ul><li>类名</li><li>方法名（main是方法名称，但是不可以更改）</li><li>变量名</li><li>接口名</li><li>常量名</li></ul></blockquote></li><li><p>标识符命名规则</p><blockquote><ul><li>规则1：标识符只能由数字、字母（包括中文）、下划线_、美元符号$组成，不能含有其它符号（不能含有空格）</li><li>规则2：标识符不能以数字开头</li><li>规则3：关键字不能做标识符。例如：public class static void 这些蓝色的字体都是关键字，关键字是不能做标识符的</li><li>规则4：标识符是严格区分大小写的，大写A和小写a不一样</li><li>规则5：标识符理论上是没有长度限制的</li></ul></blockquote></li><li><p>特例</p><blockquote><ul><li><p>标识符严格区分大小写，但是类名例外，例如A和a，谁在前面便生成谁</p><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">A</span><span class="token punctuation">{</span>    <span class="token punctuation">}</span><span class="token keyword">class</span> a<span class="token punctuation">{</span>    <span class="token punctuation">}</span><span class="token comment">//这样生成A.class</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">class</span> a<span class="token punctuation">{</span>    <span class="token punctuation">}</span><span class="token keyword">class</span> <span class="token class-name">A</span><span class="token punctuation">{</span>    <span class="token punctuation">}</span><span class="token comment">//这样生成a.class</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li></ul></blockquote></li><li><p>例子详解</p><blockquote><ul><li>Q：创建一个java文件，起名 123.java可以吗？</li><li>A：可以，完全可以，在windows操作系统中文件名叫做：123.java没毛病。123其实并不是标识符。只是一个文件名。只不过在123.java文件中无法定义public的类。</li></ul></blockquote></li></ol></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Java </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Java-day03笔记</title>
       <link href="posts/546e.html"/>
       <url>posts/546e.html</url>
@@ -33,7 +83,7 @@
       <link href="posts/947e.html"/>
       <url>posts/947e.html</url>
       
-        <content type="html"><![CDATA[<h2 id="Java学习记录"><a href="#Java学习记录" class="headerlink" title="Java学习记录"></a>Java学习记录</h2><h3 id="02day笔记"><a href="#02day笔记" class="headerlink" title="02day笔记"></a>02day笔记</h3><ol><li><h4 id="Java的简单概述"><a href="#Java的简单概述" class="headerlink" title="Java的简单概述"></a>Java的简单概述</h4><ol><li><p>Java三大部分</p><blockquote><ul><li>JavaSE    标准版（基础，要学java，必须先学习SE。基础语法+基础库）</li><li>JavaEE    企业版</li><li>JavaME    微型版（专门为微型设备做嵌入式开发的）</li></ul></blockquote></li><li><p>Java语言特性</p><blockquote><ul><li><p>简单性：</p><blockquote><p>在Java语言当中真正操作内存的是：JVM（Java虚拟机）</p><p>Java语言屏蔽了指针概念，程序员不能直接操作指针</p><p>优点：不容易导致内存泄漏<br>缺点：效率问题，包括驾驭感比较差</p></blockquote></li><li><p>面向对象的：</p><blockquote><p>面向对象更容易让人理解，人类通常是以对象的方式认知世界的。<br>采用面向对象的方式可以让复杂问题简单化。</p></blockquote></li><li><p>健壮性：</p><blockquote><p>主要是因为Java中有一种机制：<br>自动垃圾回收机制（GC机制）。<br>Java语言是健壮的，相对于C语言来说，C语言没有Java健壮。<br>Java不容易导致内存的泄漏。<br>C++或者C语言使用不当时很容易导致内存泄漏。<br>JVM负责调度GC机制。程序员不需要干涉。</p></blockquote></li><li><p>Java完全/完美支持多线程并发</p></li><li><p>可移植性/跨平台：</p><blockquote><p>Java语言只要编写一次，可以做到到处运行</p><p>JVM这种机制实现了跨平台，那么这种机制优点和缺点分别是什么？<br>优点：一次编写到处运行，可以跨平台。<br>缺点：麻烦。对于运行Java程序来说必须先有一个JVM。就像你要想在网页上看视频，你必须先安装一个flash是一样的。</p></blockquote></li></ul></blockquote></li><li><p>JDK &amp; JRE &amp; JVM 三者之间的关系</p><blockquote><ul><li>JDK: Java开发工具箱<br>JRE:  Java运行环境<br>JVM: Java虚拟机</li><li>JDK包含JRE，JRE包含JVM</li></ul></blockquote></li><li><p>对JJava的加载和执行的理解</p><img src="https://raw.githubusercontent.com/ChaoEcho/Pictures/main/img/Java编译原理.jpg" alt="Java编译原理的理解" style="zoom:50%;"><blockquote><p>Java程序从开发到最终运行经历了什么？</p><p>编译期：</p><ul><li><p>第一步：在硬盘的某个位置（随意），新建一个xxx.java文件</p></li><li><p>第二步：使用记事本或者其它文本编辑器例如EditPlus打开xxx.java文件</p></li><li><p>第三步：在xxx.java文件中编写“符合java语法规则的”源代码</p></li><li><p>第四步：保存（一定要将xxx.java文件保存一下）</p></li><li><p>第五步：使用编译器（javac【JDK安装后自带】）对xxx.java文件进行编译</p></li><li><p>第六步：如果xxx.java文件中编写的源代码是符合语法规则的，编译会通过，如果xxx.java文件中编写的源代码违背了语法规则，那么编译器会报错，编译器报错之后class文件是不会生成的，只有编译通过了才会生成class字节码文件。并且一个java源文件是可以生成多个class文件的。（编译实质上是检查语法）  </p></li></ul><p>运行期</p><ul><li>第七步：如果是在Linux上运行，需要将windows上生成的class文件拷贝过去，不需要拷贝源代码，真正运行的是字节码。（但是源代码也不要删除，有用）</li><li>第八步：使用JDK自带的一个命令/工具：java（负责运行的命令/工具）执行字节码</li><li>第九步：往下的步骤就全部交给JVM了，就不需要程序员干涉了。JVM会将字节码文件装载进去，然后JVM对字节码进行解释（解释器负责将字节码解释为1010101010..等的二进制）</li><li>第十步：JVM会将生成的二进制码交给OS操作系统，操作系统会执行二进制码和硬件进行交互。  </li></ul><p>简化过程（编写、编译、运行）</p><ul><li>新建java文件</li><li>打开java文件</li><li>写java源代码</li><li>保存</li><li>javac命令编译</li><li>java命令运行</li></ul></blockquote></li></ol></li><li><h4 id="配置相关变量"><a href="#配置相关变量" class="headerlink" title="配置相关变量"></a>配置相关变量</h4><ol><li><p>配置环境变量path的步骤</p><blockquote><ul><li>桌面计算机上右键–&gt;属性–&gt;高级系统设置–&gt;环境变量</li><li>找到path，鼠标双击！！！！</li><li>将C:\Program Files\Java\jdk-13.0.2\bin配置到path当中 （路径可能不同，根据个人的实际情况）</li></ul></blockquote></li><li><p>环境变量小知识</p><blockquote><ul><li><p>环境变量包括“系统变量”和“用户变量”</p><p>系统变量：范围比较大，系统变量会让计算机所有用户都起作用。<br>用户变量：范围比较小，这个变量只是作用于当前用户。</p></li><li><p>查看编译器版本 <code>javac -version</code></p></li><li><p>查看java虚拟机的版本 <code>java -version</code></p></li><li><p>path环境变量的作用</p><p>path环境变量的作用就是给windows操作系统指路的。<br>告诉windows操作系统去哪里找这个命令文件。<br>path环境变量中有很多很多的路径，路径和路径之间用半角分号分隔。</p></li></ul></blockquote></li><li><p>补充知识</p><blockquote><ul><li>classpath 环境变量的配置，classpath是给“类加载器”指路的</li><li>classpath环境变量不属于windows操作系统，classpath环境变量隶属于java</li><li>配置流程<ul><li>计算机–&gt;右键–&gt;属性–&gt;高级系统设置–&gt;环境变量–&gt;新建</li><li>变量名不能随意写：大小写无所谓，但必须叫做：classpath</li><li>classpath 添加路径名，如D:\course</li><li>重启CMD</li></ul></li><li>非常重要的一个特点：配置了classpath=D:\course之后，类加载器只会去D:\course目录下找“xxx.class”文件</li><li>小技巧：可以在classpath里添加<code>.</code>表示在当前路径下寻找</li></ul></blockquote></li></ol></li><li><h4 id="编译和运行命令的讲解"><a href="#编译和运行命令的讲解" class="headerlink" title="编译和运行命令的讲解"></a>编译和运行命令的讲解</h4><ol><li><p>编译命令</p><blockquote><ul><li><p>语法格式</p><p><code>javac java源文件的路径</code></p></li><li><p>快捷操作</p><p>直接将文件拖入DOS命令窗口，便可直接获得当前路径</p></li><li><p>快捷操作</p><p>快速在当前目录下打开DOS命令窗口，直接在地址栏输入cmd即可</p></li></ul></blockquote></li><li><p>运行阶段</p><blockquote><ul><li><p>前提是已经编译成功生成了 .class字节码文件</p></li><li><p>假设该字节码文件叫做：HelloWoeld.class</p><p>HelloWorld    就是一个类名</p></li><li><p>语法格式</p><p><code>java 类名</code>        不要加.class ！！！</p></li></ul></blockquote></li></ol></li><li><h4 id="注释的写法"><a href="#注释的写法" class="headerlink" title="注释的写法"></a>注释的写法</h4><ol><li><p>单行注释</p><blockquote><pre class="line-numbers language-none"><code class="language-none">//该行后面都是注释内容<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></blockquote></li><li><p>多行注释</p><blockquote><pre class="line-numbers language-none"><code class="language-none">/*这里面都是注释内容*/<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></blockquote></li><li><p>帮助文档注释</p><blockquote><pre class="line-numbers language-none"><code class="language-none">/**javadoc注释：这里的注释信息可以自动被javadoc.exe命令解析提取并生成到帮助文档当中，当前不予详解*/<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></blockquote></li></ol></li></ol>]]></content>
+        <content type="html"><![CDATA[<h2 id="Java学习记录"><a href="#Java学习记录" class="headerlink" title="Java学习记录"></a>Java学习记录</h2><h3 id="02day笔记"><a href="#02day笔记" class="headerlink" title="02day笔记"></a>02day笔记</h3><ol><li><h4 id="Java的简单概述"><a href="#Java的简单概述" class="headerlink" title="Java的简单概述"></a>Java的简单概述</h4><ol><li><p>Java三大部分</p><blockquote><ul><li>JavaSE    标准版（基础，要学java，必须先学习SE。基础语法+基础库）</li><li>JavaEE    企业版</li><li>JavaME    微型版（专门为微型设备做嵌入式开发的）</li></ul></blockquote></li><li><p>Java语言特性</p><blockquote><ul><li><p>简单性：</p><blockquote><p>在Java语言当中真正操作内存的是：JVM（Java虚拟机）</p><p>Java语言屏蔽了指针概念，程序员不能直接操作指针</p><p>优点：不容易导致内存泄漏<br>缺点：效率问题，包括驾驭感比较差</p></blockquote></li><li><p>面向对象的：</p><blockquote><p>面向对象更容易让人理解，人类通常是以对象的方式认知世界的。<br>采用面向对象的方式可以让复杂问题简单化。</p></blockquote></li><li><p>健壮性：</p><blockquote><p>主要是因为Java中有一种机制：<br>自动垃圾回收机制（GC机制）。<br>Java语言是健壮的，相对于C语言来说，C语言没有Java健壮。<br>Java不容易导致内存的泄漏。<br>C++或者C语言使用不当时很容易导致内存泄漏。<br>JVM负责调度GC机制。程序员不需要干涉。</p></blockquote></li><li><p>Java完全/完美支持多线程并发</p></li><li><p>可移植性/跨平台：</p><blockquote><p>Java语言只要编写一次，可以做到到处运行</p><p>JVM这种机制实现了跨平台，那么这种机制优点和缺点分别是什么？<br>优点：一次编写到处运行，可以跨平台。<br>缺点：麻烦。对于运行Java程序来说必须先有一个JVM。就像你要想在网页上看视频，你必须先安装一个flash是一样的。</p></blockquote></li></ul></blockquote></li><li><p>JDK &amp; JRE &amp; JVM 三者之间的关系</p><blockquote><ul><li>JDK: Java开发工具箱<br>JRE:  Java运行环境<br>JVM: Java虚拟机</li><li>JDK包含JRE，JRE包含JVM</li></ul></blockquote></li><li><p>对JJava的加载和执行的理解</p><img src="https://raw.githubusercontent.com/ChaoEcho/Pictures/main/img/Java编译原理.jpg" alt="Java编译原理的理解" style="zoom:50%;"><blockquote><p>Java程序从开发到最终运行经历了什么？</p><p>编译期：</p><ul><li><p>第一步：在硬盘的某个位置（随意），新建一个xxx.java文件</p></li><li><p>第二步：使用记事本或者其它文本编辑器例如EditPlus打开xxx.java文件</p></li><li><p>第三步：在xxx.java文件中编写“符合java语法规则的”源代码</p></li><li><p>第四步：保存（一定要将xxx.java文件保存一下）</p></li><li><p>第五步：使用编译器（javac【JDK安装后自带】）对xxx.java文件进行编译</p></li><li><p>第六步：如果xxx.java文件中编写的源代码是符合语法规则的，编译会通过，如果xxx.java文件中编写的源代码违背了语法规则，那么编译器会报错，编译器报错之后class文件是不会生成的，只有编译通过了才会生成class字节码文件。并且一个java源文件是可以生成多个class文件的。（编译实质上是检查语法）  </p></li></ul><p>运行期</p><ul><li>第七步：如果是在Linux上运行，需要将windows上生成的class文件拷贝过去，不需要拷贝源代码，真正运行的是字节码。（但是源代码也不要删除，有用）</li><li>第八步：使用JDK自带的一个命令/工具：java（负责运行的命令/工具）执行字节码</li><li>第九步：往下的步骤就全部交给JVM了，就不需要程序员干涉了。JVM会将字节码文件装载进去，然后JVM对字节码进行解释（解释器负责将字节码解释为1010101010..等的二进制）</li><li>第十步：JVM会将生成的二进制码交给OS操作系统，操作系统会执行二进制码和硬件进行交互。  </li></ul><p>简化过程（编写、编译、运行）</p><ul><li>新建java文件</li><li>打开java文件</li><li>写java源代码</li><li>保存</li><li>javac命令编译</li><li>java命令运行</li></ul></blockquote></li></ol></li><li><h4 id="配置相关变量"><a href="#配置相关变量" class="headerlink" title="配置相关变量"></a>配置相关变量</h4><ol><li><p>配置环境变量path的步骤</p><blockquote><ul><li>桌面计算机上右键–&gt;属性–&gt;高级系统设置–&gt;环境变量</li><li>找到path，鼠标双击！！！！</li><li>将C:\Program Files\Java\jdk-13.0.2\bin配置到path当中 （路径可能不同，根据个人的实际情况）</li></ul></blockquote></li><li><p>环境变量小知识</p><blockquote><ul><li><p>环境变量包括“系统变量”和“用户变量”</p><p>系统变量：范围比较大，系统变量会让计算机所有用户都起作用。<br>用户变量：范围比较小，这个变量只是作用于当前用户。</p></li><li><p>查看编译器版本 <code>javac -version</code></p></li><li><p>查看java虚拟机的版本 <code>java -version</code></p></li><li><p>path环境变量的作用</p><p>path环境变量的作用就是给windows操作系统指路的。<br>告诉windows操作系统去哪里找这个命令文件。<br>path环境变量中有很多很多的路径，路径和路径之间用半角分号分隔。</p></li></ul></blockquote></li><li><p>补充知识</p><blockquote><ul><li>classpath 环境变量的配置，classpath是给“类加载器”指路的</li><li>classpath环境变量不属于windows操作系统，classpath环境变量隶属于java</li><li>配置流程<ul><li>计算机–&gt;右键–&gt;属性–&gt;高级系统设置–&gt;环境变量–&gt;新建</li><li>变量名不能随意写：大小写无所谓，但必须叫做：classpath</li><li>classpath 添加路径名，如D:\course</li><li>重启CMD</li></ul></li><li>非常重要的一个特点：配置了classpath=D:\course之后，类加载器只会去D:\course目录下找“xxx.class”文件</li><li>小技巧：可以在classpath里添加<code>.</code>表示在当前路径下寻找</li></ul></blockquote></li></ol></li><li><h4 id="编译和运行命令的讲解"><a href="#编译和运行命令的讲解" class="headerlink" title="编译和运行命令的讲解"></a>编译和运行命令的讲解</h4><ol><li><p>编译命令</p><blockquote><ul><li><p>语法格式</p><p><code>javac java源文件的路径</code></p></li><li><p>快捷操作</p><p>直接将文件拖入DOS命令窗口，便可直接获得当前路径</p></li><li><p>快捷操作</p><p>快速在当前目录下打开DOS命令窗口，直接在地址栏输入cmd即可</p></li></ul></blockquote></li><li><p>运行阶段</p><blockquote><ul><li><p>前提是已经编译成功生成了 .class字节码文件</p></li><li><p>假设该字节码文件叫做：HelloWoeld.class</p><p>HelloWorld    就是一个类名</p></li><li><p>语法格式</p><p><code>java 类名</code>        不要加.class ！！！</p></li></ul></blockquote></li></ol></li><li><h4 id="注释的写法"><a href="#注释的写法" class="headerlink" title="注释的写法"></a>注释的写法</h4><ol><li><p>单行注释</p><blockquote><pre class="line-numbers language-none"><code class="language-none">//该行后面都是注释内容<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></blockquote></li><li><p>多行注释</p><blockquote><pre class="line-numbers language-none"><code class="language-none">/*这里面都是注释内容*/<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></blockquote></li><li><p>帮助文档注释</p><blockquote><pre class="line-numbers language-JAVA" data-language="JAVA"><code class="language-JAVA">/**javadoc注释：这里的注释信息可以自动被javadoc.exe命令解析提取并生成到帮助文档当中，当前不予详解*/<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></blockquote></li></ol></li></ol>]]></content>
       
       
       <categories>
@@ -126,9 +176,9 @@
       
         <tags>
             
-            <tag> 笔记 </tag>
-            
             <tag> 数组 </tag>
+            
+            <tag> 笔记 </tag>
             
             <tag> 链表 </tag>
             
@@ -247,7 +297,7 @@
     
     
     <entry>
-      <title>随笔</title>
+      <title>心情01</title>
       <link href="posts/a9a8.html"/>
       <url>posts/a9a8.html</url>
       
@@ -413,9 +463,9 @@
       
         <tags>
             
-            <tag> Git </tag>
-            
             <tag> hexo </tag>
+            
+            <tag> Git </tag>
             
         </tags>
       

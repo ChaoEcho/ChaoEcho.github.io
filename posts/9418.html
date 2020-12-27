@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="贪吃蛇小历程_1, EchoChao">
+    <meta name="keywords" content="Java-day04笔记, EchoChao">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>贪吃蛇小历程_1 | EchoChao</title>
+    <title>Java-day04笔记 | EchoChao</title>
     <link rel="icon" type="image/jpeg" href="https://raw.githubusercontent.com/ChaoEcho/Pictures/main/img/20201205170939.jpg">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -317,12 +317,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/8.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/9.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">贪吃蛇小历程_1</h1>
+                    <h1 class="description center-align post-title">Java-day04笔记</h1>
                 </div>
             </div>
         </div>
@@ -344,12 +344,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E5%BF%83%E6%83%85/">
-                                <span class="chip bg-color">心情</span>
-                            </a>
-                        
-                            <a href="/tags/%E8%B4%AA%E9%A3%9F%E8%9B%87/">
-                                <span class="chip bg-color">贪食蛇</span>
+                            <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                                <span class="chip bg-color">笔记</span>
                             </a>
                         
                     </div>
@@ -360,8 +356,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E9%9A%8F%E7%AC%94/" class="post-category">
-                                随笔
+                            <a href="/categories/Java/" class="post-category">
+                                Java
                             </a>
                         
                     </div>
@@ -373,21 +369,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-12-13
+                    2020-12-27
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-12-22
+                    2020-12-27
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    169
+                    335
                 </div>
                 
 
@@ -417,14 +413,75 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>　　好烦啊，用个main做了个贪吃蛇，搞了好几天。虽然成功了，但是我想建个项目把每个函数单独出来，方便​编辑以</p>
-<p>及改动，但是搞了半天还是不行，也问了别人，也上网查了资料，烦死了！！！</p>
-<p>　　哎，没办法，任重而道远啊…以后debug估计更难受，慢慢调呗。爱一行干一行，干一行爱一行！！！</p>
-<p>​        啦啦啦，期末考试来啦，又想学新的编程知识，可是数学也学不好，好纠结啊！！！</p>
-<p>​        Deadline是第一生产力，这句话准没错！！！</p>
-<p>​        溜去学习！</p>
-<p>​        最终还是上传成功了</p>
-<p>​        请戳这里     <a target="_blank" rel="noopener" href="https://github.com/ChaoEcho/-Greedy-snake">传送门</a>  </p>
+                <h2 id="Java学习记录"><a href="#Java学习记录" class="headerlink" title="Java学习记录"></a>Java学习记录</h2><h3 id="04day笔记"><a href="#04day笔记" class="headerlink" title="04day笔记"></a>04day笔记</h3><ol>
+<li><h4 id="标识符"><a href="#标识符" class="headerlink" title="标识符"></a>标识符</h4><ol>
+<li><p>标识符的概念</p>
+<blockquote>
+<ul>
+<li>凡是程序员自己有命名权的单词都是标识符</li>
+</ul>
+</blockquote>
+</li>
+<li><p>标识符的分类</p>
+<blockquote>
+<ul>
+<li>类名</li>
+<li>方法名（main是方法名称，但是不可以更改）</li>
+<li>变量名</li>
+<li>接口名</li>
+<li>常量名</li>
+</ul>
+</blockquote>
+</li>
+<li><p>标识符命名规则</p>
+<blockquote>
+<ul>
+<li>规则1：标识符只能由数字、字母（包括中文）、下划线_、美元符号$组成，不能含有其它符号（不能含有空格）</li>
+<li>规则2：标识符不能以数字开头</li>
+<li>规则3：关键字不能做标识符。例如：public class static void 这些蓝色的字体都是关键字，关键字是不能做标识符的</li>
+<li>规则4：标识符是严格区分大小写的，大写A和小写a不一样</li>
+<li>规则5：标识符理论上是没有长度限制的</li>
+</ul>
+</blockquote>
+</li>
+<li><p>特例</p>
+<blockquote>
+<ul>
+<li><p>标识符严格区分大小写，但是类名例外，例如A和a，谁在前面便生成谁</p>
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">A</span><span class="token punctuation">{</span>
+    
+<span class="token punctuation">}</span>
+
+<span class="token keyword">class</span> a<span class="token punctuation">{</span>
+    
+<span class="token punctuation">}</span>
+
+<span class="token comment">//这样生成A.class</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
+<pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token keyword">class</span> a<span class="token punctuation">{</span>
+    
+<span class="token punctuation">}</span>
+
+<span class="token keyword">class</span> <span class="token class-name">A</span><span class="token punctuation">{</span>
+    
+<span class="token punctuation">}</span>
+
+<span class="token comment">//这样生成a.class</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><p>例子详解</p>
+<blockquote>
+<ul>
+<li>Q：创建一个java文件，起名 123.java可以吗？</li>
+<li>A：可以，完全可以，在windows操作系统中文件名叫做：123.java没毛病。123其实并不是标识符。只是一个文件名。只不过在123.java文件中无法定义public的类。</li>
+</ul>
+</blockquote>
+</li>
+</ol>
+</li>
+</ol>
 
                 
             </div>
@@ -451,7 +508,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://echochao.xyz/posts/8f92.html">http://echochao.xyz/posts/8f92.html</a>
+                    <a href="http://echochao.xyz/posts/9418.html">http://echochao.xyz/posts/9418.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -489,12 +546,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E5%BF%83%E6%83%85/">
-                                    <span class="chip bg-color">心情</span>
-                                </a>
-                            
-                                <a href="/tags/%E8%B4%AA%E9%A3%9F%E8%9B%87/">
-                                    <span class="chip bg-color">贪食蛇</span>
+                                <a href="/tags/%E7%AC%94%E8%AE%B0/">
+                                    <span class="chip bg-color">笔记</span>
                                 </a>
                             
                         </div>
@@ -931,31 +984,31 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/posts/8ed2.html">
+                <a href="/posts/e6b.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="贪吃蛇小历程_2">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="心情">
                         
-                        <span class="card-title">贪吃蛇小历程_2</span>
+                        <span class="card-title">心情</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            贪吃蛇较完善版本
+                            烦躁
                         
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-12-18
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-12-27
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/C%E8%AF%AD%E8%A8%80/" class="post-category">
-                                    C语言
+                            <a href="/categories/%E9%9A%8F%E7%AC%94/" class="post-category">
+                                    随笔
                                 </a>
                             
                             
@@ -965,20 +1018,8 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E7%AC%94%E8%AE%B0/">
-                        <span class="chip bg-color">笔记</span>
-                    </a>
-                    
-                    <a href="/tags/%E8%B4%AA%E9%A3%9F%E8%9B%87/">
-                        <span class="chip bg-color">贪食蛇</span>
-                    </a>
-                    
-                    <a href="/tags/VS2015/">
-                        <span class="chip bg-color">VS2015</span>
-                    </a>
-                    
-                    <a href="/tags/Easyx%E5%9B%BE%E5%BD%A2%E5%BA%93/">
-                        <span class="chip bg-color">Easyx图形库</span>
+                    <a href="/tags/%E5%BF%83%E6%83%85/">
+                        <span class="chip bg-color">心情</span>
                     </a>
                     
                 </div>
@@ -992,31 +1033,31 @@
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/posts/522c.html">
+                <a href="/posts/546e.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt="C语言知识点&amp;&amp;易错点总结">
+                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="Java-day03笔记">
                         
-                        <span class="card-title">C语言知识点&amp;&amp;易错点总结</span>
+                        <span class="card-title">Java-day03笔记</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            一学期结束的总结笔记，待完善
+                            day03学习笔记
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-12-11
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-12-26
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/C%E8%AF%AD%E8%A8%80/" class="post-category">
-                                    C语言
+                            <a href="/categories/Java/" class="post-category">
+                                    Java
                                 </a>
                             
                             
