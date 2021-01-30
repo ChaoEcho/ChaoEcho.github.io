@@ -6,7 +6,7 @@
   <link href="http://echochao.xyz/atom.xml" rel="self"/>
   
   <link href="http://echochao.xyz/"/>
-  <updated>2021-01-10T11:34:58.298Z</updated>
+  <updated>2021-01-30T12:24:21.547Z</updated>
   <id>http://echochao.xyz/</id>
   
   <author>
@@ -17,11 +17,36 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Linux学习笔记</title>
+    <link href="http://echochao.xyz/posts/86b7.html"/>
+    <id>http://echochao.xyz/posts/86b7.html</id>
+    <published>2021-01-30T12:16:41.727Z</published>
+    <updated>2021-01-30T12:24:21.547Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Linux学习笔记&quot;&gt;&lt;a href=&quot;#Linux学习笔记&quot; class=&quot;headerlink&quot; title=&quot;Linux学习笔记&quot;&gt;&lt;/a&gt;Linux学习笔记&lt;/h1&gt;&lt;h2 id=&quot;实用指令&quot;&gt;&lt;a href=&quot;#实用指令&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Linux" scheme="http://echochao.xyz/categories/Linux/"/>
+    
+    
+    <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>心情04</title>
     <link href="http://echochao.xyz/posts/23bb.html"/>
     <id>http://echochao.xyz/posts/23bb.html</id>
     <published>2021-01-10T11:30:46.000Z</published>
-    <updated>2021-01-10T11:34:58.298Z</updated>
+    <updated>2021-01-10T11:35:09.732Z</updated>
     
     
       
@@ -515,33 +540,6 @@
     
     
     <category term="Hello World" scheme="http://echochao.xyz/tags/Hello-World/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>我的第一篇博客</title>
-    <link href="http://echochao.xyz/posts/f929.html"/>
-    <id>http://echochao.xyz/posts/f929.html</id>
-    <published>2020-11-27T15:48:50.000Z</published>
-    <updated>2020-12-03T14:03:04.770Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;这难道不是很有意义的一天嘛&quot;&gt;&lt;a href=&quot;#这难道不是很有意义的一天嘛&quot; class=&quot;headerlink&quot; title=&quot;这难道不是很有意义的一天嘛&quot;&gt;&lt;/a&gt;这难道不是很有意义的一天嘛&lt;/h1&gt;&lt;p&gt;​       </summary>
-        
-      
-    
-    
-    
-    <category term="随笔" scheme="http://echochao.xyz/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="hexo" scheme="http://echochao.xyz/tags/hexo/"/>
-    
-    <category term="Git" scheme="http://echochao.xyz/tags/Git/"/>
     
   </entry>
   
