@@ -376,21 +376,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-01-30
+                    2021-02-01
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    1k
+                    1.9k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    3 分
+                    7 分
                 </div>
                 
 
@@ -415,8 +415,10 @@
             <div id="articleContent">
                 <h1 id="Linux学习笔记"><a href="#Linux学习笔记" class="headerlink" title="Linux学习笔记"></a>Linux学习笔记</h1><h2 id="实用指令"><a href="#实用指令" class="headerlink" title="实用指令"></a>实用指令</h2><ol>
 <li><code> cd /目录名</code> 切换目录</li>
-<li><code>mkdir 文件名</code> 创建文件</li>
+<li><code>mkdir 文件名</code> 创建文件 </li>
 <li><code>rmdir 文件名</code> 删除文件夹</li>
+<li><code>上下键</code> 历史命令</li>
+<li><code>cal</code> 显示日历 <code>date</code> 显示时间</li>
 </ol>
 <h2 id="专题介绍"><a href="#专题介绍" class="headerlink" title="专题介绍"></a>专题介绍</h2><h3 id="1-vim-和-vi-编辑器"><a href="#1-vim-和-vi-编辑器" class="headerlink" title="1.vim 和 vi 编辑器"></a>1.vim 和 vi 编辑器</h3><blockquote>
 <ol>
@@ -495,13 +497,13 @@
 </ul>
 </blockquote>
 </li>
-<li><p> 查询用户信息 <code>id 用户名</code></p>
+<li><p>查询用户信息 <code>id 用户名</code></p>
 </li>
-<li><p> 创建用户组 <code>groupadd 组名</code></p>
+<li><p>创建用户组 <code>groupadd 组名</code></p>
 </li>
-<li><p> 删除组 <code>groupdel 组名</code></p>
+<li><p>删除组 <code>groupdel 组名</code></p>
 </li>
-<li><p> 修改用户组 <code>usermod -g 用户组 用户名</code></p>
+<li><p>修改用户组 <code>usermod -g 用户组 用户名</code></p>
 </li>
 <li><p>用户和组的配置文件</p>
 <blockquote>
@@ -539,32 +541,19 @@
 <li><p>步骤</p>
 <blockquote>
 <ul>
-<li><p>CentOS 7 版本</p>
-</li>
-<li><p>开机进入选项菜单，立即点击任意键暂停</p>
-</li>
-<li><p>按<code>e</code>，编辑选项菜单</p>
-</li>
-<li><p>移动上下键至<code>linux16</code>核心命令行</p>
-</li>
-<li><p>在核心命令行最后加入<code>rd.break</code></p>
-</li>
-<li><p><img src="https://raw.githubusercontent.com/ChaoEcho/Pictures/main/img/20210130164751.png" alt="图片示范"></p>
-</li>
-<li><p>再按下<code>Ctrl + x</code>，进入单用户模式s</p>
-</li>
-<li><p>再输入以下命令 <code>switch_root:/# mount –o remount,rw /sysroot</code><br><code> switch_root:/# chroot /sysroot</code>   </p>
-</li>
-<li><p>设定密码<code>passwd 用户名</code></p>
-</li>
-<li><p>再输入命令<code>sh-4.2# touch /.autorelabel</code></p>
-</li>
-<li><p>退出<code>exit</code> ，退出两次</p>
-</li>
-<li><p>重启完成</p>
-</li>
-<li><p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/33c86fe9b6f7">参考链接</a></p>
-</li>
+<li>CentOS 7 版本</li>
+<li>开机进入选项菜单，立即点击任意键暂停</li>
+<li>按<code>e</code>，编辑选项菜单</li>
+<li>移动上下键至<code>linux16</code>核心命令行</li>
+<li>在核心命令行最后加入<code>rd.break</code></li>
+<li><img src="https://raw.githubusercontent.com/ChaoEcho/Pictures/main/img/20210130164751.png" alt="图片示范"></li>
+<li>再按下<code>Ctrl + x</code>，进入单用户模式s</li>
+<li>再输入以下命令 <code>switch_root:/# mount –o remount,rw /sysroot</code><br><code> switch_root:/# chroot /sysroot</code>   </li>
+<li>设定密码<code>passwd 用户名</code></li>
+<li>再输入命令<code>sh-4.2# touch /.autorelabel</code></li>
+<li>退出<code>exit</code> ，退出两次</li>
+<li>重启完成</li>
+<li><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/33c86fe9b6f7">参考链接</a></li>
 </ul>
 </blockquote>
 <blockquote>
@@ -681,6 +670,226 @@
 </ul>
 </blockquote>
 </li>
+</ul>
+</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</blockquote>
+<h3 id="5-帮助指令"><a href="#5-帮助指令" class="headerlink" title="5.帮助指令"></a>5.帮助指令</h3><blockquote>
+<ul>
+<li><p><code>man</code>指令</p>
+<blockquote>
+<ul>
+<li>基本语法：<code>man (命令或配置文件)</code>例如 <code>man ls</code></li>
+<li>向后翻一屏：<code>space</code> 向后翻一行：<code>Enter</code></li>
+<li>向前翻一屏： <code>b</code>         向前翻一行：<code>k</code></li>
+<li>退出：<code>q</code></li>
+</ul>
+</blockquote>
+</li>
+<li><p><code>help</code>指令</p>
+<blockquote>
+<ul>
+<li>基本语法：<code>help 命令</code> 例如<code>help cd</code></li>
+<li>获得shell内置命令的帮助信息</li>
+<li>拓展：<code>ls --help</code></li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</blockquote>
+<h3 id="6-文件目录类"><a href="#6-文件目录类" class="headerlink" title="6.文件目录类"></a>6.文件目录类</h3><blockquote>
+<ul>
+<li><p><code>pwd</code> 显示当前工作的绝对路径</p>
+</li>
+<li><p><code>ls</code>指令</p>
+<blockquote>
+<ul>
+<li><p>显示目录下的文件</p>
+</li>
+<li><p>基本语法：<code>ls [选项] [目录和文件]</code></p>
+</li>
+<li><p>常用选项</p>
+<blockquote>
+<ul>
+<li><code>-a</code> 显示当前目录的所有文件和目录，包括隐藏的</li>
+<li><code>-l</code> 以列表的方式显示信息</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><p><code>cd</code>指令</p>
+<blockquote>
+<ul>
+<li><p>切换目录</p>
+</li>
+<li><p>基本语法：<code>cd [参数]</code></p>
+</li>
+<li><p>常用参数</p>
+<blockquote>
+<ul>
+<li><strong>绝对路径和相对路径</strong><ul>
+<li><img src="https://raw.githubusercontent.com/ChaoEcho/Pictures/main/img/20210131154549.png" alt="目录格式"></li>
+</ul>
+</li>
+<li><code>cd ~</code> 或者 <code>cd</code> ，直接回到自己家目录</li>
+<li><code>cd ..</code> ，回到当前目录的上一级目录</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><p><code>mkdir</code> 指令</p>
+<blockquote>
+<ul>
+<li>创建目录</li>
+<li>基本语法：<code>mkdir 目录名</code></li>
+<li>常用选项<ul>
+<li><code>-p</code>  可以创建多级目录</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><p><code>rmdir</code> 指令</p>
+<blockquote>
+<ul>
+<li>删除目录</li>
+<li>基本语法：<code>rmdir [选项] 要删除的空目录</code></li>
+<li>常用选项<ul>
+<li>删除非空目录 <code>rm -rf 目录名</code>（<code>-r</code> 和 <code>-f</code> 的合写）</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><p><code>touch</code> 指令</p>
+<blockquote>
+<ul>
+<li>创建空文件</li>
+<li>基本语法：<code>touch 文件名称</code></li>
+</ul>
+</blockquote>
+</li>
+<li><p><code>cp</code> 指令</p>
+<blockquote>
+<ul>
+<li>拷贝文件到指定目录</li>
+<li>基本语法：<code>cp [选项] source dest</code></li>
+<li>常用选项<ul>
+<li><code>-r</code>  递归复制整个文件夹</li>
+<li>当发现路径下有相同名字文件，会询问<ul>
+<li><code>\cp -r source dest</code> 强制覆盖，不于询问</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><p><code>rm</code>指令</p>
+<blockquote>
+<ul>
+<li>移除文件或目录</li>
+<li>基本语法：<code>rm [选项] 要删除的文件或目录</code></li>
+<li>常用选项<ul>
+<li><code>-r</code> 递归删除整个文件夹</li>
+<li><code>-f</code> 强制删除不提示</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><p><code>mv</code> 指令</p>
+<blockquote>
+<ul>
+<li>移动文件与目录或者重命名</li>
+<li>基本语法<ul>
+<li><code>mv oldNameFile newNameFile</code> 重命名（即在本文件夹下操作）</li>
+<li><code>mv /temp/movefile /targetFolder</code> 移动文件（移动到不同文件夹）</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><p><code>cat</code> 指令</p>
+<blockquote>
+<ul>
+<li>查看文件内容（只读）</li>
+<li>基本语法<ul>
+<li><code>cat [选项] 要查看的文件</code></li>
+</ul>
+</li>
+<li>常用选项<ul>
+<li><code>-n</code> 显示行号</li>
+<li><code>| more</code> 分页显示<ul>
+<li><code>Enter</code> 下一行 <code>Space</code> 下一页</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><p><code>more</code> 指令</p>
+<blockquote>
+<ul>
+<li><p>以全屏幕的方式按页显示文本文件的内容</p>
+</li>
+<li><p>基本语法</p>
+<ul>
+<li><code>more 要查看的文件</code> </li>
+</ul>
+</li>
+<li><p>快捷键</p>
+<blockquote>
+<ul>
+<li><code>Space</code> 向下翻一页</li>
+<li><code>Enter</code> 向下翻一行</li>
+<li><code>q</code> 立即退出</li>
+<li><code>Ctrl + F </code> 向下滚动一屏</li>
+<li><code>Ctrl + B</code> 返回上一屏</li>
+<li><code>=</code> 输出当前行号</li>
+<li><code>:f</code> 输出文件名和当前行号</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><p><code>less</code> 指令</p>
+<blockquote>
+<ul>
+<li>分屏查看文件内容，与<code>more</code> 指令类似。<code>less</code> 显示文件内容时，<strong>并不是一次将整个文件加载之后才显示</strong> ，而是根据显示需要加载内容，<strong>对于显示大型文件有较高的效率</strong></li>
+<li>基本语法<ul>
+<li><code>less 要查看的文件</code></li>
+</ul>
+</li>
+<li>快捷键<ul>
+<li><code>Space</code> || <code> pagedown</code> 向下翻动一页</li>
+<li><code>pageup</code> 向上翻动一页</li>
+<li><code>/字串</code> 向下查找 <code>n</code> 向下查找 <code>N</code> 向上查找</li>
+<li><code>?字串</code> 向下查找 <code>n</code> 向下查找 <code>N</code> 向上查找</li>
+<li><code>q</code> 退出应用</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+</li>
+<li><p><code>&gt;</code>  指令 和 <code>&gt;&gt;</code> 指令</p>
+<blockquote>
+<ul>
+<li><code>&gt;</code> 输出重定向 和 <code>&gt;&gt;</code> 追加</li>
+<li>基本语法<ul>
+<li><code>ls -l &gt;文件</code> （列表的内容写入文件中，覆盖写）</li>
+<li><code>ls -al</code> &gt;&gt;文件 （列表的内容追加到文件的末尾）</li>
+<li><code>cat 文件1&gt;文件2</code> （将文件1的内容覆盖到文件2）</li>
+<li><code>echo "内容" &gt;&gt;文件</code> </li>
 </ul>
 </li>
 </ul>
@@ -1422,7 +1631,7 @@
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">12.8k</span>&nbsp;字
+                class="white-color">13.6k</span>&nbsp;字
             
             
             
