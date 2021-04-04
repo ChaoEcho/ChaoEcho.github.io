@@ -4,6 +4,193 @@
   
     
     <entry>
+      <title>贪吃蛇小历程_2</title>
+      <link href="posts/8ed2.html"/>
+      <url>posts/8ed2.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="我成功了！！！"><a href="#我成功了！！！" class="headerlink" title="我成功了！！！"></a>我成功了！！！</h2><p>​    总算弄好了头文件的声明</p><p>​    多亏了Easyx图形库，总算摆脱了了黑框框的命令行</p><p>​    源代码本来是想分享的，但是不知道为啥Github上传不上去，这也很难办啊</p><p>​    最终还是上传成功了</p><p>​    请戳这里     <a href="https://github.com/ChaoEcho/-Greedy-snake">传送门</a>  </p><p>​    算了，反正是个人博客，自己偷着乐吧！</p><p>​    下个版本增加数据管理功能，期待我的更新吧</p><p>​    如果12月底之前没更新，那估计就要2月份放假了，毕竟还要复习期末考！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> C语言 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> 贪食蛇 </tag>
+            
+            <tag> VS2015 </tag>
+            
+            <tag> Easyx图形库 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>贪吃蛇小历程_3</title>
+      <link href="posts/4e13.html"/>
+      <url>posts/4e13.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ChaoEcho/Pictures/main/img/20201222193152.jpg"></p><p>​            第3版贪吃蛇已经做出来了，添加了数据管理系统，当然啦，只是最简单的数据管理，因为时间不是很多，所以有时间的话可能会添加管理员模式和访客模式，以此来解决数据的管理</p><p>​            当然源代码还是会分享的，但这次其实没有改动多少，也没有添加最大分数系统（其实写个排序就行了，但是时间不够了，安心复习，现在先放下这些了）</p><p>​            好吧，我这个急性子，最大分数已经被我添加上了（还是非常简单的嘛）</p><p>​            请戳这里    <a href="https://github.com/ChaoEcho/-Greedy-snake">传送门</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> C语言 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> 贪食蛇 </tag>
+            
+            <tag> VS2015 </tag>
+            
+            <tag> Easyx图形库 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>静态网页课程笔记</title>
+      <link href="posts/8d5f.html"/>
+      <url>posts/8d5f.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="静态网页课程"><a href="#静态网页课程" class="headerlink" title="静态网页课程"></a>静态网页课程</h1><h2 id="一-标记"><a href="#一-标记" class="headerlink" title="一.标记"></a>一.标记</h2><ol><li><p>换行（单标记）&lt;</p><pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span> <span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>段落（可以用作换行）</p><pre class="line-numbers language-none"><code class="language-none">&lt;p&gt;&lt;/p&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>标题</p><pre class="line-numbers language-none"><code class="language-none">&lt;h&gt;&lt;/h&gt; --&gt;&lt;h1&gt;&lt;/h1&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>图片置入（单标记）</p><pre class="line-numbers language-none"><code class="language-none">&lt;img src="图片路径" width=" " height=" " border(边框)=" "/&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>超链接</p><pre class="line-numbers language-none"><code class="language-none">&lt;a href="本地网页路径" target=" "&gt;&lt;/a&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">taeget="_self" 不新建窗口taeget="_blank" 新建窗口<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>表格</p><pre class="line-numbers language-none"><code class="language-none">&lt;table width=" " height=" " border(边框)=" " &gt;&lt;tr rowspan(行合并)&gt;(行)&lt;td colspan(列合并)&gt; &lt;/td&gt;(列)&lt;tr&gt;&lt;/table&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><ol><li><p>靠右（左），居中</p><pre class="line-numbers language-none"><code class="language-none">align=" " right || left || center<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>靠上（下），中间</p><pre class="line-numbers language-none"><code class="language-none">valigen=" " top || bottom || middle<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ol></li><li><p>后续补充</p><pre class="line-numbers language-none"><code class="language-none">&lt;div&gt;&lt;/div&gt;  类似于段落&lt;span&gt;&lt;/span&gt; <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li></ol><h2 id="二-表单标签"><a href="#二-表单标签" class="headerlink" title="二.表单标签"></a>二.表单标签</h2><ol><li><p>输入类表单标签</p><pre class="line-numbers language-none"><code class="language-none">&lt;input type=" " value(显示内容)=" " /&gt;  单标记 单行文本<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">type="text" 明文显示 type="password" 暗文显示<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">&lt;textarea cols(每行字数)=" " rows(行数)=" " &gt;(类似于word文档排版文字)&lt;/ textarea&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>选择类表单标记</p><ol><li><p>选择标记</p><pre class="line-numbers language-none"><code class="language-none">&lt;input type=" " name(相同name算一组)=" " value(返回值)=" " checked="checked"(默认选中)/&gt; 文本<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">type="radio" 单选type="checkbox" 多选<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>下拉列表</p><pre class="line-numbers language-none"><code class="language-none">&lt;selsect&gt;&lt;option value=" " selected="selected"(默认选中)&gt; 文本 &lt;/option&gt;&lt;/select&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre></li></ol></li><li><p>表单的提交与重置</p><pre class="line-numbers language-none"><code class="language-none">&lt;form action(提交路径)=" " method(提交方式)=" "&gt;表单内容&lt;input type="submit" value="提交" /&gt;&lt;input type="reset" value="重置" /&gt;&lt;/form&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></li></ol><h2 id="三-属性"><a href="#三-属性" class="headerlink" title="三.属性"></a>三.属性</h2><ol><li><p>颜色</p><pre class="line-numbers language-none"><code class="language-none">font color (文字)  bgcolor (表格)<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>字体大小</p><pre class="line-numbers language-none"><code class="language-none">size<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>字体类型</p><pre class="line-numbers language-none"><code class="language-none">face<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>加粗</p><pre class="line-numbers language-none"><code class="language-none">&lt;b&gt;&lt;/b&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 静态网页 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>PS笔记</title>
+      <link href="posts/2630.html"/>
+      <url>posts/2630.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="PS笔记"><a href="#PS笔记" class="headerlink" title="PS笔记"></a>PS笔记</h2><h3 id="一-辅助工具"><a href="#一-辅助工具" class="headerlink" title="一.辅助工具"></a>一.辅助工具</h3><ol><li><p> 放大缩小：Z 或者 Ctrl &amp; + (-) </p></li><li><p>实际屏幕(100%) Ctrl &amp; 1 或 双击放大镜 </p><p> 适应屏幕              Ctrl &amp; 0 或 双击抓手 </p></li><li><p> 抓手: H (在其他工具使用时,按住Space空格键既可以暂时使用)</p></li><li><p>标尺：Ctrl &amp; R </p><blockquote><p> 视图：标尺 （拖拽标尺可以出现参考线）<br> 参考线（清除或锁定）<br> 显示：网格 Ctrl &amp; ‘</p></blockquote></li><li><p> 显示额外内容：Ctrl &amp; H (可以隐藏参考线和网格)</p></li><li><p> 取消选中 Ctrl &amp; D</p></li></ol><h3 id="二-历史记录"><a href="#二-历史记录" class="headerlink" title="二.历史记录"></a>二.历史记录</h3><ol><li><p> 还原 Ctrl &amp; Z (在最后一步和倒数第二步之间跳转，用于对比)</p></li><li><p> 后退一步 Alt &amp; Ctrl &amp; Z</p></li><li><p>  前进一步 Shift &amp; Ctrl &amp; Z </p></li></ol><h3 id="三-图层"><a href="#三-图层" class="headerlink" title="三.图层"></a>三.图层</h3><ol><li><p> 新建（删除）图层   右下角按钮</p></li><li><p> 删除图层 Delete </p></li><li><p>移动多个图层：</p><blockquote><p> a.将要移动图层选中</p><p> b.合并图层  Ctrl &amp; E  或者 盖印 Ctrl &amp; Shitf &amp; Alt &amp; E </p><p> c.链接图层 右下角按钮</p><p> d.新建组 Ctrl &amp; G</p></blockquote></li></ol><h3 id="四-移动工具-V"><a href="#四-移动工具-V" class="headerlink" title="四.移动工具 V"></a>四.移动工具 V</h3><ol><li><p> 按住 Shift 就会固定方向移动，如水平，竖直或斜向45度</p></li><li><p> 按住 Alt 同时移动会创造一个新图层</p></li></ol><h3 id="五-图像大小-Alt-amp-Ctrl-amp-I"><a href="#五-图像大小-Alt-amp-Ctrl-amp-I" class="headerlink" title="五.图像大小 Alt &amp; Ctrl &amp; I"></a>五.图像大小 Alt &amp; Ctrl &amp; I</h3><ol><li><p> 先设置分辨率为72（打印时300）在设置像素大小</p></li><li><p> 将图像大小变大的时候会失真，尽量不要放太大</p></li></ol><h3 id="六-自由变换-Ctrl-amp-T"><a href="#六-自由变换-Ctrl-amp-T" class="headerlink" title="六.自由变换 Ctrl &amp; T"></a>六.自由变换 Ctrl &amp; T</h3><ol><li><p> 锁定比例 按住 Shift 同时缩放</p></li><li><p> 参考点（可调节）缩放 按住 Alt 键同时缩放</p></li><li><p> 尽量不要放的太大，不然失真</p></li><li><p> Enter 键确认操作  Esc 取消操作</p></li><li><p> 镜像效果&amp;旋转&amp;斜切&amp;扭曲（设置透视） 图像右键</p></li></ol><h3 id="七-画布大小-Alt-amp-Ctrl-amp-C"><a href="#七-画布大小-Alt-amp-Ctrl-amp-C" class="headerlink" title="七.画布大小 Alt &amp; Ctrl &amp; C"></a>七.画布大小 Alt &amp; Ctrl &amp; C</h3><ol><li><p> 四个锁定各不相同，按需求使用</p></li><li><p> 背景层不同于其他图层（擦除背景层时填充的是背景色）</p></li></ol><h3 id="八-裁剪-C-裁切"><a href="#八-裁剪-C-裁切" class="headerlink" title="八.裁剪 C 裁切"></a>八.裁剪 C 裁切</h3><ol><li><p> 预设的裁剪大小如果所选择的不满足大小就会缩放</p></li><li><p> 不勾选删除裁剪的像素相当于是缩小了画布，内容在边框之外</p></li><li><p> 裁切相当于自动裁剪掉没有像素的大部分内容</p></li></ol><h3 id="九-油漆桶-G"><a href="#九-油漆桶-G" class="headerlink" title="九.油漆桶 G"></a>九.油漆桶 G</h3><ol><li><p> 常用颜色可以保存在色板（浮动栏）里，方便使用</p></li><li><p> 容差数值越小辨别越精确，越大误差越大</p></li><li><p> 连续的 激活的时候只有连续的相似颜色才会填充</p></li><li><p> 前景色填充 Alt &amp; Delete 背景色填充 Ctrl &amp; Delete (均没有容差的存在，全部填充)</p></li></ol><h3 id="十-渐变工具-G"><a href="#十-渐变工具-G" class="headerlink" title="十.渐变工具 G"></a>十.渐变工具 G</h3><ol><li><p> 按住 Shift &amp; G 可以在相同快捷键工具下切换</p></li><li><p> 按住 Shift 同时拖拽可以固定方向，如水平，竖直，45度</p></li></ol><h3 id="十一-画笔工具-B"><a href="#十一-画笔工具-B" class="headerlink" title="十一.画笔工具 B"></a>十一.画笔工具 B</h3><ol><li><p> 画直线 先点一个点然后按住 Shift 在点出一个点</p></li><li><p> 快速选择颜色 按住 Shift &amp; Alt &amp; 鼠标右键 直接调色</p></li><li><p>笔触大小  缩小【    或者 按住 Alt &amp;鼠标右键向左移动</p><p> ​                 放大  】  或者 按住 Alt &amp;鼠标右键向右移动</p></li><li><p>硬度（羽化边缘模糊程度）</p><p> 缩小 Shift &amp;  【  &amp; 或者 按住 Alt &amp;鼠标右键向上移动</p><p> 放大 Shift &amp;   】 &amp; 或者 按住 Alt &amp;鼠标右键向下移动</p></li><li><p> 流量反复按住涂抹可以加深颜色</p></li><li><p> 浮动面板 F5</p></li></ol><h3 id="十二-仿制图章-S"><a href="#十二-仿制图章-S" class="headerlink" title="十二.仿制图章 S"></a>十二.仿制图章 S</h3><ol><li><p> 调整大小和硬度和画笔工具类似</p></li><li><p> 按住 Alt 取样</p></li><li><p> CapsLK 键关闭显示圆形</p></li></ol><h3 id="十三-选区"><a href="#十三-选区" class="headerlink" title="十三.选区"></a>十三.选区</h3><ol><li><p> Ctrl &amp; D 取消选区</p></li><li><p> Ctrl &amp; H 隐藏额外内容</p></li><li><p> 按住 Shift 固定方向移动</p></li><li><p> 选择反向（选区之外的内容）Ctrl &amp; Shift &amp; I </p></li></ol><h3 id="十四-选取工具细讲"><a href="#十四-选取工具细讲" class="headerlink" title="十四.选取工具细讲"></a>十四.选取工具细讲</h3><p> a.矩形（椭圆）选框 M ：</p><ol><li><p> 按住 Shift 键同时拖拽为正方形（正圆）</p></li><li><p> 按住 Alt 键以鼠标落点为中心点选择矩形（椭圆）</p></li><li><p>在已有一个选区的情况下 按住 Shift 相加 按住 Alt 相减 同时按住 相交</p><p>b.套索工具 L </p></li><li><p> 在多边形套索工具下按住 Alt 键转换为套索工具</p></li><li><p>磁性套索工具半自动</p><p>c.快速选择工具（魔棒工具） W</p></li><li><p>按住 Alt 键缩小选区</p><p>十五.钢笔工具 P </p></li><li><p> 按住 Esc 键从之前路径结束，创建新的路径</p></li><li><p> 结束编辑后想重新编辑，可以使用选择工具 A （白箭头模式）选择想要编辑的锚点；按住 Shift 键可以选择多个锚点（或框选）。选择工具 A （黑箭头）选择整个路径</p></li><li><p> 在钢笔模式下按住 Ctrl 键就可以切换为选择工具（白箭头）</p></li><li><p> 闭合路径 在开始的锚点点击鼠标左键</p></li><li><p> 已创建路径变为曲线 选择钢笔工具下的转换点工具（钢笔工具下按住 Alt 键）可以改变弧度，单击锚点可以归零所调节的弧度</p></li><li><p> 创建的过程中拖拽锚点即可创建曲线，按住 Alt 点击锚点可以取消下一条锚点的弧度</p></li><li><p> 添加删除锚点在钢笔工具列表下，删除锚点同时会删除弧度</p></li><li><p> Ctrl &amp; Enter 将路径自动转换为选区（未闭合的路径会自动闭合）</p></li><li><p> 工作路径是暂时的，将其拖拽到新建上即可变为路径（永久）</p></li></ol><h3 id="十六-形状-U"><a href="#十六-形状-U" class="headerlink" title="十六.形状  U"></a>十六.形状  U</h3><ol><li> 形状是路径的一种特殊形式</li></ol><h3 id="十七-文字工具-T"><a href="#十七-文字工具-T" class="headerlink" title="十七.文字工具 T"></a>十七.文字工具 T</h3><ol><li><p> 输入结束不是按 Enter ，快捷键是小键盘 Enter 或者 Ctrl &amp; Enter </p></li><li><p> 取消操作 Esc 或者 菜单上的禁用符号</p></li><li><p> Ctrl &amp; T 缩放文本框（字体也会调节）</p></li><li><p> 路径文字 先创建路径，在用文本工具编辑，可以用白箭头选择起始位置</p></li></ol><h3 id="十八-通道"><a href="#十八-通道" class="headerlink" title="十八.通道"></a>十八.通道</h3><ol><li> 感觉和选区有点关系，挺复杂的，等待后续补充</li></ol><h3 id="十九-蒙版"><a href="#十九-蒙版" class="headerlink" title="十九.蒙版"></a>十九.蒙版</h3><ol><li> 也很懵逼</li></ol><h3 id="二十-调色原理"><a href="#二十-调色原理" class="headerlink" title="二十.调色原理"></a>二十.调色原理</h3><ol><li><p> 色阶 Ctrl &amp; L</p></li><li><p> 色阶调整时按住 Alt 键有复位按钮</p></li></ol><h3 id="二十一-滤镜"><a href="#二十一-滤镜" class="headerlink" title="二十一.滤镜"></a>二十一.滤镜</h3><ol><li> 模糊滤镜：高斯模糊 &amp;  动感模糊 &amp; 径向模糊</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> Photo Shop </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Git使用笔记</title>
+      <link href="posts/8161.html"/>
+      <url>posts/8161.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="一-知识点总结"><a href="#一-知识点总结" class="headerlink" title="一.知识点总结"></a>一.知识点总结</h2><ol><li><p>提交文件</p><p> <code>$ git add readme.txt</code>  </p><p> <code>$ git commit -m "wrote a readme file"</code></p></li><li><p>查看仓库状态</p><p> <code>$ git status</code></p></li><li><p>查看修改内容</p><p> <code>$ git diff readme.txt </code></p><blockquote><p> git diff比较的是工作目录中当前文件和暂存区域快照之间的差异， 也就是修改之后还没有暂存起来的变化内容。若要查看已暂存的将要添加到下次提交里的内容，可以用 git diff –cached 命令。</p><p> 请注意，git diff 本身只显示尚未暂存的改动，而不是自上次提交以来所做的所有改动。 所以有时候你一下子暂存了所有更新过的文件后，运行 git diff 后却什么也没有，就是这个原因。</p></blockquote><p> <code>git diff HEAD -- readme.txt</code> 查看工作区和版本库里面最新版本的区别</p></li><li><p>显示从最近到最远的提交日志</p><p> <code>$ git log</code>  （显示全面）</p><p> <code>$ git log --pretty=oneline </code>  （只显示版本号）</p><p> <code>$ git reflog</code>  （查看命令历史）</p></li><li><p>回退版本</p><p> <code>$ git reset --hard HEAD^</code> （回退了一个版本）</p><p> <code>$ git reset --hard HEAD~100</code>  （回退了一百个版本）</p><p> <code>$ git reset --hard 1094a</code>  （指定版本回退）</p></li><li><p>丢弃工作区的修改</p><p> <code>$ git checkout -- readme.txt</code></p><p> <code>$ git restore readme.txt</code></p><blockquote><p> 一种是<code>readme.txt</code>自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；</p><p> 一种是<code>readme.txt</code>已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。</p></blockquote><p> 丢弃暂存区的修改</p><p> <code>$ git reset HEAD readme.txt</code></p></li><li><p>删除版本库文件</p><p> <code>$ git rm test.txt</code></p><blockquote><p> 同时本机文件也被删除</p></blockquote></li><li><p>提交远程</p><p> <code>$ git push origin &lt;分支名&gt;</code></p><blockquote><p> 第一次推送<code>master</code>分支时，加上了<code>-u</code>参数，Git不但会把本地的<code>master</code>分支内容推送的远程新的<code>master</code>分支，还会把本地的<code>master</code>分支和远程的<code>master</code>分支关联起来，在以后的推送或者拉取时就可以简化命令。</p></blockquote></li><li><p>抓取远程</p><p> <code>$ git pull</code></p></li><li><p> 分支使用</p></li><li><p> 查看分支：<code>git branch</code></p></li><li><p> 创建分支：<code>git branch &lt;name&gt;</code> </p></li><li><p> 切换分支：<code>git checkout &lt;name&gt; </code>或者<code>git switch &lt;name&gt; </code></p></li><li><p> 创建+切换分支：<code>git checkout -b &lt;name&gt;</code>或者<code>git switch -c  &lt;name&gt;</code></p></li><li><p>合并某分支到当前分支：<code>git merge &lt;name&gt; </code> （快速合并）</p><p> 禁用快速合并，并创建一个commit</p><p>  <code>$ git merge --no-ff -m "注释" dev</code></p></li><li><p>删除分支：<code>git branch -d &lt;name&gt; </code></p><p> 强制删除：<code>git branch -D &lt;name&gt; </code></p></li><li><p>查看分支合并情况</p><blockquote><p> 详细情况 <code>git log --graph</code></p><p> 版本号全显示 <code>git log --graph --pretty=oneline</code></p><p> 版本号简略显示 <code>git log --graph --pretty=oneline --abbrev-commit</code></p></blockquote></li><li><p>Bug分支</p><blockquote><p> 工作现场“储藏” <code>$ git stash</code></p><p> 查看工作储藏 <code>$ git stash list</code></p><p> 恢复后，stash内容并不删除 <code>$ git stash apply</code></p><p> 恢复的同时把stash内容删除 <code>$ git stash pop</code></p><p> 特定恢复 <code>$ git stash apply &lt;name&gt;</code> </p><p> 复制一个特定的提交到当前分支 <code>$ git cherry-pick &lt;版本号&gt;</code></p></blockquote></li><li><p>多人协作</p><blockquote><p> 查看远程库的信息  <code>$ git remote</code></p><p> 查看远程库的详细信息  <code>$ git remote</code></p><p> 在本地创建和远程分支对应的分支</p><p>  <code>git checkout -b branch-name origin/branch-name</code></p><p> 建立本地分支和远程分支的关联</p><p> <code>git branch --set-upstream branch-name origin/branch-name</code></p></blockquote></li><li><p>Rebase</p><blockquote><p> 历史记录变为直线型 <code>$ git rebase</code>  </p><p> 停止转变 <code>$ git rebase --quit</code></p></blockquote></li><li><p>标签管理</p><blockquote><p> 创建标签 <code>$ git tag v1.0</code></p><p> 创建具体标签 <code>$ git tag v0.9 &lt;版本号&gt;</code></p><p> 查看标签 <code>$ git tag</code></p><p> 查看标签信息 <code>git show &lt;tagname&gt;</code></p><p> 创建带有说明的标签，用<code>-a</code>指定标签名，<code>-m</code>指定说明文字：</p><p> <code>$ git tag -a v0.1 -m "version 0.1 released" 1094adb</code></p><p> 删除标签 <code>$ git tag -d v0.1</code></p><p> 推送标签 <code>git push origin &lt;tagname&gt;</code></p><p> 一次性推送全部尚未推送到远程的本地标签 <code>$ git push origin --tags</code></p><p> 删除远程标签，先删除本地，再删除远端</p><p> <code>$ git push origin :refs/tags/v0.9</code></p></blockquote></li></ol><h2 id="二-异常解决"><a href="#二-异常解决" class="headerlink" title="二.异常解决"></a>二.异常解决</h2><ol><li><p> 出现 END 不要慌张 ，按 Q 键 即可</p></li><li><p> Github查看仓库地址，点击下载按钮的拓展即可</p></li><li><p>删除文件 </p><p> <code>$ rm test.txt</code></p><p> 新建文件夹</p><p> <code>$ mkdir &lt;files&gt;</code></p></li><li><p>查看文件</p><p> <code>$ cat test.txt</code></p><p> 查看文件夹下文件列表</p><p> <code>$ ls</code></p><p> 创建文件</p><p> <code>$ touch &lt;文件名&gt;</code></p></li><li><p>定位文件</p><ol><li><p> 先定位磁盘 <code>cd C:</code> (有：)</p></li><li><p> 在定位文件夹 <code>cd Echochao</code> (无：)</p></li></ol></li></ol><h2 id="三-别名备份"><a href="#三-别名备份" class="headerlink" title="三.别名备份"></a>三.别名备份</h2><ol><li><p>定义别名    <code>$ git config --global alias.st status</code></p></li><li><p>撤销别名</p><ol><li><p><code>git status</code>  —&gt; <code>git st</code></p></li><li><p><code>git commit</code> —&gt; <code>git ci</code></p></li><li><p><code>git chekout</code> —&gt; <code>git co</code></p></li><li><p><code>git branch</code>  —&gt; <code>git br</code></p></li><li><p><code>git log --graph --pretty=oneline --abbrev-commit</code>     —&gt;    <code>git lg</code></p></li></ol></li></ol><h2 id="四-PDF常见命令总结"><a href="#四-PDF常见命令总结" class="headerlink" title="四.PDF常见命令总结"></a>四.<a href="https://github.com/ChaoEcho/Echo-Store">PDF常见命令总结</a></h2><h2 id=""><a href="#" class="headerlink" title=""></a></h2><h2 id="参考链接：廖老师，yyds"><a href="#参考链接：廖老师，yyds" class="headerlink" title="参考链接：廖老师，yyds"></a>参考链接：<a href="https://www.liaoxuefeng.com/wiki/896043488029600">廖老师，yyds</a></h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Git大佬总结笔记</title>
+      <link href="posts/398.html"/>
+      <url>posts/398.html</url>
+      
+        <content type="html"><![CDATA[<h5 id="一、Git-和-SVN-的区别"><a href="#一、Git-和-SVN-的区别" class="headerlink" title="一、Git 和 SVN 的区别"></a>一、Git 和 SVN 的区别</h5><table><thead><tr><th align="center"></th><th align="center">类型</th><th align="center">描述</th></tr></thead><tbody><tr><td align="center"><strong>Git</strong></td><td align="center">分布式</td><td align="center">本地有镜像,无网络时也可以提交到本地镜像,待到有网络时再push到服务器</td></tr><tr><td align="center"><strong>SVN</strong></td><td align="center">集中式</td><td align="center">无网络不可以提交, 和 Git 的主要区别是历史版本维护的位置</td></tr></tbody></table><h5 id="二、安装"><a href="#二、安装" class="headerlink" title="二、安装 :"></a>二、安装 :</h5><ol><li><a href="https://git-scm.com/downloads"> Git 下载地址 (Linux/Unix, Mac, Windows 等相关平台)</a></li></ol><blockquote><p>注意: 以下所有命令都在 <em>Git Bash</em> 中运行,不是 cmd, 拷贝命令的时候不用复制前面的 $ 符号</p></blockquote><pre class="line-numbers language-none"><code class="language-none">### 配置所有 Git 仓库的 用户名 和 email $ git config --global user.name "Your Name"$ git config --global user.email "youremail@example.com"### 配置当前 Git 仓库的 用户名 和 email$ git config user.name "Your Name"$ git config user.email "youremail@example.com"### 查看全局配置的 用户名 和 email $ git config --global user.name     查看用户名$ git config --global user.email     查看邮箱地址### 查看当前仓库配置的 用户名 和 email $ git config user.name     查看用户名$ git config user.email     查看邮箱地址# Git 是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址# git config 命令的 --global 参数，用了这个参数，表示你这台机器上所有的 Git 仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址(不加 --global)。$ git config --list --show-origin 查看所有的配置以及它们所在的文件<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h5 id="三、相关命令"><a href="#三、相关命令" class="headerlink" title="三、相关命令"></a>三、相关命令</h5><pre class="line-numbers language-none"><code class="language-none">(所有命令都在 Git Bash 中运行)$ git                           查看 git 的相关命令 (git --help)$ git --version                 查看 git 的版本$ git config                    查看 git config 的相关命令$ git pull origin develop       从远程(origin) 的 develop 分支拉取代码<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><h6 id="1-初始化本地仓库-在-Git-Bash-中输入对应的命令"><a href="#1-初始化本地仓库-在-Git-Bash-中输入对应的命令" class="headerlink" title="1. 初始化本地仓库: 在 Git Bash 中输入对应的命令"></a>1. 初始化本地仓库: 在 <em>Git Bash</em> 中输入对应的命令</h6><pre class="line-numbers language-none"><code class="language-none">注: 下面所有的命令使用的时候不用拷贝最前面的 $ 符号$ cd d:$ mkdir learngit$ cd learngit$ pwd# cd: change directory 改变目录# mkdir  创建目录# pwd    用于显示当前目录注意: 为避免遇到各种奇怪的问题,确保目录名 (包括父目录) 不含中文<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none"># 不想要 git 管理跟踪的文件,可以在仓库根目录添加 .gitignore 文件,在里面写对应的规则$ git init              把当前目录初始化为 git 仓库$ ls -ah                查看当前目录下的文件,包含隐藏文件 (不带 -ah 看不了隐藏文件)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><h6 id="2-添加文件到仓库"><a href="#2-添加文件到仓库" class="headerlink" title="2. 添加文件到仓库"></a>2. 添加文件到仓库</h6><pre class="line-numbers language-none"><code class="language-none">$ git add &lt;file&gt;              如: git add readme.txt$ git commit -m "description"     如: git commit -m "add readme.txt"# 添加文件到仓库分两步:# 1. add 添加该文件到仓库, # 添加许多同种类型的文件,可以使用通配符 * (记得加引号)  如: git add "*.txt"  命令就是添加所有 .txt 文件# 2. commit 提交该文件到仓库, description 为你对该次提交的描述说明, 注意: 可以多次 add 不同的文件,commit 可以一次提交多个文件<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h6 id="3-查看仓库目前状态-项目是否有修改、添加、未追踪的文件等"><a href="#3-查看仓库目前状态-项目是否有修改、添加、未追踪的文件等" class="headerlink" title="3. 查看仓库目前状态 (项目是否有修改、添加、未追踪的文件等)"></a>3. 查看仓库目前状态 (项目是否有修改、添加、未追踪的文件等)</h6><pre class="line-numbers language-none"><code class="language-none">$ git status<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h6 id="4-查看修改内容-查看文件不同-difference"><a href="#4-查看修改内容-查看文件不同-difference" class="headerlink" title="4. 查看修改内容,查看文件不同 (difference)"></a>4. 查看修改内容,查看文件不同 (difference)</h6><pre class="line-numbers language-none"><code class="language-none">$ git diff $ git diff &lt;file&gt;                $ git diff --cached$ git diff HEAD -- &lt;file&gt;# git diff 查看工作区(work dict)和暂存区(stage)的区别# git diff --cached 查看暂存区(stage)和分支(master)的区别# git diff HEAD -- &lt;file&gt; 查看工作区和版本库里面最新版本的区别如: git diff readme.txt  表示查看 readme.txt 修改了什么,有什么不同<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h6 id="5-查看提交日志"><a href="#5-查看提交日志" class="headerlink" title="5. 查看提交日志"></a>5. 查看提交日志</h6><pre class="line-numbers language-none"><code class="language-none">$ git log$ git log --oneline     #美化输出信息,每个记录显示为一行,显示 commit_id 前几位数$ git log --pretty=oneline     #美化输出信息,每个记录显示为一行,显示完整的 commit_id$ git log --graph --pretty=format:'%h -%d %s (%cr)' --abbrev-commit --$ git log --graph --pretty=oneline --abbrev-commit# 显示从最近到最远的提交日志# 日志输出一大串类似 3628164...882e1e0 的是commit_id (版本号),和 SVN 不一样，Git 的commit_id 不是 1，2，3…… 递增的数字，而是一个 SHA1 计算出来的一个非常大的数字，用十六进制表示, 因为 Git 是分布式的版本控制系统，当多人在同一个版本库里工作，如果大家都用 1，2，3……作为版本号，那肯定就冲突了# 最后一个会打印出提交的时间等, (HEAD -&gt; master)指向的是当前的版本# 退出查看 log 日志,输入字母 q (英文状态)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h6 id="6-版本回退"><a href="#6-版本回退" class="headerlink" title="6. 版本回退"></a>6. 版本回退</h6><pre class="line-numbers language-none"><code class="language-none">$ git reset --hard HEAD^$ git reset --hard &lt;commit_id&gt;# HEAD    表示当前版本，也就是最新的提交# HEAD^   上一个版本# HEAD^^  上上一个版本# HEAD~100   往上100个版本# 回退到 commit_id 对应的那个版本,commit_id 为版本号,只需要前几位就行<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h6 id="7-查看命令历史-用于版本切换"><a href="#7-查看命令历史-用于版本切换" class="headerlink" title="7. 查看命令历史 (用于版本切换)"></a>7. 查看命令历史 (用于版本切换)</h6><pre class="line-numbers language-none"><code class="language-none">$ git reflog# 假如我们依次提交了三个版本 a-&gt;b-&gt;c,然后昨天我们从版本 c 回退到了版本 b,今天我们又想要回到版本 c,此时就可以使用 reflog 命令来查找 c 版本的 commit_id,然后使用 reset 命令来进行版本回退<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h6 id="8-撤销修改"><a href="#8-撤销修改" class="headerlink" title="8. 撤销修改"></a>8. 撤销修改</h6><p>######- 丢弃工作区 (Working Directory) 的修改</p><pre class="line-numbers language-none"><code class="language-none">$ git restore &lt;file&gt;  (建议使用) (如: git restore readme.txt)$ git checkout -- &lt;file&gt;# 命令中 -- 很重要，没有就变成 “切换到另一个分支” 的命令<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>######- 丢弃暂存区 (stage/index) 的修改</p><pre class="line-numbers language-none"><code class="language-none"># 第一步: 把暂存区的修改撤销掉(unstage)，重新放回工作区$ git restore --staged &lt;file&gt;# 第二步: 撤销工作区的修改$ git restore &lt;file&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>######- 小结</p><blockquote><ul><li>当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令<code>git restore &lt;file&gt;</code>。</li><li>当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令<code>git restore --staged &lt;file&gt;</code>，就回到了场景1，第二步按场景1操作。</li><li>已经提交了不合适的修改到版本库时，想要撤销本次提交，参考 <em>版本回退</em> 一节，不过前提是没有推送到远程库。</li></ul></blockquote><h6 id="9-删除文件"><a href="#9-删除文件" class="headerlink" title="9. 删除文件"></a>9. 删除文件</h6><pre class="line-numbers language-none"><code class="language-none">$ git rm &lt;file&gt;# git rm &lt;file&gt; 相当于执行- rm &lt;file&gt;- git add &lt;file<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><h6 id="其他命令"><a href="#其他命令" class="headerlink" title="其他命令"></a>其他命令</h6><pre class="line-numbers language-none"><code class="language-none">$ cat &lt;file&gt;    显示文件内容,如: cat readme.txt 就是在 git bash 中显示该文件内容$ cd ~         进入用户主目录$ open ~/.ssh  Mac 打开存放 ssh 文件夹<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><h5 id="四、相关名词理解"><a href="#四、相关名词理解" class="headerlink" title="四、相关名词理解 :"></a>四、相关名词理解 :</h5><h6 id="1-工作区-Working-Directory-自己电脑里能看到的目录"><a href="#1-工作区-Working-Directory-自己电脑里能看到的目录" class="headerlink" title="1. 工作区 (Working Directory): 自己电脑里能看到的目录"></a>1. 工作区 (Working Directory): 自己电脑里能看到的目录</h6><h6 id="2-版本库-Repository-工作区有一个隐藏目录-git，这个不算工作区，而是-Git-的版本库"><a href="#2-版本库-Repository-工作区有一个隐藏目录-git，这个不算工作区，而是-Git-的版本库" class="headerlink" title="2. 版本库 (Repository): 工作区有一个隐藏目录 .git，这个不算工作区，而是 Git 的版本库"></a>2. 版本库 (Repository): 工作区有一个隐藏目录 .git，这个不算工作区，而是 Git 的版本库</h6><blockquote><p>Git 的版本库里存了很多东西，其中最重要的就是称为 stage（或者叫index）的暂存区，还有 Git 为我们自动创建的第一个分支 master，以及指向 master 的一个指针叫 HEAD</p></blockquote><h5 id="五、远程仓库"><a href="#五、远程仓库" class="headerlink" title="五、远程仓库 :"></a>五、远程仓库 :</h5><h6 id="1-创建-SSH-Key"><a href="#1-创建-SSH-Key" class="headerlink" title="1. 创建 SSH Key"></a>1. <a href="https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key">创建 SSH Key</a></h6><pre class="line-numbers language-none"><code class="language-none">$ ssh-keygen -t rsa -C "youremail@example.com"# 邮件地址换成你自己的邮件地址，然后一路回车，使用默认值即可，由于这个Key也不是用于军事目的，所以也无需设置密码。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><blockquote><p>在用户主目录下，看看有没有.ssh目录，如果有，再看看这个目录下有没有id_rsa和id_rsa.pub这两个文件，如果已经有了，可直接跳到下一步。如果没有，打开Shell（Windows下打开Git Bash），创建SSH Key</p></blockquote><blockquote><p>如果一切顺利的话，可以在用户主目录里找到.ssh目录，里面有 id_rsa 和 id_rsa.pub 两个文件，这两个就是 SSH Key 的秘钥对，id_rsa 是私钥，不能泄露出去，id_rsa.pub 是公钥，可以放心地告诉任何人。</p></blockquote><h6 id="2-登录-GitHub-在-Settings-中找到-SSH-设置项中添加新的-SSH-Key-设置任意-title-在-Key-文本框里粘贴-id-rsa-pub-文件的内容"><a href="#2-登录-GitHub-在-Settings-中找到-SSH-设置项中添加新的-SSH-Key-设置任意-title-在-Key-文本框里粘贴-id-rsa-pub-文件的内容" class="headerlink" title="2. 登录 GitHub ,在 Settings 中找到 SSH 设置项中添加新的 SSH Key,设置任意 title,在 Key 文本框里粘贴 id_rsa.pub 文件的内容"></a>2. 登录 GitHub ,在 Settings 中找到 SSH 设置项中添加新的 SSH Key,设置任意 title,在 Key 文本框里粘贴 id_rsa.pub 文件的内容</h6><pre class="line-numbers language-none"><code class="language-none"># 复制Key用这种方式复制$ cd ~/.ssh$ cat id_rsa.pub$ open ~/.ssh   (Mac 下打开存放 Github 生成的 ssh Key 文件夹)$ pbcopy &lt; ~/.ssh/id_rsa.pub  Mac 下拷贝生成的公钥内容<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h6 id="3-关联远程仓库-先有本地仓库"><a href="#3-关联远程仓库-先有本地仓库" class="headerlink" title="3. 关联远程仓库 (先有本地仓库)"></a>3. 关联远程仓库 (先有本地仓库)</h6><pre class="line-numbers language-none"><code class="language-none">$ git remote add origin git@github.com:renyuns/learngit.git# 后面的地址换成自己的 GitHub 仓库地址<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h6 id="4-推送到远程仓库"><a href="#4-推送到远程仓库" class="headerlink" title="4. 推送到远程仓库"></a>4. 推送到远程仓库</h6><pre class="line-numbers language-none"><code class="language-none">$ git remote       查看远程库信息$ git remote -v    查看远程库详细信息$ git remote rm origin  删除已关联的远程库 origin$ git push -u origin master    #第一次推送$ git push origin master      推送本地 master 分支到远程库$ git push origin dev         推送本地 dev 分支到远程库#  除了第一次推送,不需要添加 -u 参数# 一个本地库关联多个远程库,例如同时关联 GitHub 和 Gitee:# 1. 先关联GitHub的远程库：(注意:远程库的名称叫 github，不叫 origin)$ git remote add github git@github.com:renyun/learngit1.git# 2. 再关联Gitee的远程库：(注意:远程库的名称叫 gitee，不叫 origin)$ git remote add gitee git@gitee.com:renyun/learngit1.git# 3. 推送到远程库$ git push github master$ git push gitee master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><blockquote><p>加上了-u参数，Git 不但会把本地的 master 分支内容推送的远程新的 master 分支，还会把本地的 master 分支和远程的master分支关联起来</p></blockquote><h6 id="5-从远程仓库克隆-先有远程库"><a href="#5-从远程仓库克隆-先有远程库" class="headerlink" title="5. 从远程仓库克隆 (先有远程库)"></a>5. 从远程仓库克隆 (先有远程库)</h6><pre class="line-numbers language-none"><code class="language-none">$ git clone git@github.com:renyuns/gitskills.git# GitHub 支持多种协议,上面是 ssh 协议,还有 https 协议<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h5 id="六、分支"><a href="#六、分支" class="headerlink" title="六、分支"></a>六、分支</h5><pre class="line-numbers language-none"><code class="language-none">$ git branch       查看分支列表及当前分支$ git branch dev   创建 dev 分支$ git switch dev   切换到 dev 分支  (git checkout dev)$ git switch -c dev   创建并切换到新的 dev 分支  (git checkout -b dev)$ git switch -c dev origin/dev  创建远程 origin 的 dev 分支到本地并切换到该分支$ git branch -d dev   删除 dev 分支$ git branch -D dev   强制删除 dev 分支$ git merge dev       合并 dev 分支到当前分支 (当有冲突的时候,需要先解决冲突)$ git merge --no-ff -m "merge with no-ff" dev  合并 dev 分支到当前分支(禁用Fast forward 合并策略)$ git pull  拉取远程分支最新的内容$ git branch --set-upstream-to=origin/dev dev  指定本地 dev 分支与远程 origin/dev 分支的链接# 为本次合并要创建一个新的commit，所以加上-m参数，把commit描述写进去# 合并分支时，加上--no-ff参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而 fast forward 合并就看不出来曾经做过合并$ git log --graph  查看分支合并图$ git log --graph --pretty=oneline --abbrev-commit$ git stash  保存当前工作区和暂存区的修改状态,切换到其他分支修复 bug 等工作,然后在回来继续工作$ git stash list  查看保存现场的列表$ git stash pop   恢复的同时把 stash 内容也删除$ git stash apply  恢复现场，stash内容并不删除$ git stash drop   删除 stash 内容$ git stash apply stash@{0}  多次stash，恢复的时候，先用git stash list查看，然后恢复指定的stash# 通常在 dev 分支开发时,需要有紧急 bug 需要马上处理,保存现在修改的文件等,先修复 bug 后再回来继续工作的情况$ git cherry-pick &lt;commit&gt; 复制一个特定的提交到当前分支(当前分支的内容需要先 commit,然后冲突的文件需要解决冲突,然后 commit)$ git rebase  把本地未push的分叉提交历史整理成直线(使得我们在查看历史提交的变化时更容易，因为分叉的提交需要三方对比)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h5 id="七、标签"><a href="#七、标签" class="headerlink" title="七、标签"></a>七、标签</h5><pre class="line-numbers language-none"><code class="language-none"># 切换到对应的分支 branch 上,查看或者操作对应的标签 tag $ git tag  查看所有的标签$ git tag &lt;tagname&gt;  打标签(默认标签是打在最新提交的commit上) 如: git tag v1.0$ git tag &lt;tagname&gt; &lt;commit_id&gt;  给对应的 commit_id 打标签$ git tag -a &lt;tagname&gt; -m "标签说明信息" &lt;commit_id&gt; 创建带有说明的标签，用-a指定标签名，-m指定说明文字$ git tag -d &lt;tagname&gt; 删除一个本地标签$ git push origin :refs/tags/&lt;tagname&gt;可以删除一个远程标签$ git show &lt;tagname&gt;  查看标签信息$ git push origin &lt;tagname&gt;  推送一个本地标签到远程$ git push origin --tags     一次性推送全部尚未推送到远程的本地标签# 删除远程标签,需要先删除本地标签,然后在删除远程标签,如:删除标签 v0.9$ git tag -d v0.9$ git push origin :refs/tags/v0.9<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h5 id="八、相关工具及网站"><a href="#八、相关工具及网站" class="headerlink" title="八、相关工具及网站"></a>八、相关工具及网站</h5><ol><li><a href="https://git-scm.com/">Git 官网</a></li><li><a href="https://github.com/">GitHub-开源协作社区</a></li><li><a href="https://gitee.com/">Gitee(码云)-国内开源协作社区</a></li><li><a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">廖雪峰的 Git 教程-新手必看</a></li><li><a href="https://try.github.io/levels/1/challenges/1">15 分钟学会 Git</a></li><li><a href="https://git-scm.com/book/zh/v2">Git Book</a></li><li><a href="https://github.com/github/gitignore">.gitignore 文件常用配置</a></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>心情01</title>
+      <link href="posts/a9a8.html"/>
+      <url>posts/a9a8.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="四级好难啊，全班就我一个不及格"><a href="#四级好难啊，全班就我一个不及格" class="headerlink" title="四级好难啊，全班就我一个不及格"></a>四级好难啊，全班就我一个不及格</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 心情 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Linux学习笔记</title>
       <link href="posts/86b7.html"/>
       <url>posts/86b7.html</url>
@@ -21,6 +208,85 @@
         <tags>
             
             <tag> 笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于链表与数组的一点想法</title>
+      <link href="posts/41f5.html"/>
+      <url>posts/41f5.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="突发感想，链表与数组的区别"><a href="#突发感想，链表与数组的区别" class="headerlink" title="突发感想，链表与数组的区别"></a>突发感想，链表与数组的区别</h2><p>链表的创建就仿佛只要给他一个临时的名字即可，我只要知道开头就可以</p><p>而数组呢？每一个元素的名字仿佛都已经确定，我就是a[10]；我不能由a[9]推出</p><p>突然想到一句话，附庸的附庸不是我附庸。前几天纠结于创建链表时如何确定个数，从而设置变量个数</p><p>后来看了别人的源代码，才想明白。链表就像那句名言说的一样，我不可以直接管控附庸的附庸，他是</p><p>可以层层递推，从而实现目标。所以创建的过程中，我也就只需要一个中间变量来不断传递就可以啦，OK</p><h2 id="突然豁然开朗"><a href="#突然豁然开朗" class="headerlink" title="突然豁然开朗"></a>突然豁然开朗</h2><h3 id="我悟了"><a href="#我悟了" class="headerlink" title="我悟了"></a>我悟了</h3><p>理论上的悟到了，今天实际操作了一下，还是会有空指针的问题，以及指针不知道如何处置的问题，任重道远啊</p><h3 id="纸上得来终觉浅，绝知此事要躬行！"><a href="#纸上得来终觉浅，绝知此事要躬行！" class="headerlink" title="纸上得来终觉浅，绝知此事要躬行！"></a>纸上得来终觉浅，绝知此事要躬行！</h3>]]></content>
+      
+      
+      <categories>
+          
+          <category> C语言 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+            <tag> 数组 </tag>
+            
+            <tag> 链表 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>C语言知识点&amp;&amp;易错点总结</title>
+      <link href="posts/522c.html"/>
+      <url>posts/522c.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="C语言知识点-amp-amp-易错点总结"><a href="#C语言知识点-amp-amp-易错点总结" class="headerlink" title="C语言知识点&amp;&amp;易错点总结"></a>C语言知识点&amp;&amp;易错点总结</h1><ol><li><p>=   是赋值</p><p>== 是判断相等</p></li><li><p>double &amp;&amp; float 辨析</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">double i ;float  j ;scanf  ("%lf %f",&amp;i,&amp;j);printf ("double=%f float=%f",i,j);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>定义辨析</p><blockquote><ul><li><p>常量定义</p><pre class="line-numbers language-none"><code class="language-none">constant int i = 100;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>宏定义</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">简单的宏 #define 标识符 替换列表    #define COOL 1带参数宏 #define 标识符(x1,x2···) 替换列表#define MAX(x,y) ((x)&gt;(y)?(x):(y))<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>类型定义</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">typedef 已有名 新名字typedef int BOOL<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li></ul></blockquote></li><li><p>scanf 小注释</p><blockquote><ul><li><p>scanf 在遇到一个不可能属于当前项的字符时，会把此字符放回缓冲区（书上原话，当时没太注意）</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">scanf("%d",i) ;  此时如果输入非数字，如+,a等,scanf不会读取,i是原值<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>scanf 读取字符时</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">scanf(" %c",&amp;ch); 可以跳过开始的空格<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>scanf 读取数字时</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">scanf("%2d",&amp;i); 只读取两位数字 不仅适用于整型，浮点数相同，但小数点算一位<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>scanf 并不会读取换行符，而是继续留在缓冲区，所以可以用getchar()来消灭它</p></li><li><p>清空缓冲区</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">fflush(stdin); 避免缓冲区影响<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>VS 使用注释</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">scanf_s("%c",ch,1);  要加_s ， 同时读入字符或者字符串时要说明读取的数量，不然会报错<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ul></blockquote></li><li><p>printf 小注释</p><blockquote><ul><li><p>保留空间</p><pre class="line-numbers language-c" data-language="c"><code class="language-c">整数：<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%10d"</span><span class="token punctuation">,</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>  保留<span class="token number">10</span>字节位数，默认右对齐，位数不足空格补位<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%-10d"</span><span class="token punctuation">,</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span> 保留<span class="token number">10</span>字节位数，负号右对齐，位数不足空格补位<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%010d"</span><span class="token punctuation">,</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token operator">||</span><span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%.10d"</span><span class="token punctuation">,</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span> 用<span class="token number">0</span>补位小数：<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%10.5f"</span><span class="token punctuation">,</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>  保留<span class="token number">10</span>字节位数，小数点后保留<span class="token number">5</span>位<span class="token punctuation">,</span>小数位数不足时补<span class="token number">0</span>，总位数不足空格补位<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%010.5f"</span><span class="token punctuation">,</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span> 总位数不足<span class="token number">10</span>时，用<span class="token number">0</span>补位<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li></ul></blockquote></li><li><p>特殊字符输出的时候要加\</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">printf ("这有一个\\");<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>Windows.h</p><blockquote><ul><li><p>倒计时</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">Sleep (1000) 倒计时1s 1000ms = 1s ，单位是毫秒<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>清空屏幕</p><pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token function">system</span><span class="token punctuation">(</span><span class="token string">"cls"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ul></blockquote></li><li></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> C语言 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>C语言中二维数组与指针的关系</title>
+      <link href="posts/c940.html"/>
+      <url>posts/c940.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="C语言中二维数组与指针的关系"><a href="#C语言中二维数组与指针的关系" class="headerlink" title="C语言中二维数组与指针的关系"></a>C语言中二维数组与指针的关系</h2><h3 id="1-行的关系"><a href="#1-行的关系" class="headerlink" title="1.行的关系"></a>1.行的关系</h3><p> 因为数组是连续排列的，所以行的关系是很好确定的</p><p> 有一维数组推论知，若数组i [n] [m] ， 则 i[j] 就是一个指向 第j行的第一个元素的指针；</p><p> 可以简单的直接写成int *p = i[j] ，若想表示该行其他数，则可以直接对p进行加法操作</p><h3 id="2-列的关系"><a href="#2-列的关系" class="headerlink" title="2.列的关系"></a>2.列的关系</h3><p> 由于是连续排列，所以列的关系并不是那么简单表示的，现在我们重新定义一个新的指针</p><p> int (*p)[m] ，该指针则表示p的长度是 int * m ；对p进行自增操作，则其一次跳过一行，</p><p> 对该指针的赋值则也有所不同 ， p=&amp;i[j] ；表示将第j行的所有元素的指针赋给p，满足它的</p><p> 定义长度，与i[j]有所不同，指针的长度不同，同时其运算要写为(*p)[k]，表示其所在行第k</p><p> 的元素</p><p> 暂且总结这么多，等以后熟练之后我再来</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> C语言 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数组 </tag>
             
         </tags>
       
@@ -204,97 +470,6 @@
     
     
     <entry>
-      <title>贪吃蛇小历程_3</title>
-      <link href="posts/4e13.html"/>
-      <url>posts/4e13.html</url>
-      
-        <content type="html"><![CDATA[<p><img src="https://raw.githubusercontent.com/ChaoEcho/Pictures/main/img/20201222193152.jpg"></p><p>​            第3版贪吃蛇已经做出来了，添加了数据管理系统，当然啦，只是最简单的数据管理，因为时间不是很多，所以有时间的话可能会添加管理员模式和访客模式，以此来解决数据的管理</p><p>​            当然源代码还是会分享的，但这次其实没有改动多少，也没有添加最大分数系统（其实写个排序就行了，但是时间不够了，安心复习，现在先放下这些了）</p><p>​            好吧，我这个急性子，最大分数已经被我添加上了（还是非常简单的嘛）</p><p>​            请戳这里    <a href="https://github.com/ChaoEcho/-Greedy-snake">传送门</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> C语言 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 笔记 </tag>
-            
-            <tag> 贪食蛇 </tag>
-            
-            <tag> VS2015 </tag>
-            
-            <tag> Easyx图形库 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>关于链表与数组的一点想法</title>
-      <link href="posts/41f5.html"/>
-      <url>posts/41f5.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="突发感想，链表与数组的区别"><a href="#突发感想，链表与数组的区别" class="headerlink" title="突发感想，链表与数组的区别"></a>突发感想，链表与数组的区别</h2><p>链表的创建就仿佛只要给他一个临时的名字即可，我只要知道开头就可以</p><p>而数组呢？每一个元素的名字仿佛都已经确定，我就是a[10]；我不能由a[9]推出</p><p>突然想到一句话，附庸的附庸不是我附庸。前几天纠结于创建链表时如何确定个数，从而设置变量个数</p><p>后来看了别人的源代码，才想明白。链表就像那句名言说的一样，我不可以直接管控附庸的附庸，他是</p><p>可以层层递推，从而实现目标。所以创建的过程中，我也就只需要一个中间变量来不断传递就可以啦，OK</p><h2 id="突然豁然开朗"><a href="#突然豁然开朗" class="headerlink" title="突然豁然开朗"></a>突然豁然开朗</h2><h3 id="我悟了"><a href="#我悟了" class="headerlink" title="我悟了"></a>我悟了</h3><p>理论上的悟到了，今天实际操作了一下，还是会有空指针的问题，以及指针不知道如何处置的问题，任重道远啊</p><h3 id="纸上得来终觉浅，绝知此事要躬行！"><a href="#纸上得来终觉浅，绝知此事要躬行！" class="headerlink" title="纸上得来终觉浅，绝知此事要躬行！"></a>纸上得来终觉浅，绝知此事要躬行！</h3>]]></content>
-      
-      
-      <categories>
-          
-          <category> C语言 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 笔记 </tag>
-            
-            <tag> 数组 </tag>
-            
-            <tag> 链表 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>贪吃蛇小历程_2</title>
-      <link href="posts/8ed2.html"/>
-      <url>posts/8ed2.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="我成功了！！！"><a href="#我成功了！！！" class="headerlink" title="我成功了！！！"></a>我成功了！！！</h2><p>​    总算弄好了头文件的声明</p><p>​    多亏了Easyx图形库，总算摆脱了了黑框框的命令行</p><p>​    源代码本来是想分享的，但是不知道为啥Github上传不上去，这也很难办啊</p><p>​    最终还是上传成功了</p><p>​    请戳这里     <a href="https://github.com/ChaoEcho/-Greedy-snake">传送门</a>  </p><p>​    算了，反正是个人博客，自己偷着乐吧！</p><p>​    下个版本增加数据管理功能，期待我的更新吧</p><p>​    如果12月底之前没更新，那估计就要2月份放假了，毕竟还要复习期末考！</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> C语言 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 笔记 </tag>
-            
-            <tag> 贪食蛇 </tag>
-            
-            <tag> VS2015 </tag>
-            
-            <tag> Easyx图形库 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>贪吃蛇小历程_1</title>
       <link href="posts/8f92.html"/>
       <url>posts/8f92.html</url>
@@ -322,186 +497,11 @@
     
     
     <entry>
-      <title>C语言知识点&amp;&amp;易错点总结</title>
-      <link href="posts/522c.html"/>
-      <url>posts/522c.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="C语言知识点-amp-amp-易错点总结"><a href="#C语言知识点-amp-amp-易错点总结" class="headerlink" title="C语言知识点&amp;&amp;易错点总结"></a>C语言知识点&amp;&amp;易错点总结</h1><ol><li><p>=   是赋值</p><p>== 是判断相等</p></li><li><p>double &amp;&amp; float 辨析</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">double i ;float  j ;scanf  ("%lf %f",&amp;i,&amp;j);printf ("double=%f float=%f",i,j);<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>定义辨析</p><blockquote><ul><li><p>常量定义</p><pre class="line-numbers language-none"><code class="language-none">constant int i = 100;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>宏定义</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">简单的宏 #define 标识符 替换列表    #define COOL 1带参数宏 #define 标识符(x1,x2···) 替换列表#define MAX(x,y) ((x)&gt;(y)?(x):(y))<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre></li><li><p>类型定义</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">typedef 已有名 新名字typedef int BOOL<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li></ul></blockquote></li><li><p>scanf 小注释</p><blockquote><ul><li><p>scanf 在遇到一个不可能属于当前项的字符时，会把此字符放回缓冲区（书上原话，当时没太注意）</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">scanf("%d",i) ;  此时如果输入非数字，如+,a等,scanf不会读取,i是原值<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>scanf 读取字符时</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">scanf(" %c",&amp;ch); 可以跳过开始的空格<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>scanf 读取数字时</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">scanf("%2d",&amp;i); 只读取两位数字 不仅适用于整型，浮点数相同，但小数点算一位<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>scanf 并不会读取换行符，而是继续留在缓冲区，所以可以用getchar()来消灭它</p></li><li><p>清空缓冲区</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">fflush(stdin); 避免缓冲区影响<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>VS 使用注释</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">scanf_s("%c",ch,1);  要加_s ， 同时读入字符或者字符串时要说明读取的数量，不然会报错<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ul></blockquote></li><li><p>printf 小注释</p><blockquote><ul><li><p>保留空间</p><pre class="line-numbers language-c" data-language="c"><code class="language-c">整数：<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%10d"</span><span class="token punctuation">,</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>  保留<span class="token number">10</span>字节位数，默认右对齐，位数不足空格补位<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%-10d"</span><span class="token punctuation">,</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span> 保留<span class="token number">10</span>字节位数，负号右对齐，位数不足空格补位<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%010d"</span><span class="token punctuation">,</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span><span class="token operator">||</span><span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%.10d"</span><span class="token punctuation">,</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span> 用<span class="token number">0</span>补位小数：<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%10.5f"</span><span class="token punctuation">,</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span>  保留<span class="token number">10</span>字节位数，小数点后保留<span class="token number">5</span>位<span class="token punctuation">,</span>小数位数不足时补<span class="token number">0</span>，总位数不足空格补位<span class="token function">printf</span><span class="token punctuation">(</span><span class="token string">"%010.5f"</span><span class="token punctuation">,</span>i<span class="token punctuation">)</span><span class="token punctuation">;</span> 总位数不足<span class="token number">10</span>时，用<span class="token number">0</span>补位<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></li></ul></blockquote></li><li><p>特殊字符输出的时候要加\</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">printf ("这有一个\\");<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>Windows.h</p><blockquote><ul><li><p>倒计时</p><pre class="line-numbers language-C" data-language="C"><code class="language-C">Sleep (1000) 倒计时1s 1000ms = 1s ，单位是毫秒<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>清空屏幕</p><pre class="line-numbers language-c" data-language="c"><code class="language-c"><span class="token function">system</span><span class="token punctuation">(</span><span class="token string">"cls"</span><span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ul></blockquote></li><li></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> C语言 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 笔记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>静态网页课程笔记</title>
-      <link href="posts/8d5f.html"/>
-      <url>posts/8d5f.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="静态网页课程"><a href="#静态网页课程" class="headerlink" title="静态网页课程"></a>静态网页课程</h1><h2 id="一-标记"><a href="#一-标记" class="headerlink" title="一.标记"></a>一.标记</h2><ol><li><p>换行（单标记）&lt;</p><pre class="line-numbers language-html" data-language="html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span> <span class="token punctuation">/&gt;</span></span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>段落（可以用作换行）</p><pre class="line-numbers language-none"><code class="language-none">&lt;p&gt;&lt;/p&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>标题</p><pre class="line-numbers language-none"><code class="language-none">&lt;h&gt;&lt;/h&gt; --&gt;&lt;h1&gt;&lt;/h1&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>图片置入（单标记）</p><pre class="line-numbers language-none"><code class="language-none">&lt;img src="图片路径" width=" " height=" " border(边框)=" "/&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>超链接</p><pre class="line-numbers language-none"><code class="language-none">&lt;a href="本地网页路径" target=" "&gt;&lt;/a&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">taeget="_self" 不新建窗口taeget="_blank" 新建窗口<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>表格</p><pre class="line-numbers language-none"><code class="language-none">&lt;table width=" " height=" " border(边框)=" " &gt;&lt;tr rowspan(行合并)&gt;(行)&lt;td colspan(列合并)&gt; &lt;/td&gt;(列)&lt;tr&gt;&lt;/table&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><ol><li><p>靠右（左），居中</p><pre class="line-numbers language-none"><code class="language-none">align=" " right || left || center<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>靠上（下），中间</p><pre class="line-numbers language-none"><code class="language-none">valigen=" " top || bottom || middle<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ol></li><li><p>后续补充</p><pre class="line-numbers language-none"><code class="language-none">&lt;div&gt;&lt;/div&gt;  类似于段落&lt;span&gt;&lt;/span&gt; <span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre></li></ol><h2 id="二-表单标签"><a href="#二-表单标签" class="headerlink" title="二.表单标签"></a>二.表单标签</h2><ol><li><p>输入类表单标签</p><pre class="line-numbers language-none"><code class="language-none">&lt;input type=" " value(显示内容)=" " /&gt;  单标记 单行文本<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">type="text" 明文显示 type="password" 暗文显示<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">&lt;textarea cols(每行字数)=" " rows(行数)=" " &gt;(类似于word文档排版文字)&lt;/ textarea&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>选择类表单标记</p><ol><li><p>选择标记</p><pre class="line-numbers language-none"><code class="language-none">&lt;input type=" " name(相同name算一组)=" " value(返回值)=" " checked="checked"(默认选中)/&gt; 文本<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none">type="radio" 单选type="checkbox" 多选<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>下拉列表</p><pre class="line-numbers language-none"><code class="language-none">&lt;selsect&gt;&lt;option value=" " selected="selected"(默认选中)&gt; 文本 &lt;/option&gt;&lt;/select&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre></li></ol></li><li><p>表单的提交与重置</p><pre class="line-numbers language-none"><code class="language-none">&lt;form action(提交路径)=" " method(提交方式)=" "&gt;表单内容&lt;input type="submit" value="提交" /&gt;&lt;input type="reset" value="重置" /&gt;&lt;/form&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></li></ol><h2 id="三-属性"><a href="#三-属性" class="headerlink" title="三.属性"></a>三.属性</h2><ol><li><p>颜色</p><pre class="line-numbers language-none"><code class="language-none">font color (文字)  bgcolor (表格)<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>字体大小</p><pre class="line-numbers language-none"><code class="language-none">size<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>字体类型</p><pre class="line-numbers language-none"><code class="language-none">face<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li><li><p>加粗</p><pre class="line-numbers language-none"><code class="language-none">&lt;b&gt;&lt;/b&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 静态网页 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 笔记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>心情01</title>
-      <link href="posts/a9a8.html"/>
-      <url>posts/a9a8.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="四级好难啊，全班就我一个不及格"><a href="#四级好难啊，全班就我一个不及格" class="headerlink" title="四级好难啊，全班就我一个不及格"></a>四级好难啊，全班就我一个不及格</h1>]]></content>
-      
-      
-      <categories>
-          
-          <category> 随笔 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 心情 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>PS笔记</title>
-      <link href="posts/2630.html"/>
-      <url>posts/2630.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="PS笔记"><a href="#PS笔记" class="headerlink" title="PS笔记"></a>PS笔记</h2><h3 id="一-辅助工具"><a href="#一-辅助工具" class="headerlink" title="一.辅助工具"></a>一.辅助工具</h3><ol><li><p> 放大缩小：Z 或者 Ctrl &amp; + (-) </p></li><li><p>实际屏幕(100%) Ctrl &amp; 1 或 双击放大镜 </p><p> 适应屏幕              Ctrl &amp; 0 或 双击抓手 </p></li><li><p> 抓手: H (在其他工具使用时,按住Space空格键既可以暂时使用)</p></li><li><p>标尺：Ctrl &amp; R </p><blockquote><p> 视图：标尺 （拖拽标尺可以出现参考线）<br> 参考线（清除或锁定）<br> 显示：网格 Ctrl &amp; ‘</p></blockquote></li><li><p> 显示额外内容：Ctrl &amp; H (可以隐藏参考线和网格)</p></li><li><p> 取消选中 Ctrl &amp; D</p></li></ol><h3 id="二-历史记录"><a href="#二-历史记录" class="headerlink" title="二.历史记录"></a>二.历史记录</h3><ol><li><p> 还原 Ctrl &amp; Z (在最后一步和倒数第二步之间跳转，用于对比)</p></li><li><p> 后退一步 Alt &amp; Ctrl &amp; Z</p></li><li><p>  前进一步 Shift &amp; Ctrl &amp; Z </p></li></ol><h3 id="三-图层"><a href="#三-图层" class="headerlink" title="三.图层"></a>三.图层</h3><ol><li><p> 新建（删除）图层   右下角按钮</p></li><li><p> 删除图层 Delete </p></li><li><p>移动多个图层：</p><blockquote><p> a.将要移动图层选中</p><p> b.合并图层  Ctrl &amp; E  或者 盖印 Ctrl &amp; Shitf &amp; Alt &amp; E </p><p> c.链接图层 右下角按钮</p><p> d.新建组 Ctrl &amp; G</p></blockquote></li></ol><h3 id="四-移动工具-V"><a href="#四-移动工具-V" class="headerlink" title="四.移动工具 V"></a>四.移动工具 V</h3><ol><li><p> 按住 Shift 就会固定方向移动，如水平，竖直或斜向45度</p></li><li><p> 按住 Alt 同时移动会创造一个新图层</p></li></ol><h3 id="五-图像大小-Alt-amp-Ctrl-amp-I"><a href="#五-图像大小-Alt-amp-Ctrl-amp-I" class="headerlink" title="五.图像大小 Alt &amp; Ctrl &amp; I"></a>五.图像大小 Alt &amp; Ctrl &amp; I</h3><ol><li><p> 先设置分辨率为72（打印时300）在设置像素大小</p></li><li><p> 将图像大小变大的时候会失真，尽量不要放太大</p></li></ol><h3 id="六-自由变换-Ctrl-amp-T"><a href="#六-自由变换-Ctrl-amp-T" class="headerlink" title="六.自由变换 Ctrl &amp; T"></a>六.自由变换 Ctrl &amp; T</h3><ol><li><p> 锁定比例 按住 Shift 同时缩放</p></li><li><p> 参考点（可调节）缩放 按住 Alt 键同时缩放</p></li><li><p> 尽量不要放的太大，不然失真</p></li><li><p> Enter 键确认操作  Esc 取消操作</p></li><li><p> 镜像效果&amp;旋转&amp;斜切&amp;扭曲（设置透视） 图像右键</p></li></ol><h3 id="七-画布大小-Alt-amp-Ctrl-amp-C"><a href="#七-画布大小-Alt-amp-Ctrl-amp-C" class="headerlink" title="七.画布大小 Alt &amp; Ctrl &amp; C"></a>七.画布大小 Alt &amp; Ctrl &amp; C</h3><ol><li><p> 四个锁定各不相同，按需求使用</p></li><li><p> 背景层不同于其他图层（擦除背景层时填充的是背景色）</p></li></ol><h3 id="八-裁剪-C-裁切"><a href="#八-裁剪-C-裁切" class="headerlink" title="八.裁剪 C 裁切"></a>八.裁剪 C 裁切</h3><ol><li><p> 预设的裁剪大小如果所选择的不满足大小就会缩放</p></li><li><p> 不勾选删除裁剪的像素相当于是缩小了画布，内容在边框之外</p></li><li><p> 裁切相当于自动裁剪掉没有像素的大部分内容</p></li></ol><h3 id="九-油漆桶-G"><a href="#九-油漆桶-G" class="headerlink" title="九.油漆桶 G"></a>九.油漆桶 G</h3><ol><li><p> 常用颜色可以保存在色板（浮动栏）里，方便使用</p></li><li><p> 容差数值越小辨别越精确，越大误差越大</p></li><li><p> 连续的 激活的时候只有连续的相似颜色才会填充</p></li><li><p> 前景色填充 Alt &amp; Delete 背景色填充 Ctrl &amp; Delete (均没有容差的存在，全部填充)</p></li></ol><h3 id="十-渐变工具-G"><a href="#十-渐变工具-G" class="headerlink" title="十.渐变工具 G"></a>十.渐变工具 G</h3><ol><li><p> 按住 Shift &amp; G 可以在相同快捷键工具下切换</p></li><li><p> 按住 Shift 同时拖拽可以固定方向，如水平，竖直，45度</p></li></ol><h3 id="十一-画笔工具-B"><a href="#十一-画笔工具-B" class="headerlink" title="十一.画笔工具 B"></a>十一.画笔工具 B</h3><ol><li><p> 画直线 先点一个点然后按住 Shift 在点出一个点</p></li><li><p> 快速选择颜色 按住 Shift &amp; Alt &amp; 鼠标右键 直接调色</p></li><li><p>笔触大小  缩小【    或者 按住 Alt &amp;鼠标右键向左移动</p><p> ​                 放大  】  或者 按住 Alt &amp;鼠标右键向右移动</p></li><li><p>硬度（羽化边缘模糊程度）</p><p> 缩小 Shift &amp;  【  &amp; 或者 按住 Alt &amp;鼠标右键向上移动</p><p> 放大 Shift &amp;   】 &amp; 或者 按住 Alt &amp;鼠标右键向下移动</p></li><li><p> 流量反复按住涂抹可以加深颜色</p></li><li><p> 浮动面板 F5</p></li></ol><h3 id="十二-仿制图章-S"><a href="#十二-仿制图章-S" class="headerlink" title="十二.仿制图章 S"></a>十二.仿制图章 S</h3><ol><li><p> 调整大小和硬度和画笔工具类似</p></li><li><p> 按住 Alt 取样</p></li><li><p> CapsLK 键关闭显示圆形</p></li></ol><h3 id="十三-选区"><a href="#十三-选区" class="headerlink" title="十三.选区"></a>十三.选区</h3><ol><li><p> Ctrl &amp; D 取消选区</p></li><li><p> Ctrl &amp; H 隐藏额外内容</p></li><li><p> 按住 Shift 固定方向移动</p></li><li><p> 选择反向（选区之外的内容）Ctrl &amp; Shift &amp; I </p></li></ol><h3 id="十四-选取工具细讲"><a href="#十四-选取工具细讲" class="headerlink" title="十四.选取工具细讲"></a>十四.选取工具细讲</h3><p> a.矩形（椭圆）选框 M ：</p><ol><li><p> 按住 Shift 键同时拖拽为正方形（正圆）</p></li><li><p> 按住 Alt 键以鼠标落点为中心点选择矩形（椭圆）</p></li><li><p>在已有一个选区的情况下 按住 Shift 相加 按住 Alt 相减 同时按住 相交</p><p>b.套索工具 L </p></li><li><p> 在多边形套索工具下按住 Alt 键转换为套索工具</p></li><li><p>磁性套索工具半自动</p><p>c.快速选择工具（魔棒工具） W</p></li><li><p>按住 Alt 键缩小选区</p><p>十五.钢笔工具 P </p></li><li><p> 按住 Esc 键从之前路径结束，创建新的路径</p></li><li><p> 结束编辑后想重新编辑，可以使用选择工具 A （白箭头模式）选择想要编辑的锚点；按住 Shift 键可以选择多个锚点（或框选）。选择工具 A （黑箭头）选择整个路径</p></li><li><p> 在钢笔模式下按住 Ctrl 键就可以切换为选择工具（白箭头）</p></li><li><p> 闭合路径 在开始的锚点点击鼠标左键</p></li><li><p> 已创建路径变为曲线 选择钢笔工具下的转换点工具（钢笔工具下按住 Alt 键）可以改变弧度，单击锚点可以归零所调节的弧度</p></li><li><p> 创建的过程中拖拽锚点即可创建曲线，按住 Alt 点击锚点可以取消下一条锚点的弧度</p></li><li><p> 添加删除锚点在钢笔工具列表下，删除锚点同时会删除弧度</p></li><li><p> Ctrl &amp; Enter 将路径自动转换为选区（未闭合的路径会自动闭合）</p></li><li><p> 工作路径是暂时的，将其拖拽到新建上即可变为路径（永久）</p></li></ol><h3 id="十六-形状-U"><a href="#十六-形状-U" class="headerlink" title="十六.形状  U"></a>十六.形状  U</h3><ol><li> 形状是路径的一种特殊形式</li></ol><h3 id="十七-文字工具-T"><a href="#十七-文字工具-T" class="headerlink" title="十七.文字工具 T"></a>十七.文字工具 T</h3><ol><li><p> 输入结束不是按 Enter ，快捷键是小键盘 Enter 或者 Ctrl &amp; Enter </p></li><li><p> 取消操作 Esc 或者 菜单上的禁用符号</p></li><li><p> Ctrl &amp; T 缩放文本框（字体也会调节）</p></li><li><p> 路径文字 先创建路径，在用文本工具编辑，可以用白箭头选择起始位置</p></li></ol><h3 id="十八-通道"><a href="#十八-通道" class="headerlink" title="十八.通道"></a>十八.通道</h3><ol><li> 感觉和选区有点关系，挺复杂的，等待后续补充</li></ol><h3 id="十九-蒙版"><a href="#十九-蒙版" class="headerlink" title="十九.蒙版"></a>十九.蒙版</h3><ol><li> 也很懵逼</li></ol><h3 id="二十-调色原理"><a href="#二十-调色原理" class="headerlink" title="二十.调色原理"></a>二十.调色原理</h3><ol><li><p> 色阶 Ctrl &amp; L</p></li><li><p> 色阶调整时按住 Alt 键有复位按钮</p></li></ol><h3 id="二十一-滤镜"><a href="#二十一-滤镜" class="headerlink" title="二十一.滤镜"></a>二十一.滤镜</h3><ol><li> 模糊滤镜：高斯模糊 &amp;  动感模糊 &amp; 径向模糊</li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> Photo Shop </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 笔记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Git大佬总结笔记</title>
-      <link href="posts/398.html"/>
-      <url>posts/398.html</url>
-      
-        <content type="html"><![CDATA[<h5 id="一、Git-和-SVN-的区别"><a href="#一、Git-和-SVN-的区别" class="headerlink" title="一、Git 和 SVN 的区别"></a>一、Git 和 SVN 的区别</h5><table><thead><tr><th align="center"></th><th align="center">类型</th><th align="center">描述</th></tr></thead><tbody><tr><td align="center"><strong>Git</strong></td><td align="center">分布式</td><td align="center">本地有镜像,无网络时也可以提交到本地镜像,待到有网络时再push到服务器</td></tr><tr><td align="center"><strong>SVN</strong></td><td align="center">集中式</td><td align="center">无网络不可以提交, 和 Git 的主要区别是历史版本维护的位置</td></tr></tbody></table><h5 id="二、安装"><a href="#二、安装" class="headerlink" title="二、安装 :"></a>二、安装 :</h5><ol><li><a href="https://git-scm.com/downloads"> Git 下载地址 (Linux/Unix, Mac, Windows 等相关平台)</a></li></ol><blockquote><p>注意: 以下所有命令都在 <em>Git Bash</em> 中运行,不是 cmd, 拷贝命令的时候不用复制前面的 $ 符号</p></blockquote><pre class="line-numbers language-none"><code class="language-none">### 配置所有 Git 仓库的 用户名 和 email $ git config --global user.name "Your Name"$ git config --global user.email "youremail@example.com"### 配置当前 Git 仓库的 用户名 和 email$ git config user.name "Your Name"$ git config user.email "youremail@example.com"### 查看全局配置的 用户名 和 email $ git config --global user.name     查看用户名$ git config --global user.email     查看邮箱地址### 查看当前仓库配置的 用户名 和 email $ git config user.name     查看用户名$ git config user.email     查看邮箱地址# Git 是分布式版本控制系统，所以，每个机器都必须自报家门：你的名字和Email地址# git config 命令的 --global 参数，用了这个参数，表示你这台机器上所有的 Git 仓库都会使用这个配置，当然也可以对某个仓库指定不同的用户名和Email地址(不加 --global)。$ git config --list --show-origin 查看所有的配置以及它们所在的文件<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h5 id="三、相关命令"><a href="#三、相关命令" class="headerlink" title="三、相关命令"></a>三、相关命令</h5><pre class="line-numbers language-none"><code class="language-none">(所有命令都在 Git Bash 中运行)$ git                           查看 git 的相关命令 (git --help)$ git --version                 查看 git 的版本$ git config                    查看 git config 的相关命令$ git pull origin develop       从远程(origin) 的 develop 分支拉取代码<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><h6 id="1-初始化本地仓库-在-Git-Bash-中输入对应的命令"><a href="#1-初始化本地仓库-在-Git-Bash-中输入对应的命令" class="headerlink" title="1. 初始化本地仓库: 在 Git Bash 中输入对应的命令"></a>1. 初始化本地仓库: 在 <em>Git Bash</em> 中输入对应的命令</h6><pre class="line-numbers language-none"><code class="language-none">注: 下面所有的命令使用的时候不用拷贝最前面的 $ 符号$ cd d:$ mkdir learngit$ cd learngit$ pwd# cd: change directory 改变目录# mkdir  创建目录# pwd    用于显示当前目录注意: 为避免遇到各种奇怪的问题,确保目录名 (包括父目录) 不含中文<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><pre class="line-numbers language-none"><code class="language-none"># 不想要 git 管理跟踪的文件,可以在仓库根目录添加 .gitignore 文件,在里面写对应的规则$ git init              把当前目录初始化为 git 仓库$ ls -ah                查看当前目录下的文件,包含隐藏文件 (不带 -ah 看不了隐藏文件)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><h6 id="2-添加文件到仓库"><a href="#2-添加文件到仓库" class="headerlink" title="2. 添加文件到仓库"></a>2. 添加文件到仓库</h6><pre class="line-numbers language-none"><code class="language-none">$ git add &lt;file&gt;              如: git add readme.txt$ git commit -m "description"     如: git commit -m "add readme.txt"# 添加文件到仓库分两步:# 1. add 添加该文件到仓库, # 添加许多同种类型的文件,可以使用通配符 * (记得加引号)  如: git add "*.txt"  命令就是添加所有 .txt 文件# 2. commit 提交该文件到仓库, description 为你对该次提交的描述说明, 注意: 可以多次 add 不同的文件,commit 可以一次提交多个文件<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h6 id="3-查看仓库目前状态-项目是否有修改、添加、未追踪的文件等"><a href="#3-查看仓库目前状态-项目是否有修改、添加、未追踪的文件等" class="headerlink" title="3. 查看仓库目前状态 (项目是否有修改、添加、未追踪的文件等)"></a>3. 查看仓库目前状态 (项目是否有修改、添加、未追踪的文件等)</h6><pre class="line-numbers language-none"><code class="language-none">$ git status<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><h6 id="4-查看修改内容-查看文件不同-difference"><a href="#4-查看修改内容-查看文件不同-difference" class="headerlink" title="4. 查看修改内容,查看文件不同 (difference)"></a>4. 查看修改内容,查看文件不同 (difference)</h6><pre class="line-numbers language-none"><code class="language-none">$ git diff $ git diff &lt;file&gt;                $ git diff --cached$ git diff HEAD -- &lt;file&gt;# git diff 查看工作区(work dict)和暂存区(stage)的区别# git diff --cached 查看暂存区(stage)和分支(master)的区别# git diff HEAD -- &lt;file&gt; 查看工作区和版本库里面最新版本的区别如: git diff readme.txt  表示查看 readme.txt 修改了什么,有什么不同<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h6 id="5-查看提交日志"><a href="#5-查看提交日志" class="headerlink" title="5. 查看提交日志"></a>5. 查看提交日志</h6><pre class="line-numbers language-none"><code class="language-none">$ git log$ git log --oneline     #美化输出信息,每个记录显示为一行,显示 commit_id 前几位数$ git log --pretty=oneline     #美化输出信息,每个记录显示为一行,显示完整的 commit_id$ git log --graph --pretty=format:'%h -%d %s (%cr)' --abbrev-commit --$ git log --graph --pretty=oneline --abbrev-commit# 显示从最近到最远的提交日志# 日志输出一大串类似 3628164...882e1e0 的是commit_id (版本号),和 SVN 不一样，Git 的commit_id 不是 1，2，3…… 递增的数字，而是一个 SHA1 计算出来的一个非常大的数字，用十六进制表示, 因为 Git 是分布式的版本控制系统，当多人在同一个版本库里工作，如果大家都用 1，2，3……作为版本号，那肯定就冲突了# 最后一个会打印出提交的时间等, (HEAD -&gt; master)指向的是当前的版本# 退出查看 log 日志,输入字母 q (英文状态)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h6 id="6-版本回退"><a href="#6-版本回退" class="headerlink" title="6. 版本回退"></a>6. 版本回退</h6><pre class="line-numbers language-none"><code class="language-none">$ git reset --hard HEAD^$ git reset --hard &lt;commit_id&gt;# HEAD    表示当前版本，也就是最新的提交# HEAD^   上一个版本# HEAD^^  上上一个版本# HEAD~100   往上100个版本# 回退到 commit_id 对应的那个版本,commit_id 为版本号,只需要前几位就行<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h6 id="7-查看命令历史-用于版本切换"><a href="#7-查看命令历史-用于版本切换" class="headerlink" title="7. 查看命令历史 (用于版本切换)"></a>7. 查看命令历史 (用于版本切换)</h6><pre class="line-numbers language-none"><code class="language-none">$ git reflog# 假如我们依次提交了三个版本 a-&gt;b-&gt;c,然后昨天我们从版本 c 回退到了版本 b,今天我们又想要回到版本 c,此时就可以使用 reflog 命令来查找 c 版本的 commit_id,然后使用 reset 命令来进行版本回退<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h6 id="8-撤销修改"><a href="#8-撤销修改" class="headerlink" title="8. 撤销修改"></a>8. 撤销修改</h6><p>######- 丢弃工作区 (Working Directory) 的修改</p><pre class="line-numbers language-none"><code class="language-none">$ git restore &lt;file&gt;  (建议使用) (如: git restore readme.txt)$ git checkout -- &lt;file&gt;# 命令中 -- 很重要，没有就变成 “切换到另一个分支” 的命令<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>######- 丢弃暂存区 (stage/index) 的修改</p><pre class="line-numbers language-none"><code class="language-none"># 第一步: 把暂存区的修改撤销掉(unstage)，重新放回工作区$ git restore --staged &lt;file&gt;# 第二步: 撤销工作区的修改$ git restore &lt;file&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>######- 小结</p><blockquote><ul><li>当你改乱了工作区某个文件的内容，想直接丢弃工作区的修改时，用命令<code>git restore &lt;file&gt;</code>。</li><li>当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令<code>git restore --staged &lt;file&gt;</code>，就回到了场景1，第二步按场景1操作。</li><li>已经提交了不合适的修改到版本库时，想要撤销本次提交，参考 <em>版本回退</em> 一节，不过前提是没有推送到远程库。</li></ul></blockquote><h6 id="9-删除文件"><a href="#9-删除文件" class="headerlink" title="9. 删除文件"></a>9. 删除文件</h6><pre class="line-numbers language-none"><code class="language-none">$ git rm &lt;file&gt;# git rm &lt;file&gt; 相当于执行- rm &lt;file&gt;- git add &lt;file<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><h6 id="其他命令"><a href="#其他命令" class="headerlink" title="其他命令"></a>其他命令</h6><pre class="line-numbers language-none"><code class="language-none">$ cat &lt;file&gt;    显示文件内容,如: cat readme.txt 就是在 git bash 中显示该文件内容$ cd ~         进入用户主目录$ open ~/.ssh  Mac 打开存放 ssh 文件夹<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><h5 id="四、相关名词理解"><a href="#四、相关名词理解" class="headerlink" title="四、相关名词理解 :"></a>四、相关名词理解 :</h5><h6 id="1-工作区-Working-Directory-自己电脑里能看到的目录"><a href="#1-工作区-Working-Directory-自己电脑里能看到的目录" class="headerlink" title="1. 工作区 (Working Directory): 自己电脑里能看到的目录"></a>1. 工作区 (Working Directory): 自己电脑里能看到的目录</h6><h6 id="2-版本库-Repository-工作区有一个隐藏目录-git，这个不算工作区，而是-Git-的版本库"><a href="#2-版本库-Repository-工作区有一个隐藏目录-git，这个不算工作区，而是-Git-的版本库" class="headerlink" title="2. 版本库 (Repository): 工作区有一个隐藏目录 .git，这个不算工作区，而是 Git 的版本库"></a>2. 版本库 (Repository): 工作区有一个隐藏目录 .git，这个不算工作区，而是 Git 的版本库</h6><blockquote><p>Git 的版本库里存了很多东西，其中最重要的就是称为 stage（或者叫index）的暂存区，还有 Git 为我们自动创建的第一个分支 master，以及指向 master 的一个指针叫 HEAD</p></blockquote><h5 id="五、远程仓库"><a href="#五、远程仓库" class="headerlink" title="五、远程仓库 :"></a>五、远程仓库 :</h5><h6 id="1-创建-SSH-Key"><a href="#1-创建-SSH-Key" class="headerlink" title="1. 创建 SSH Key"></a>1. <a href="https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key">创建 SSH Key</a></h6><pre class="line-numbers language-none"><code class="language-none">$ ssh-keygen -t rsa -C "youremail@example.com"# 邮件地址换成你自己的邮件地址，然后一路回车，使用默认值即可，由于这个Key也不是用于军事目的，所以也无需设置密码。<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><blockquote><p>在用户主目录下，看看有没有.ssh目录，如果有，再看看这个目录下有没有id_rsa和id_rsa.pub这两个文件，如果已经有了，可直接跳到下一步。如果没有，打开Shell（Windows下打开Git Bash），创建SSH Key</p></blockquote><blockquote><p>如果一切顺利的话，可以在用户主目录里找到.ssh目录，里面有 id_rsa 和 id_rsa.pub 两个文件，这两个就是 SSH Key 的秘钥对，id_rsa 是私钥，不能泄露出去，id_rsa.pub 是公钥，可以放心地告诉任何人。</p></blockquote><h6 id="2-登录-GitHub-在-Settings-中找到-SSH-设置项中添加新的-SSH-Key-设置任意-title-在-Key-文本框里粘贴-id-rsa-pub-文件的内容"><a href="#2-登录-GitHub-在-Settings-中找到-SSH-设置项中添加新的-SSH-Key-设置任意-title-在-Key-文本框里粘贴-id-rsa-pub-文件的内容" class="headerlink" title="2. 登录 GitHub ,在 Settings 中找到 SSH 设置项中添加新的 SSH Key,设置任意 title,在 Key 文本框里粘贴 id_rsa.pub 文件的内容"></a>2. 登录 GitHub ,在 Settings 中找到 SSH 设置项中添加新的 SSH Key,设置任意 title,在 Key 文本框里粘贴 id_rsa.pub 文件的内容</h6><pre class="line-numbers language-none"><code class="language-none"># 复制Key用这种方式复制$ cd ~/.ssh$ cat id_rsa.pub$ open ~/.ssh   (Mac 下打开存放 Github 生成的 ssh Key 文件夹)$ pbcopy &lt; ~/.ssh/id_rsa.pub  Mac 下拷贝生成的公钥内容<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h6 id="3-关联远程仓库-先有本地仓库"><a href="#3-关联远程仓库-先有本地仓库" class="headerlink" title="3. 关联远程仓库 (先有本地仓库)"></a>3. 关联远程仓库 (先有本地仓库)</h6><pre class="line-numbers language-none"><code class="language-none">$ git remote add origin git@github.com:renyuns/learngit.git# 后面的地址换成自己的 GitHub 仓库地址<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h6 id="4-推送到远程仓库"><a href="#4-推送到远程仓库" class="headerlink" title="4. 推送到远程仓库"></a>4. 推送到远程仓库</h6><pre class="line-numbers language-none"><code class="language-none">$ git remote       查看远程库信息$ git remote -v    查看远程库详细信息$ git remote rm origin  删除已关联的远程库 origin$ git push -u origin master    #第一次推送$ git push origin master      推送本地 master 分支到远程库$ git push origin dev         推送本地 dev 分支到远程库#  除了第一次推送,不需要添加 -u 参数# 一个本地库关联多个远程库,例如同时关联 GitHub 和 Gitee:# 1. 先关联GitHub的远程库：(注意:远程库的名称叫 github，不叫 origin)$ git remote add github git@github.com:renyun/learngit1.git# 2. 再关联Gitee的远程库：(注意:远程库的名称叫 gitee，不叫 origin)$ git remote add gitee git@gitee.com:renyun/learngit1.git# 3. 推送到远程库$ git push github master$ git push gitee master<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><blockquote><p>加上了-u参数，Git 不但会把本地的 master 分支内容推送的远程新的 master 分支，还会把本地的 master 分支和远程的master分支关联起来</p></blockquote><h6 id="5-从远程仓库克隆-先有远程库"><a href="#5-从远程仓库克隆-先有远程库" class="headerlink" title="5. 从远程仓库克隆 (先有远程库)"></a>5. 从远程仓库克隆 (先有远程库)</h6><pre class="line-numbers language-none"><code class="language-none">$ git clone git@github.com:renyuns/gitskills.git# GitHub 支持多种协议,上面是 ssh 协议,还有 https 协议<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h5 id="六、分支"><a href="#六、分支" class="headerlink" title="六、分支"></a>六、分支</h5><pre class="line-numbers language-none"><code class="language-none">$ git branch       查看分支列表及当前分支$ git branch dev   创建 dev 分支$ git switch dev   切换到 dev 分支  (git checkout dev)$ git switch -c dev   创建并切换到新的 dev 分支  (git checkout -b dev)$ git switch -c dev origin/dev  创建远程 origin 的 dev 分支到本地并切换到该分支$ git branch -d dev   删除 dev 分支$ git branch -D dev   强制删除 dev 分支$ git merge dev       合并 dev 分支到当前分支 (当有冲突的时候,需要先解决冲突)$ git merge --no-ff -m "merge with no-ff" dev  合并 dev 分支到当前分支(禁用Fast forward 合并策略)$ git pull  拉取远程分支最新的内容$ git branch --set-upstream-to=origin/dev dev  指定本地 dev 分支与远程 origin/dev 分支的链接# 为本次合并要创建一个新的commit，所以加上-m参数，把commit描述写进去# 合并分支时，加上--no-ff参数就可以用普通模式合并，合并后的历史有分支，能看出来曾经做过合并，而 fast forward 合并就看不出来曾经做过合并$ git log --graph  查看分支合并图$ git log --graph --pretty=oneline --abbrev-commit$ git stash  保存当前工作区和暂存区的修改状态,切换到其他分支修复 bug 等工作,然后在回来继续工作$ git stash list  查看保存现场的列表$ git stash pop   恢复的同时把 stash 内容也删除$ git stash apply  恢复现场，stash内容并不删除$ git stash drop   删除 stash 内容$ git stash apply stash@{0}  多次stash，恢复的时候，先用git stash list查看，然后恢复指定的stash# 通常在 dev 分支开发时,需要有紧急 bug 需要马上处理,保存现在修改的文件等,先修复 bug 后再回来继续工作的情况$ git cherry-pick &lt;commit&gt; 复制一个特定的提交到当前分支(当前分支的内容需要先 commit,然后冲突的文件需要解决冲突,然后 commit)$ git rebase  把本地未push的分叉提交历史整理成直线(使得我们在查看历史提交的变化时更容易，因为分叉的提交需要三方对比)<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h5 id="七、标签"><a href="#七、标签" class="headerlink" title="七、标签"></a>七、标签</h5><pre class="line-numbers language-none"><code class="language-none"># 切换到对应的分支 branch 上,查看或者操作对应的标签 tag $ git tag  查看所有的标签$ git tag &lt;tagname&gt;  打标签(默认标签是打在最新提交的commit上) 如: git tag v1.0$ git tag &lt;tagname&gt; &lt;commit_id&gt;  给对应的 commit_id 打标签$ git tag -a &lt;tagname&gt; -m "标签说明信息" &lt;commit_id&gt; 创建带有说明的标签，用-a指定标签名，-m指定说明文字$ git tag -d &lt;tagname&gt; 删除一个本地标签$ git push origin :refs/tags/&lt;tagname&gt;可以删除一个远程标签$ git show &lt;tagname&gt;  查看标签信息$ git push origin &lt;tagname&gt;  推送一个本地标签到远程$ git push origin --tags     一次性推送全部尚未推送到远程的本地标签# 删除远程标签,需要先删除本地标签,然后在删除远程标签,如:删除标签 v0.9$ git tag -d v0.9$ git push origin :refs/tags/v0.9<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h5 id="八、相关工具及网站"><a href="#八、相关工具及网站" class="headerlink" title="八、相关工具及网站"></a>八、相关工具及网站</h5><ol><li><a href="https://git-scm.com/">Git 官网</a></li><li><a href="https://github.com/">GitHub-开源协作社区</a></li><li><a href="https://gitee.com/">Gitee(码云)-国内开源协作社区</a></li><li><a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000">廖雪峰的 Git 教程-新手必看</a></li><li><a href="https://try.github.io/levels/1/challenges/1">15 分钟学会 Git</a></li><li><a href="https://git-scm.com/book/zh/v2">Git Book</a></li><li><a href="https://github.com/github/gitignore">.gitignore 文件常用配置</a></li></ol>]]></content>
-      
-      
-      <categories>
-          
-          <category> 工具 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Git </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>C语言中二维数组与指针的关系</title>
-      <link href="posts/c940.html"/>
-      <url>posts/c940.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="C语言中二维数组与指针的关系"><a href="#C语言中二维数组与指针的关系" class="headerlink" title="C语言中二维数组与指针的关系"></a>C语言中二维数组与指针的关系</h2><h3 id="1-行的关系"><a href="#1-行的关系" class="headerlink" title="1.行的关系"></a>1.行的关系</h3><p> 因为数组是连续排列的，所以行的关系是很好确定的</p><p> 有一维数组推论知，若数组i [n] [m] ， 则 i[j] 就是一个指向 第j行的第一个元素的指针；</p><p> 可以简单的直接写成int *p = i[j] ，若想表示该行其他数，则可以直接对p进行加法操作</p><h3 id="2-列的关系"><a href="#2-列的关系" class="headerlink" title="2.列的关系"></a>2.列的关系</h3><p> 由于是连续排列，所以列的关系并不是那么简单表示的，现在我们重新定义一个新的指针</p><p> int (*p)[m] ，该指针则表示p的长度是 int * m ；对p进行自增操作，则其一次跳过一行，</p><p> 对该指针的赋值则也有所不同 ， p=&amp;i[j] ；表示将第j行的所有元素的指针赋给p，满足它的</p><p> 定义长度，与i[j]有所不同，指针的长度不同，同时其运算要写为(*p)[k]，表示其所在行第k</p><p> 的元素</p><p> 暂且总结这么多，等以后熟练之后我再来</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> C语言 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 数组 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Git使用笔记</title>
-      <link href="posts/8161.html"/>
-      <url>posts/8161.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="一-知识点总结"><a href="#一-知识点总结" class="headerlink" title="一.知识点总结"></a>一.知识点总结</h2><ol><li><p>提交文件</p><p> <code>$ git add readme.txt</code>  </p><p> <code>$ git commit -m "wrote a readme file"</code></p></li><li><p>查看仓库状态</p><p> <code>$ git status</code></p></li><li><p>查看修改内容</p><p> <code>$ git diff readme.txt </code></p><blockquote><p> git diff比较的是工作目录中当前文件和暂存区域快照之间的差异， 也就是修改之后还没有暂存起来的变化内容。若要查看已暂存的将要添加到下次提交里的内容，可以用 git diff –cached 命令。</p><p> 请注意，git diff 本身只显示尚未暂存的改动，而不是自上次提交以来所做的所有改动。 所以有时候你一下子暂存了所有更新过的文件后，运行 git diff 后却什么也没有，就是这个原因。</p></blockquote><p> <code>git diff HEAD -- readme.txt</code> 查看工作区和版本库里面最新版本的区别</p></li><li><p>显示从最近到最远的提交日志</p><p> <code>$ git log</code>  （显示全面）</p><p> <code>$ git log --pretty=oneline </code>  （只显示版本号）</p><p> <code>$ git reflog</code>  （查看命令历史）</p></li><li><p>回退版本</p><p> <code>$ git reset --hard HEAD^</code> （回退了一个版本）</p><p> <code>$ git reset --hard HEAD~100</code>  （回退了一百个版本）</p><p> <code>$ git reset --hard 1094a</code>  （指定版本回退）</p></li><li><p>丢弃工作区的修改</p><p> <code>$ git checkout -- readme.txt</code></p><p> <code>$ git restore readme.txt</code></p><blockquote><p> 一种是<code>readme.txt</code>自修改后还没有被放到暂存区，现在，撤销修改就回到和版本库一模一样的状态；</p><p> 一种是<code>readme.txt</code>已经添加到暂存区后，又作了修改，现在，撤销修改就回到添加到暂存区后的状态。</p></blockquote><p> 丢弃暂存区的修改</p><p> <code>$ git reset HEAD readme.txt</code></p></li><li><p>删除版本库文件</p><p> <code>$ git rm test.txt</code></p><blockquote><p> 同时本机文件也被删除</p></blockquote></li><li><p>提交远程</p><p> <code>$ git push origin &lt;分支名&gt;</code></p><blockquote><p> 第一次推送<code>master</code>分支时，加上了<code>-u</code>参数，Git不但会把本地的<code>master</code>分支内容推送的远程新的<code>master</code>分支，还会把本地的<code>master</code>分支和远程的<code>master</code>分支关联起来，在以后的推送或者拉取时就可以简化命令。</p></blockquote></li><li><p>抓取远程</p><p> <code>$ git pull</code></p></li><li><p> 分支使用</p></li><li><p> 查看分支：<code>git branch</code></p></li><li><p> 创建分支：<code>git branch &lt;name&gt;</code> </p></li><li><p> 切换分支：<code>git checkout &lt;name&gt; </code>或者<code>git switch &lt;name&gt; </code></p></li><li><p> 创建+切换分支：<code>git checkout -b &lt;name&gt;</code>或者<code>git switch -c  &lt;name&gt;</code></p></li><li><p>合并某分支到当前分支：<code>git merge &lt;name&gt; </code> （快速合并）</p><p> 禁用快速合并，并创建一个commit</p><p>  <code>$ git merge --no-ff -m "注释" dev</code></p></li><li><p>删除分支：<code>git branch -d &lt;name&gt; </code></p><p> 强制删除：<code>git branch -D &lt;name&gt; </code></p></li><li><p>查看分支合并情况</p><blockquote><p> 详细情况 <code>git log --graph</code></p><p> 版本号全显示 <code>git log --graph --pretty=oneline</code></p><p> 版本号简略显示 <code>git log --graph --pretty=oneline --abbrev-commit</code></p></blockquote></li><li><p>Bug分支</p><blockquote><p> 工作现场“储藏” <code>$ git stash</code></p><p> 查看工作储藏 <code>$ git stash list</code></p><p> 恢复后，stash内容并不删除 <code>$ git stash apply</code></p><p> 恢复的同时把stash内容删除 <code>$ git stash pop</code></p><p> 特定恢复 <code>$ git stash apply &lt;name&gt;</code> </p><p> 复制一个特定的提交到当前分支 <code>$ git cherry-pick &lt;版本号&gt;</code></p></blockquote></li><li><p>多人协作</p><blockquote><p> 查看远程库的信息  <code>$ git remote</code></p><p> 查看远程库的详细信息  <code>$ git remote</code></p><p> 在本地创建和远程分支对应的分支</p><p>  <code>git checkout -b branch-name origin/branch-name</code></p><p> 建立本地分支和远程分支的关联</p><p> <code>git branch --set-upstream branch-name origin/branch-name</code></p></blockquote></li><li><p>Rebase</p><blockquote><p> 历史记录变为直线型 <code>$ git rebase</code>  </p><p> 停止转变 <code>$ git rebase --quit</code></p></blockquote></li><li><p>标签管理</p><blockquote><p> 创建标签 <code>$ git tag v1.0</code></p><p> 创建具体标签 <code>$ git tag v0.9 &lt;版本号&gt;</code></p><p> 查看标签 <code>$ git tag</code></p><p> 查看标签信息 <code>git show &lt;tagname&gt;</code></p><p> 创建带有说明的标签，用<code>-a</code>指定标签名，<code>-m</code>指定说明文字：</p><p> <code>$ git tag -a v0.1 -m "version 0.1 released" 1094adb</code></p><p> 删除标签 <code>$ git tag -d v0.1</code></p><p> 推送标签 <code>git push origin &lt;tagname&gt;</code></p><p> 一次性推送全部尚未推送到远程的本地标签 <code>$ git push origin --tags</code></p><p> 删除远程标签，先删除本地，再删除远端</p><p> <code>$ git push origin :refs/tags/v0.9</code></p></blockquote></li></ol><h2 id="二-异常解决"><a href="#二-异常解决" class="headerlink" title="二.异常解决"></a>二.异常解决</h2><ol><li><p> 出现 END 不要慌张 ，按 Q 键 即可</p></li><li><p> Github查看仓库地址，点击下载按钮的拓展即可</p></li><li><p>删除文件 </p><p> <code>$ rm test.txt</code></p><p> 新建文件夹</p><p> <code>$ mkdir &lt;files&gt;</code></p></li><li><p>查看文件</p><p> <code>$ cat test.txt</code></p><p> 查看文件夹下文件列表</p><p> <code>$ ls</code></p><p> 创建文件</p><p> <code>$ touch &lt;文件名&gt;</code></p></li><li><p>定位文件</p><ol><li><p> 先定位磁盘 <code>cd C:</code> (有：)</p></li><li><p> 在定位文件夹 <code>cd Echochao</code> (无：)</p></li></ol></li></ol><h2 id="三-别名备份"><a href="#三-别名备份" class="headerlink" title="三.别名备份"></a>三.别名备份</h2><ol><li><p>定义别名    <code>$ git config --global alias.st status</code></p></li><li><p>撤销别名</p><ol><li><p><code>git status</code>  —&gt; <code>git st</code></p></li><li><p><code>git commit</code> —&gt; <code>git ci</code></p></li><li><p><code>git chekout</code> —&gt; <code>git co</code></p></li><li><p><code>git branch</code>  —&gt; <code>git br</code></p></li><li><p><code>git log --graph --pretty=oneline --abbrev-commit</code>     —&gt;    <code>git lg</code></p></li></ol></li></ol><h2 id="四-PDF常见命令总结"><a href="#四-PDF常见命令总结" class="headerlink" title="四.PDF常见命令总结"></a>四.<a href="https://github.com/ChaoEcho/Echo-Store">PDF常见命令总结</a></h2><h2 id=""><a href="#" class="headerlink" title=""></a></h2><h2 id="参考链接：廖老师，yyds"><a href="#参考链接：廖老师，yyds" class="headerlink" title="参考链接：廖老师，yyds"></a>参考链接：<a href="https://www.liaoxuefeng.com/wiki/896043488029600">廖老师，yyds</a></h2>]]></content>
-      
-      
-      <categories>
-          
-          <category> 工具 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Git </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Hello World</title>
       <link href="posts/3eeb.html"/>
       <url>posts/3eeb.html</url>
       
-        <content type="html"><![CDATA[<p>.家电</p><p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
       
       
       <categories>
@@ -538,9 +538,9 @@
       
         <tags>
             
-            <tag> Git </tag>
-            
             <tag> hexo </tag>
+            
+            <tag> Git </tag>
             
         </tags>
       
