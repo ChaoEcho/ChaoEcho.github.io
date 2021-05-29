@@ -6,7 +6,7 @@
   <link href="http://echochao.xyz/atom.xml" rel="self"/>
   
   <link href="http://echochao.xyz/"/>
-  <updated>2021-04-04T14:17:06.187Z</updated>
+  <updated>2021-05-29T04:18:03.579Z</updated>
   <id>http://echochao.xyz/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>JavaSE进阶笔记</title>
+    <link href="http://echochao.xyz/posts/9db1.html"/>
+    <id>http://echochao.xyz/posts/9db1.html</id>
+    <published>2021-05-29T04:16:31.316Z</published>
+    <updated>2021-05-29T04:18:03.579Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;一-多线程&quot;&gt;&lt;a href=&quot;#一-多线程&quot; class=&quot;headerlink&quot; title=&quot;一.多线程&quot;&gt;&lt;/a&gt;一.多线程&lt;/h1&gt;&lt;h2 id=&quot;1-基本概念&quot;&gt;&lt;a href=&quot;#1-基本概念&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="http://echochao.xyz/categories/Java/"/>
+    
+    
+    <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>贪吃蛇小历程_2</title>
@@ -515,31 +540,6 @@
     <category term="心情" scheme="http://echochao.xyz/tags/%E5%BF%83%E6%83%85/"/>
     
     <category term="贪食蛇" scheme="http://echochao.xyz/tags/%E8%B4%AA%E9%A3%9F%E8%9B%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://echochao.xyz/posts/3eeb.html"/>
-    <id>http://echochao.xyz/posts/3eeb.html</id>
-    <published>2020-11-27T15:48:50.000Z</published>
-    <updated>2021-04-04T14:15:39.719Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
-    <category term="随笔" scheme="http://echochao.xyz/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="Hello World" scheme="http://echochao.xyz/tags/Hello-World/"/>
     
   </entry>
   
