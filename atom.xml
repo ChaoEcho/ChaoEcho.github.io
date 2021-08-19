@@ -6,7 +6,7 @@
   <link href="http://echochao.xyz/atom.xml" rel="self"/>
   
   <link href="http://echochao.xyz/"/>
-  <updated>2021-08-19T04:14:46.682Z</updated>
+  <updated>2021-08-19T05:49:39.519Z</updated>
   <id>http://echochao.xyz/</id>
   
   <author>
@@ -17,11 +17,295 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>README</title>
+    <title>前缀和</title>
+    <link href="http://echochao.xyz/posts/6871.html"/>
+    <id>http://echochao.xyz/posts/6871.html</id>
+    <published>2021-08-19T05:41:34.000Z</published>
+    <updated>2021-08-19T05:49:39.519Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前缀和&quot;&gt;&lt;a href=&quot;#前缀和&quot; class=&quot;headerlink&quot; title=&quot;前缀和&quot;&gt;&lt;/a&gt;前缀和&lt;/h1&gt;&lt;h2 id=&quot;一-一维前缀和&quot;&gt;&lt;a href=&quot;#一-一维前缀和&quot; class=&quot;headerlink&quot; title=&quot;一.</summary>
+        
+      
+    
+    
+    
+    <category term="算法学习" scheme="http://echochao.xyz/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="算法基础课" scheme="http://echochao.xyz/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80%E8%AF%BE/"/>
+    
+    
+    <category term="前缀和" scheme="http://echochao.xyz/tags/%E5%89%8D%E7%BC%80%E5%92%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>差分</title>
+    <link href="http://echochao.xyz/posts/9234.html"/>
+    <id>http://echochao.xyz/posts/9234.html</id>
+    <published>2021-08-19T05:41:27.000Z</published>
+    <updated>2021-08-19T05:42:59.211Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>快速排序</title>
+    <link href="http://echochao.xyz/posts/2c2a.html"/>
+    <id>http://echochao.xyz/posts/2c2a.html</id>
+    <published>2021-08-19T05:41:10.000Z</published>
+    <updated>2021-08-19T05:49:02.838Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;快速排序&quot;&gt;&lt;a href=&quot;#快速排序&quot; class=&quot;headerlink&quot; title=&quot;快速排序&quot;&gt;&lt;/a&gt;快速排序&lt;/h1&gt;&lt;h2 id=&quot;一-思路&quot;&gt;&lt;a href=&quot;#一-思路&quot; class=&quot;headerlink&quot; title=&quot;一.</summary>
+        
+      
+    
+    
+    
+    <category term="算法学习" scheme="http://echochao.xyz/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="算法基础课" scheme="http://echochao.xyz/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80%E8%AF%BE/"/>
+    
+    
+    <category term="快速排序" scheme="http://echochao.xyz/tags/%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>归并排序</title>
+    <link href="http://echochao.xyz/posts/f8df.html"/>
+    <id>http://echochao.xyz/posts/f8df.html</id>
+    <published>2021-08-19T05:40:58.000Z</published>
+    <updated>2021-08-19T05:47:25.969Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;归并排序&quot;&gt;&lt;a href=&quot;#归并排序&quot; class=&quot;headerlink&quot; title=&quot;归并排序&quot;&gt;&lt;/a&gt;归并排序&lt;/h1&gt;&lt;h2 id=&quot;一-思路&quot;&gt;&lt;a href=&quot;#一-思路&quot; class=&quot;headerlink&quot; title=&quot;一.</summary>
+        
+      
+    
+    
+    
+    <category term="算法学习" scheme="http://echochao.xyz/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="算法基础课" scheme="http://echochao.xyz/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80%E8%AF%BE/"/>
+    
+    
+    <category term="归并排序" scheme="http://echochao.xyz/tags/%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>浮点数二分</title>
+    <link href="http://echochao.xyz/posts/61ce.html"/>
+    <id>http://echochao.xyz/posts/61ce.html</id>
+    <published>2021-08-19T05:40:43.000Z</published>
+    <updated>2021-08-19T05:44:23.185Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;浮点数二分&quot;&gt;&lt;a href=&quot;#浮点数二分&quot; class=&quot;headerlink&quot; title=&quot;浮点数二分&quot;&gt;&lt;/a&gt;浮点数二分&lt;/h1&gt;&lt;h2 id=&quot;一-思路&quot;&gt;&lt;a href=&quot;#一-思路&quot; class=&quot;headerlink&quot; title=&quot;一.</summary>
+        
+      
+    
+    
+    
+    <category term="算法学习" scheme="http://echochao.xyz/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="算法基础课" scheme="http://echochao.xyz/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80%E8%AF%BE/"/>
+    
+    
+    <category term="二分查找" scheme="http://echochao.xyz/tags/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>整数二分</title>
+    <link href="http://echochao.xyz/posts/fca8.html"/>
+    <id>http://echochao.xyz/posts/fca8.html</id>
+    <published>2021-08-19T05:40:36.000Z</published>
+    <updated>2021-08-19T05:45:47.144Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;整数二分&quot;&gt;&lt;a href=&quot;#整数二分&quot; class=&quot;headerlink&quot; title=&quot;整数二分&quot;&gt;&lt;/a&gt;整数二分&lt;/h1&gt;&lt;h2 id=&quot;1-步骤&quot;&gt;&lt;a href=&quot;#1-步骤&quot; class=&quot;headerlink&quot; title=&quot;1.</summary>
+        
+      
+    
+    
+    
+    <category term="算法学习" scheme="http://echochao.xyz/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="算法基础课" scheme="http://echochao.xyz/categories/%E7%AE%97%E6%B3%95%E5%AD%A6%E4%B9%A0/%E7%AE%97%E6%B3%95%E5%9F%BA%E7%A1%80%E8%AF%BE/"/>
+    
+    
+    <category term="二分查找" scheme="http://echochao.xyz/tags/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaWEB后端</title>
+    <link href="http://echochao.xyz/posts/2250.html"/>
+    <id>http://echochao.xyz/posts/2250.html</id>
+    <published>2021-08-19T05:34:10.000Z</published>
+    <updated>2021-08-19T05:35:51.425Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;JavaWEB笔记&quot;&gt;&lt;a href=&quot;#JavaWEB笔记&quot; class=&quot;headerlink&quot; title=&quot;JavaWEB笔记&quot;&gt;&lt;/a&gt;JavaWEB笔记&lt;/h1&gt;&lt;h2 id=&quot;一-XML&quot;&gt;&lt;a href=&quot;#一-XML&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="http://echochao.xyz/categories/Java/"/>
+    
+    <category term="JavaWeb" scheme="http://echochao.xyz/categories/Java/JavaWeb/"/>
+    
+    
+    <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>WEB前端</title>
+    <link href="http://echochao.xyz/posts/c513.html"/>
+    <id>http://echochao.xyz/posts/c513.html</id>
+    <published>2021-08-19T05:33:49.000Z</published>
+    <updated>2021-08-19T05:35:14.363Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;WEB前端简单笔记&quot;&gt;&lt;a href=&quot;#WEB前端简单笔记&quot; class=&quot;headerlink&quot; title=&quot;WEB前端简单笔记&quot;&gt;&lt;/a&gt;WEB前端简单笔记&lt;/h1&gt;&lt;h2 id=&quot;HTML&quot;&gt;&lt;a href=&quot;#HTML&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="http://echochao.xyz/categories/Java/"/>
+    
+    <category term="JavaWeb" scheme="http://echochao.xyz/categories/Java/JavaWeb/"/>
+    
+    
+    <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Maven初步学习</title>
+    <link href="http://echochao.xyz/posts/70a4.html"/>
+    <id>http://echochao.xyz/posts/70a4.html</id>
+    <published>2021-08-19T05:31:54.000Z</published>
+    <updated>2021-08-19T05:32:30.771Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;Maven初步学习&quot;&gt;&lt;a href=&quot;#Maven初步学习&quot; class=&quot;headerlink&quot; title=&quot;Maven初步学习&quot;&gt;&lt;/a&gt;Maven初步学习&lt;/h1&gt;&lt;h2 id=&quot;一-Maven简单介绍&quot;&gt;&lt;a href=&quot;#一-Maven简单介绍&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="http://echochao.xyz/categories/Java/"/>
+    
+    <category term="Maven" scheme="http://echochao.xyz/categories/Java/Maven/"/>
+    
+    
+    <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>README-贪吃蛇</title>
+    <link href="http://echochao.xyz/posts/594b.html"/>
+    <id>http://echochao.xyz/posts/594b.html</id>
+    <published>2021-08-19T05:27:42.000Z</published>
+    <updated>2021-08-19T05:30:02.847Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;该项目是本人在大一期间学习C语言的课余时间，觉得黑框框（DOS）太难看了，因此在网上了解了&lt;code&gt;Easyx图形库&lt;/code&gt;之后，查阅网上资料，一步步改进制作而成&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="工程项目" scheme="http://echochao.xyz/categories/%E5%B7%A5%E7%A8%8B%E9%A1%B9%E7%9B%AE/"/>
+    
+    <category term="贪吃蛇" scheme="http://echochao.xyz/categories/%E5%B7%A5%E7%A8%8B%E9%A1%B9%E7%9B%AE/%E8%B4%AA%E5%90%83%E8%9B%87/"/>
+    
+    
+    <category term="README" scheme="http://echochao.xyz/tags/README/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MySQL初步学习</title>
+    <link href="http://echochao.xyz/posts/b706.html"/>
+    <id>http://echochao.xyz/posts/b706.html</id>
+    <published>2021-08-19T05:24:47.000Z</published>
+    <updated>2021-08-19T05:30:58.637Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;MySQL初步学习&quot;&gt;&lt;a href=&quot;#MySQL初步学习&quot; class=&quot;headerlink&quot; title=&quot;MySQL初步学习&quot;&gt;&lt;/a&gt;MySQL初步学习&lt;/h1&gt;&lt;h2 id=&quot;一-MySQL基本介绍&quot;&gt;&lt;a href=&quot;#一-MySQL基本介绍&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Java" scheme="http://echochao.xyz/categories/Java/"/>
+    
+    <category term="MySQL" scheme="http://echochao.xyz/categories/Java/MySQL/"/>
+    
+    
+    <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>README-往昔笔记</title>
     <link href="http://echochao.xyz/posts/f760.html"/>
     <id>http://echochao.xyz/posts/f760.html</id>
     <published>2021-08-19T04:13:05.000Z</published>
-    <updated>2021-08-19T04:14:46.682Z</updated>
+    <updated>2021-08-19T05:19:57.935Z</updated>
     
     
       
@@ -48,7 +332,7 @@
     <link href="http://echochao.xyz/posts/9db1.html"/>
     <id>http://echochao.xyz/posts/9db1.html</id>
     <published>2021-05-29T04:16:31.316Z</published>
-    <updated>2021-05-29T04:18:56.175Z</updated>
+    <updated>2021-08-19T05:24:02.301Z</updated>
     
     
       
@@ -63,40 +347,10 @@
     
     <category term="Java" scheme="http://echochao.xyz/categories/Java/"/>
     
-    
-    <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>贪吃蛇小历程_2</title>
-    <link href="http://echochao.xyz/posts/8ed2.html"/>
-    <id>http://echochao.xyz/posts/8ed2.html</id>
-    <published>2021-03-22T05:16:30.327Z</published>
-    <updated>2021-04-04T14:17:06.187Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;我成功了！！！&quot;&gt;&lt;a href=&quot;#我成功了！！！&quot; class=&quot;headerlink&quot; title=&quot;我成功了！！！&quot;&gt;&lt;/a&gt;我成功了！！！&lt;/h2&gt;&lt;p&gt;​    总算弄好了头文件的声明&lt;/p&gt;
-&lt;p&gt;​   </summary>
-        
-      
-    
-    
-    
-    <category term="C语言" scheme="http://echochao.xyz/categories/C%E8%AF%AD%E8%A8%80/"/>
+    <category term="JavaSE" scheme="http://echochao.xyz/categories/Java/JavaSE/"/>
     
     
     <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="贪食蛇" scheme="http://echochao.xyz/tags/%E8%B4%AA%E9%A3%9F%E8%9B%87/"/>
-    
-    <category term="VS2015" scheme="http://echochao.xyz/tags/VS2015/"/>
-    
-    <category term="Easyx图形库" scheme="http://echochao.xyz/tags/Easyx%E5%9B%BE%E5%BD%A2%E5%BA%93/"/>
     
   </entry>
   
@@ -105,7 +359,7 @@
     <link href="http://echochao.xyz/posts/4e13.html"/>
     <id>http://echochao.xyz/posts/4e13.html</id>
     <published>2021-03-22T05:16:30.327Z</published>
-    <updated>2021-04-04T14:17:00.824Z</updated>
+    <updated>2021-08-19T05:03:59.384Z</updated>
     
     
       
@@ -119,41 +373,10 @@
     
     
     
-    <category term="C语言" scheme="http://echochao.xyz/categories/C%E8%AF%AD%E8%A8%80/"/>
+    <category term="工程项目" scheme="http://echochao.xyz/categories/%E5%B7%A5%E7%A8%8B%E9%A1%B9%E7%9B%AE/"/>
     
+    <category term="贪吃蛇" scheme="http://echochao.xyz/categories/%E5%B7%A5%E7%A8%8B%E9%A1%B9%E7%9B%AE/%E8%B4%AA%E5%90%83%E8%9B%87/"/>
     
-    <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="贪食蛇" scheme="http://echochao.xyz/tags/%E8%B4%AA%E9%A3%9F%E8%9B%87/"/>
-    
-    <category term="VS2015" scheme="http://echochao.xyz/tags/VS2015/"/>
-    
-    <category term="Easyx图形库" scheme="http://echochao.xyz/tags/Easyx%E5%9B%BE%E5%BD%A2%E5%BA%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>静态网页课程笔记</title>
-    <link href="http://echochao.xyz/posts/8d5f.html"/>
-    <id>http://echochao.xyz/posts/8d5f.html</id>
-    <published>2021-03-22T05:16:30.323Z</published>
-    <updated>2021-04-04T14:16:36.530Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;静态网页课程&quot;&gt;&lt;a href=&quot;#静态网页课程&quot; class=&quot;headerlink&quot; title=&quot;静态网页课程&quot;&gt;&lt;/a&gt;静态网页课程&lt;/h1&gt;&lt;h2 id=&quot;一-标记&quot;&gt;&lt;a href=&quot;#一-标记&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="静态网页" scheme="http://echochao.xyz/categories/%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5/"/>
-    
-    
-    <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -162,7 +385,7 @@
     <link href="http://echochao.xyz/posts/2630.html"/>
     <id>http://echochao.xyz/posts/2630.html</id>
     <published>2021-03-22T05:16:30.322Z</published>
-    <updated>2021-04-04T14:16:17.267Z</updated>
+    <updated>2021-08-19T05:09:03.114Z</updated>
     
     
       
@@ -175,10 +398,10 @@
     
     
     
-    <category term="Photo Shop" scheme="http://echochao.xyz/categories/Photo-Shop/"/>
+    <category term="实用工具" scheme="http://echochao.xyz/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
     
+    <category term="PhotoShop" scheme="http://echochao.xyz/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/PhotoShop/"/>
     
-    <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -187,7 +410,7 @@
     <link href="http://echochao.xyz/posts/8161.html"/>
     <id>http://echochao.xyz/posts/8161.html</id>
     <published>2021-03-22T05:16:30.321Z</published>
-    <updated>2021-04-04T14:16:11.383Z</updated>
+    <updated>2021-08-19T05:08:20.935Z</updated>
     
     
       
@@ -202,10 +425,10 @@
     
     
     
-    <category term="工具" scheme="http://echochao.xyz/categories/%E5%B7%A5%E5%85%B7/"/>
+    <category term="实用工具" scheme="http://echochao.xyz/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
     
+    <category term="Git" scheme="http://echochao.xyz/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/Git/"/>
     
-    <category term="Git" scheme="http://echochao.xyz/tags/Git/"/>
     
   </entry>
   
@@ -214,7 +437,7 @@
     <link href="http://echochao.xyz/posts/398.html"/>
     <id>http://echochao.xyz/posts/398.html</id>
     <published>2021-03-22T05:16:30.320Z</published>
-    <updated>2021-04-04T14:16:06.466Z</updated>
+    <updated>2021-08-19T05:08:15.714Z</updated>
     
     
       
@@ -227,35 +450,10 @@
     
     
     
-    <category term="工具" scheme="http://echochao.xyz/categories/%E5%B7%A5%E5%85%B7/"/>
+    <category term="实用工具" scheme="http://echochao.xyz/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
     
+    <category term="Git" scheme="http://echochao.xyz/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/Git/"/>
     
-    <category term="Git" scheme="http://echochao.xyz/tags/Git/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>心情01</title>
-    <link href="http://echochao.xyz/posts/a9a8.html"/>
-    <id>http://echochao.xyz/posts/a9a8.html</id>
-    <published>2021-03-22T05:16:30.314Z</published>
-    <updated>2021-04-04T14:15:45.444Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;四级好难啊，全班就我一个不及格&quot;&gt;&lt;a href=&quot;#四级好难啊，全班就我一个不及格&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="随笔" scheme="http://echochao.xyz/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="心情" scheme="http://echochao.xyz/tags/%E5%BF%83%E6%83%85/"/>
     
   </entry>
   
@@ -264,7 +462,7 @@
     <link href="http://echochao.xyz/posts/86b7.html"/>
     <id>http://echochao.xyz/posts/86b7.html</id>
     <published>2021-03-22T05:16:30.311Z</published>
-    <updated>2021-04-04T14:12:26.616Z</updated>
+    <updated>2021-08-19T05:09:58.236Z</updated>
     
     
       
@@ -277,10 +475,10 @@
     
     
     
-    <category term="Linux" scheme="http://echochao.xyz/categories/Linux/"/>
+    <category term="实用工具" scheme="http://echochao.xyz/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
     
+    <category term="Linux" scheme="http://echochao.xyz/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7/Linux/"/>
     
-    <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -289,7 +487,7 @@
     <link href="http://echochao.xyz/posts/41f5.html"/>
     <id>http://echochao.xyz/posts/41f5.html</id>
     <published>2021-03-22T05:16:30.303Z</published>
-    <updated>2021-04-04T14:13:30.974Z</updated>
+    <updated>2021-08-19T04:52:08.259Z</updated>
     
     
       
@@ -302,14 +500,10 @@
     
     
     
-    <category term="C语言" scheme="http://echochao.xyz/categories/C%E8%AF%AD%E8%A8%80/"/>
+    <category term="往昔笔记" scheme="http://echochao.xyz/categories/%E5%BE%80%E6%98%94%E7%AC%94%E8%AE%B0/"/>
     
+    <category term="C语言" scheme="http://echochao.xyz/categories/%E5%BE%80%E6%98%94%E7%AC%94%E8%AE%B0/C%E8%AF%AD%E8%A8%80/"/>
     
-    <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="数组" scheme="http://echochao.xyz/tags/%E6%95%B0%E7%BB%84/"/>
-    
-    <category term="链表" scheme="http://echochao.xyz/tags/%E9%93%BE%E8%A1%A8/"/>
     
   </entry>
   
@@ -318,7 +512,7 @@
     <link href="http://echochao.xyz/posts/522c.html"/>
     <id>http://echochao.xyz/posts/522c.html</id>
     <published>2021-03-22T05:16:30.302Z</published>
-    <updated>2021-04-04T14:12:55.512Z</updated>
+    <updated>2021-08-19T04:51:20.822Z</updated>
     
     
       
@@ -331,215 +525,10 @@
     
     
     
-    <category term="C语言" scheme="http://echochao.xyz/categories/C%E8%AF%AD%E8%A8%80/"/>
+    <category term="往昔笔记" scheme="http://echochao.xyz/categories/%E5%BE%80%E6%98%94%E7%AC%94%E8%AE%B0/"/>
     
+    <category term="C语言" scheme="http://echochao.xyz/categories/%E5%BE%80%E6%98%94%E7%AC%94%E8%AE%B0/C%E8%AF%AD%E8%A8%80/"/>
     
-    <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>C语言中二维数组与指针的关系</title>
-    <link href="http://echochao.xyz/posts/c940.html"/>
-    <id>http://echochao.xyz/posts/c940.html</id>
-    <published>2021-03-22T05:16:30.301Z</published>
-    <updated>2020-12-20T13:20:44.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;C语言中二维数组与指针的关系&quot;&gt;&lt;a href=&quot;#C语言中二维数组与指针的关系&quot; class=&quot;headerlink&quot; title=&quot;C语言中二维数组与指针的关系&quot;&gt;&lt;/a&gt;C语言中二维数组与指针的关系&lt;/h2&gt;&lt;h3 id=&quot;1-行的关系&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="C语言" scheme="http://echochao.xyz/categories/C%E8%AF%AD%E8%A8%80/"/>
-    
-    
-    <category term="数组" scheme="http://echochao.xyz/tags/%E6%95%B0%E7%BB%84/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>心情04</title>
-    <link href="http://echochao.xyz/posts/23bb.html"/>
-    <id>http://echochao.xyz/posts/23bb.html</id>
-    <published>2021-01-10T11:30:46.000Z</published>
-    <updated>2021-04-04T14:15:27.014Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;怎么说呢？有一种死猪不怕开水烫，越到期末我越浪的感觉，感觉复习没啥意思&lt;/p&gt;
-&lt;p&gt;还行吧，花了一天时间整理了一下近代史，是真的闲着慌，不想做题呗&lt;/p&gt;
-&lt;p&gt;害，也不知道是啥心里呗，随缘啦&lt;/p&gt;
-&lt;p&gt;&lt;img</summary>
-        
-      
-    
-    
-    
-    <category term="随笔" scheme="http://echochao.xyz/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="心情" scheme="http://echochao.xyz/tags/%E5%BF%83%E6%83%85/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>心情03</title>
-    <link href="http://echochao.xyz/posts/e1fa.html"/>
-    <id>http://echochao.xyz/posts/e1fa.html</id>
-    <published>2020-12-31T07:43:14.000Z</published>
-    <updated>2021-04-04T14:15:19.536Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;论当代大学生复习即预习的状况&quot;&gt;&lt;a href=&quot;#论当代大学生复习即预习的状况&quot; class=&quot;headerlink&quot; title=&quot;论当代大学生复习即预习的状况&quot;&gt;&lt;/a&gt;论当代大学生复习即预习的状况&lt;/h3&gt;&lt;p&gt;​       </summary>
-        
-      
-    
-    
-    
-    <category term="随笔" scheme="http://echochao.xyz/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="心情" scheme="http://echochao.xyz/tags/%E5%BF%83%E6%83%85/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>心情02</title>
-    <link href="http://echochao.xyz/posts/e6b.html"/>
-    <id>http://echochao.xyz/posts/e6b.html</id>
-    <published>2020-12-27T06:57:27.000Z</published>
-    <updated>2021-04-04T14:15:31.427Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;论Icoding的-程度&quot;&gt;&lt;a href=&quot;#论Icoding的-程度&quot; class=&quot;headerlink&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="随笔" scheme="http://echochao.xyz/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="心情" scheme="http://echochao.xyz/tags/%E5%BF%83%E6%83%85/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java-day04笔记</title>
-    <link href="http://echochao.xyz/posts/9418.html"/>
-    <id>http://echochao.xyz/posts/9418.html</id>
-    <published>2020-12-27T03:16:23.000Z</published>
-    <updated>2021-04-04T14:14:13.686Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Java学习记录&quot;&gt;&lt;a href=&quot;#Java学习记录&quot; class=&quot;headerlink&quot; title=&quot;Java学习记录&quot;&gt;&lt;/a&gt;Java学习记录&lt;/h2&gt;&lt;h3 id=&quot;04day笔记&quot;&gt;&lt;a href=&quot;#04day笔记&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Java" scheme="http://echochao.xyz/categories/Java/"/>
-    
-    
-    <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java-day03笔记</title>
-    <link href="http://echochao.xyz/posts/546e.html"/>
-    <id>http://echochao.xyz/posts/546e.html</id>
-    <published>2020-12-26T10:28:49.000Z</published>
-    <updated>2021-04-04T14:13:57.932Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Java学习记录&quot;&gt;&lt;a href=&quot;#Java学习记录&quot; class=&quot;headerlink&quot; title=&quot;Java学习记录&quot;&gt;&lt;/a&gt;Java学习记录&lt;/h2&gt;&lt;h3 id=&quot;03day笔记&quot;&gt;&lt;a href=&quot;#03day笔记&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Java" scheme="http://echochao.xyz/categories/Java/"/>
-    
-    
-    <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java-day02笔记</title>
-    <link href="http://echochao.xyz/posts/947e.html"/>
-    <id>http://echochao.xyz/posts/947e.html</id>
-    <published>2020-12-25T08:19:03.000Z</published>
-    <updated>2021-04-04T14:14:20.623Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Java学习记录&quot;&gt;&lt;a href=&quot;#Java学习记录&quot; class=&quot;headerlink&quot; title=&quot;Java学习记录&quot;&gt;&lt;/a&gt;Java学习记录&lt;/h2&gt;&lt;h3 id=&quot;02day笔记&quot;&gt;&lt;a href=&quot;#02day笔记&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Java" scheme="http://echochao.xyz/categories/Java/"/>
-    
-    
-    <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Java-day01笔记</title>
-    <link href="http://echochao.xyz/posts/944d.html"/>
-    <id>http://echochao.xyz/posts/944d.html</id>
-    <published>2020-12-24T08:12:34.000Z</published>
-    <updated>2021-08-19T04:10:33.288Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;Java学习记录&quot;&gt;&lt;a href=&quot;#Java学习记录&quot; class=&quot;headerlink&quot; title=&quot;Java学习记录&quot;&gt;&lt;/a&gt;Java学习记录&lt;/h2&gt;&lt;h3 id=&quot;01day笔记&quot;&gt;&lt;a href=&quot;#01day笔记&quot;</summary>
-        
-      
-    
-    
-    
-    <category term="Java" scheme="http://echochao.xyz/categories/Java/"/>
-    
-    <category term="JavaSE" scheme="http://echochao.xyz/categories/Java/JavaSE/"/>
-    
-    
-    <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
