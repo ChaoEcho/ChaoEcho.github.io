@@ -6,7 +6,7 @@
   <link href="http://echochao.xyz/atom.xml" rel="self"/>
   
   <link href="http://echochao.xyz/"/>
-  <updated>2021-05-29T04:18:56.175Z</updated>
+  <updated>2021-08-19T04:14:46.682Z</updated>
   <id>http://echochao.xyz/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>README</title>
+    <link href="http://echochao.xyz/posts/f760.html"/>
+    <id>http://echochao.xyz/posts/f760.html</id>
+    <published>2021-08-19T04:13:05.000Z</published>
+    <updated>2021-08-19T04:14:46.682Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;无意间看了看之前的笔记，觉得记得真的是&lt;strong&gt;一坨屎&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;所以将其合并到一个模块&lt;/p&gt;
+</summary>
+        
+      
+    
+    
+    
+    <category term="往昔笔记" scheme="http://echochao.xyz/categories/%E5%BE%80%E6%98%94%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="README" scheme="http://echochao.xyz/tags/README/"/>
+    
+  </entry>
   
   <entry>
     <title>JavaSE进阶笔记</title>
@@ -494,7 +521,7 @@
     <link href="http://echochao.xyz/posts/944d.html"/>
     <id>http://echochao.xyz/posts/944d.html</id>
     <published>2020-12-24T08:12:34.000Z</published>
-    <updated>2021-04-04T14:13:44.655Z</updated>
+    <updated>2021-08-19T04:10:33.288Z</updated>
     
     
       
@@ -509,37 +536,10 @@
     
     <category term="Java" scheme="http://echochao.xyz/categories/Java/"/>
     
+    <category term="JavaSE" scheme="http://echochao.xyz/categories/Java/JavaSE/"/>
+    
     
     <category term="笔记" scheme="http://echochao.xyz/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>贪吃蛇小历程_1</title>
-    <link href="http://echochao.xyz/posts/8f92.html"/>
-    <id>http://echochao.xyz/posts/8f92.html</id>
-    <published>2020-12-13T04:00:00.000Z</published>
-    <updated>2021-04-04T14:17:10.878Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;　　好烦啊，用个main做了个贪吃蛇，搞了好几天。虽然成功了，但是我想建个项目把每个函数单独出来，方便​编辑以&lt;/p&gt;
-&lt;p&gt;及改动，但是搞了半天还是不行，也问了别人，也上网查了资料，烦死了！！！&lt;/p&gt;
-&lt;p&gt;　　哎，没办法，任重而道远啊…以后debug估计更难受，慢慢调</summary>
-        
-      
-    
-    
-    
-    <category term="随笔" scheme="http://echochao.xyz/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-    <category term="心情" scheme="http://echochao.xyz/tags/%E5%BF%83%E6%83%85/"/>
-    
-    <category term="贪食蛇" scheme="http://echochao.xyz/tags/%E8%B4%AA%E9%A3%9F%E8%9B%87/"/>
     
   </entry>
   

@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>README</title>
+      <link href="posts/f760.html"/>
+      <url>posts/f760.html</url>
+      
+        <content type="html"><![CDATA[<p>无意间看了看之前的笔记，觉得记得真的是<strong>一坨屎</strong></p><p>所以将其合并到一个模块</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 往昔笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> README </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>JavaSE进阶笔记</title>
       <link href="posts/9db1.html"/>
       <url>posts/9db1.html</url>
@@ -481,6 +506,8 @@
           
           <category> Java </category>
           
+          <category> JavaSE </category>
+          
       </categories>
       
       
@@ -563,9 +590,9 @@
       
         <tags>
             
-            <tag> Git </tag>
-            
             <tag> hexo </tag>
+            
+            <tag> Git </tag>
             
         </tags>
       
